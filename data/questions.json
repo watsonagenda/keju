@@ -1,0 +1,4847 @@
+{
+  "questions": [
+    {
+      "question_id": "qn_0001",
+      "question": "Hello, nice to meet __________.",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "代词",
+      "explanation": "nice to meet you意思是'很高兴认识你'，这里用you（宾格）作meet的宾语。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0001"
+    },
+    {
+      "question_id": "qn_0002",
+      "question": "I am a __________. I study in a university.",
+      "options": [
+        "A. student",
+        "B. teacher",
+        "C. doctor",
+        "D. worker"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "名词",
+      "explanation": "student意思是'学生'。句意说我在某高校学习，所以是学生。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0002"
+    },
+    {
+      "question_id": "qn_0003",
+      "question": "This is __________ book.",
+      "options": [
+        "A. my",
+        "B. me",
+        "C. I",
+        "D. mine"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "物主代词",
+      "explanation": "my是形容词性物主代词，后面接名词book。me是宾格，I是主格，mine是名词性物主代词。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0003"
+    },
+    {
+      "question_id": "qn_0004",
+      "question": "There __________ a book on the desk.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. am",
+        "D. be"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "There be句型",
+      "explanation": "there be句型中，be动词的形式取决于后面的名词。a book是单数，所以用is。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0004"
+    },
+    {
+      "question_id": "qn_0005",
+      "question": "I want __________ to the library.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. to go"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "非谓语动词",
+      "explanation": "want to do sth.是固定搭配，意思是'想要做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0005"
+    },
+    {
+      "question_id": "qn_0006",
+      "question": "She is __________ girl in our class.",
+      "options": [
+        "A. tall",
+        "B. taller",
+        "C. tallest",
+        "D. the tallest"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "形容词最高级",
+      "explanation": "最高级前通常要加the，且 in our class暗示比较范围是全班，所以用最高级the tallest。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0006"
+    },
+    {
+      "question_id": "qn_0007",
+      "question": "Please sit __________. Don't stand.",
+      "options": [
+        "A. down",
+        "B. up",
+        "C. in",
+        "D. on"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "介词",
+      "explanation": "sit down是固定搭配，意思是'坐下'。stand是'站者'，与sit相对。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0007"
+    },
+    {
+      "question_id": "qn_0008",
+      "question": "I like __________ TV in the evening.",
+      "options": [
+        "A. watching",
+        "B. watch",
+        "C. watches",
+        "D. watched"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0008"
+    },
+    {
+      "question_id": "qn_0009",
+      "question": "Can you speak __________?",
+      "options": [
+        "A. English",
+        "B. an English",
+        "C. Englishes",
+        "D. the English"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "冠词",
+      "explanation": "English作为语言名词，前面不加冠词，直接说speak English。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0009"
+    },
+    {
+      "question_id": "qn_0010",
+      "question": "He __________ breakfast at 7 o'clock every morning.",
+      "options": [
+        "A. has",
+        "B. have",
+        "C. had",
+        "D. having"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "时态",
+      "explanation": "every morning表示习惯性动作，用一般现在时。主语是he，第三人称单数，动词用has。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0010"
+    },
+    {
+      "question_id": "qn_0011",
+      "question": "He __________ in China.",
+      "options": [
+        "A. live",
+        "B. lives",
+        "C. living",
+        "D. lived"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "主语是he，第三人称单数，一般现在时动词加s，所以用lives。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0011"
+    },
+    {
+      "question_id": "qn_0012",
+      "question": "I __________ my homework yesterday.",
+      "options": [
+        "A. finish",
+        "B. finishes",
+        "C. finished",
+        "D. finishing"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "yesterday是过去的时间状语，用过去式finished。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0012"
+    },
+    {
+      "question_id": "qn_0013",
+      "question": "She __________ to school every day.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. went"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "every day表示习惯，用一般现在时。she是第三人称单数，用goes。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0013"
+    },
+    {
+      "question_id": "qn_0014",
+      "question": "Look! The boy __________.",
+      "options": [
+        "A. runs",
+        "B. running",
+        "C. is running",
+        "D. ran"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "Look!是现在进行时的标志，表示正在进行的动作，用is running。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0014"
+    },
+    {
+      "question_id": "qn_0015",
+      "question": "I __________ English for three years.",
+      "options": [
+        "A. learn",
+        "B. learns",
+        "C. learned",
+        "D. have learned"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "时态",
+      "explanation": "for three years是现在完成时的标志，表示持续了三年，用have learned。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0015"
+    },
+    {
+      "question_id": "qn_0016",
+      "question": "If it __________ tomorrow, I will stay home.",
+      "options": [
+        "A. rain",
+        "B. rains",
+        "C. rained",
+        "D. raining"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "条件状语从句",
+      "explanation": "if条件句中，主句用将来时，从句用一般现在时表示将来，所以用rains。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0016"
+    },
+    {
+      "question_id": "qn_0017",
+      "question": "The book __________ I bought yesterday is very interesting.",
+      "options": [
+        "A. who",
+        "B. which",
+        "C. what",
+        "D. whose"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "定语从句",
+      "explanation": "which引导定语从句，修饰物（book）。who用于修饰人，what不引导定语从句。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "冲刺"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0017"
+    },
+    {
+      "question_id": "qn_0018",
+      "question": "It is important __________ English well.",
+      "options": [
+        "A. learn",
+        "B. to learn",
+        "C. learning",
+        "D. learned"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "It is important to do sth.是固定句型，意思是'做某事很重要'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0018"
+    },
+    {
+      "question_id": "qn_0019",
+      "question": "Would you like __________ tea?",
+      "options": [
+        "A. some",
+        "B. any",
+        "C. a",
+        "D. an"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "名词",
+      "explanation": "some用于疑问句中表示建议或邀请，用some tea。any用于否定句和疑问句。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0019"
+    },
+    {
+      "question_id": "qn_0020",
+      "question": "Today is __________ than yesterday.",
+      "options": [
+        "A. hot",
+        "B. hotter",
+        "C. hottest",
+        "D. more hot"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "形容词比较级",
+      "explanation": "than是比较级的标志，用比较级hotter。hotter是hot的比较级。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0020"
+    },
+    {
+      "question_id": "qn_0021",
+      "question": "阅读理解：\n\nTom is a student. He is twenty years old. He studies at a university. He likes playing basketball and reading books.\n\nEvery morning, he gets up at six o'clock. He has breakfast at six thirty. He goes to class at seven thirty. He usually has lunch at twelve o'clock.\n\n问题：How old is Tom?",
+      "options": [
+        "A. 18",
+        "B. 19",
+        "C. 20",
+        "D. 21"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "文章第一句就说了He is twenty years old.所以是20岁。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0021"
+    },
+    {
+      "question_id": "qn_0022",
+      "question": "阅读理解：\n\nMr. Liu is a teacher. He teaches English at a middle school. He is forty years old. He has been teaching for fifteen years.\n\nEvery day, Mr. Liu gets to school at 7:30 in the morning. He teaches his students from 8:00 to 12:00.\n\nMr. Liu likes reading. He has many books in his office. He often says, 'Reading is very important.' His students like him very much because he is kind and patient.\n\n问题：What does Mr. Liu teach?",
+      "options": [
+        "A. Chinese",
+        "B. Math",
+        "C. English",
+        "D. History"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "文章第二句就说了He teaches English.所以他教英语。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0022"
+    },
+    {
+      "question_id": "qn_0023",
+      "question": "填空题：Good morning, sir. Can I help ______?",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "Can I help you? 是服务场合的经典固定表达，用于主动提供帮助。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0023"
+    },
+    {
+      "question_id": "qn_0024",
+      "question": "填空题：I am a student ______ a university.",
+      "options": [
+        "A. of",
+        "B. in",
+        "C. at",
+        "D. on"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "介词",
+      "explanation": "a student of ... 是固定搭配，意思是'...的学生'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0024"
+    },
+    {
+      "question_id": "qn_0025",
+      "question": "填空题：The weather is ______ today.",
+      "options": [
+        "A. fine",
+        "B. bad",
+        "C. cold",
+        "D. hot"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "形容词",
+      "explanation": "fine意思是'好的'，形容天气好。常见搭配fine weather。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0025"
+    },
+    {
+      "question_id": "qn_0026",
+      "question": "填空题：I like ______ English books.",
+      "options": [
+        "A. reading",
+        "B. read",
+        "C. to read",
+        "D. reads"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0026"
+    },
+    {
+      "question_id": "qn_0027",
+      "question": "写作：请用英语写一篇短文介绍你自己（30-50词），包括你的名字、学校、爱好和梦想。",
+      "options": [
+        "A. My name is Li Ming. I am a student. I like reading. I want to be a teacher.",
+        "B. I am John. I study at a university. I like playing basketball. I want to be an engineer.",
+        "C. My name is Wang Hui. I study at this university. I like music. I want to be a doctor.",
+        "D. I am a student. I like English. I want to go abroad."
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "写作",
+      "explanation": "这是一道写作题。A答案包含了名字、学校、爱好和梦想，是最完整的答案。注意：实际考试中需要自己写，这里提供参考范文。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0027"
+    },
+    {
+      "question_id": "qn_0028",
+      "question": "— Hello, may I speak to Dr. Smith? — __________. He is in a meeting now.",
+      "options": [
+        "A. Hold on, please",
+        "B. Speaking",
+        "C. He is busy",
+        "D. Sorry, he is not available"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "情景对话",
+      "explanation": "解析：对方在开会，应回答“抱歉，他现在不方便”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "情景对话"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0028"
+    },
+    {
+      "question_id": "qn_0029",
+      "question": "The teacher asked the students __________ so much noise.",
+      "options": [
+        "A. not to make",
+        "B. to not make",
+        "C. don't make",
+        "D. not make"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "解析：ask sb. not to do sth. 是固定搭配，意为“要求某人不要做某事”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0029"
+    },
+    {
+      "question_id": "qn_0030",
+      "question": "__________ the bad weather, they decided to go out for a picnic.",
+      "options": [
+        "A. Because of",
+        "B. In spite of",
+        "C. Due to",
+        "D. As a result of"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "介词短语",
+      "explanation": "解析：句意为“尽管天气不好，他们还是决定去野餐”。in spite of 表示“尽管”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "词汇语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0030"
+    },
+    {
+      "question_id": "qn_0031",
+      "question": "By the time we arrived at the cinema, the movie _____ already.",
+      "options": [
+        "A. started",
+        "B. has started",
+        "C. had started",
+        "D. was starting"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "by the time...引导的时间状语从句表示在过去某个时间之前已经完成的动作，用过去完成时。句意：当我们到达电影院时，电影已经开始了。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0031"
+    },
+    {
+      "question_id": "qn_0032",
+      "question": "He suggested that we _____ there by bus instead of by subway.",
+      "options": [
+        "A. go",
+        "B. would go",
+        "C. will go",
+        "D. went"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "虚拟语气",
+      "explanation": "suggest后接that从句时从句要用虚拟语气，即should+动词原形，should可省略。句意：他建议我们乘公交车而不是地铁去那里。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0032"
+    },
+    {
+      "question_id": "qn_0033",
+      "question": "The book _____ on the shelf is a best-seller this year.",
+      "options": [
+        "A. laying",
+        "B. lying",
+        "C. laid",
+        "D. lied"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "lie(躺/位于)的现在分词为lying；lay(放置)的过去分词为laid。此处表示躺在书架上，用lying。lie说谎是规则动词。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0033"
+    },
+    {
+      "question_id": "qn_0034",
+      "question": "It was not _____ she took off her dark glasses that I realized she was a famous film star.",
+      "options": [
+        "A. when",
+        "B. until",
+        "C. after",
+        "D. before"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "not...until...直到...才...，强调动作发生得晚。句意：直到她摘下墨镜我才意识到她是一位著名影星。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0034"
+    },
+    {
+      "question_id": "qn_0035",
+      "question": "If I _____ you, I would accept that job offer immediately.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "虚拟语气",
+      "explanation": "if引导的虚拟语气，与现在事实相反，从句用过去时，be动词用were。句意：如果我是你，我会立即接受那份工作。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0035"
+    },
+    {
+      "question_id": "qn_0036",
+      "question": "The number of people invited _____ fifty, but a number of them _____ absent for different reasons.",
+      "options": [
+        "A. were; was",
+        "B. was; was",
+        "C. were; were",
+        "D. was; were"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "主谓一致",
+      "explanation": "the number of...作主语时谓语用单数(was)；a number of...作主语时谓语用复数(were)。句意：被邀请的人数为50人但许多人因各种原因缺席。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0036"
+    },
+    {
+      "question_id": "qn_0037",
+      "question": "He has a _____ attitude towards life and always sees the bright side of things.",
+      "options": [
+        "A. pessimistic",
+        "B. optimistic",
+        "C. critical",
+        "D. casual"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词义辨析",
+      "explanation": "根据后半句总是看到事物光明的一面可知是optimistic(乐观的)。pessimistic悲观的；critical批评的；casual随意的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0037"
+    },
+    {
+      "question_id": "qn_0038",
+      "question": "The government has _____ several policies to support small businesses during the pandemic.",
+      "options": [
+        "A. carried out",
+        "B. carried on",
+        "C. carried away",
+        "D. carried off"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "carry out执行/实施；carry on继续；carry away带走；carry off拿走。句意：政府已经实施了几项政策来支持小企业。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0038"
+    },
+    {
+      "question_id": "qn_0039",
+      "question": "It is _____ to cross the street when the traffic light is red.",
+      "options": [
+        "A. safely",
+        "B. safe",
+        "C. safety",
+        "D. to safe"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "固定搭配",
+      "explanation": "It is+形容词+to do sth.意为做某事是...的，空处需填形容词作表语。句意：红灯时过马路是不安全的。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0039"
+    },
+    {
+      "question_id": "qn_0040",
+      "question": "The lecture will begin at 9 oclock. Please make sure you _____ on time.",
+      "options": [
+        "A. will arrive",
+        "B. arrive",
+        "C. arrived",
+        "D. are arriving"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "make sure后的宾语从句用一般现在时表将来。句意：讲座9点开始请务必准时到。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0040"
+    },
+    {
+      "question_id": "qn_0041",
+      "question": "The sharing economy, also known as collaborative consumption, is a socio-economic system built around the sharing of human and physical resources. It includes the shared creation, production, distribution, trade, and consumption of goods and services by different people and organizations. This economic model is not new; in fact, sharing has always been a part of human society. However, the rise of digital technology and the internet has dramatically expanded its reach and impact. Today, platforms like Airbnb, Uber, and various bike-sharing systems have made sharing more convenient and accessible than ever before. One of the main benefits of the sharing economy is its potential to reduce waste. By sharing underused assets such as cars, homes, or tools, people can generate income while also reducing the consumption of resources. For example, an average car sits parked about 95% of the time. Through car-sharing services, that same car can be used by multiple people, reducing the need for vehicle ownership and minimizing environmental impact. However, the sharing economy also faces challenges. Regulatory issues are a major concern. Traditional industries, such as hotels and taxis, argue that sharing economy companies have an unfair advantage because they are not subject to the same regulations. This has led to legal battles in many cities around the world. Additionally, there are concerns about trust and safety. How can users be sure that the person they are sharing with is reliable? Most platforms have solved this through review systems and verified profiles, but incidents still occur. Despite these challenges, the sharing economy continues to grow. According to a recent report, the global sharing economy is expected to reach $335 billion by 2025. As technology continues to evolve, so too will the ways in which we share resources. In conclusion, the sharing economy represents a significant shift in how we think about ownership and consumption. It offers promising solutions to environmental and economic challenges, but also requires careful management to ensure fairness and safety for all participants.\n\nWhat is the main topic of this passage?",
+      "options": [
+        "A. The history of sharing",
+        "B. The benefits and challenges of the sharing economy",
+        "C. How to start a sharing economy business",
+        "D. The environmental impact of cars"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "全文讨论了分享经济的好处(减少浪费)和挑战(监管问题、信任安全)，因此B项正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0041"
+    },
+    {
+      "question_id": "qn_0042",
+      "question": "According to the passage, what has greatly expanded the reach of the sharing economy?",
+      "options": [
+        "A. Government policies",
+        "B. Digital technology and the internet",
+        "C. Environmental awareness",
+        "D. Traditional businesses"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "第2段第3句明确说明数字技术和互联网极大地扩展了分享经济的范围和影响。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0042"
+    },
+    {
+      "question_id": "qn_0043",
+      "question": "How much time does an average car spend parked, according to the passage?",
+      "options": [
+        "A. About 5%",
+        "B. About 50%",
+        "C. About 95%",
+        "D. About 100%"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第3段最后一句提到an average car sits parked about 95% of the time，因此C正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0043"
+    },
+    {
+      "question_id": "qn_0044",
+      "question": "What is one major concern of traditional industries about sharing economy companies?",
+      "options": [
+        "A. They are more popular",
+        "B. They have an unfair advantage",
+        "C. They are more expensive",
+        "D. They provide better service"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "第4段提到传统行业认为分享经济公司有不公平优势，因为它们不受相同监管。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0044"
+    },
+    {
+      "question_id": "qn_0045",
+      "question": "What is NOT mentioned as a way to ensure trust in the sharing economy?",
+      "options": [
+        "A. Review systems",
+        "B. Verified profiles",
+        "C. Government inspections",
+        "D. Platform policies"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第5段提到通过review systems和verified profiles确保信任，未提及政府检查(Government inspections)。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0045"
+    },
+    {
+      "question_id": "qn_0046",
+      "question": "What is the expected value of the global sharing economy by 2025?",
+      "options": [
+        "A. $33.5 billion",
+        "B. $100 billion",
+        "C. $335 billion",
+        "D. $1 trillion"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第6段提到the global sharing economy is expected to reach $335 billion by 2025。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0046"
+    },
+    {
+      "question_id": "qn_0047",
+      "question": "What does the author suggest about the future of the sharing economy?",
+      "options": [
+        "A. It will replace traditional businesses completely",
+        "B. It requires careful management",
+        "C. It will decline due to regulations",
+        "D. It is only suitable for developed countries"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "最后一段指出分享经济需要精心管理(requires careful management)以确保公平和安全。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0047"
+    },
+    {
+      "question_id": "qn_0048",
+      "question": "Either the students or the teacher __________ to attend the meeting tomorrow.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. have",
+        "D. were"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "either...or...连接并列主语时，谓语动词与最靠近的主语一致（就近原则）。the teacher是单数，故用is。are/have/were均为复数形式。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0048"
+    },
+    {
+      "question_id": "qn_0049",
+      "question": "The manager, together with his assistants, __________ working on the new project.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. were",
+        "D. have been"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "together with / as well as / along with连接两个主语时，谓语与前面的主语一致（就远原则）。the manager是单数，用is。不要被his assistants（复数）迷惑。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0049"
+    },
+    {
+      "question_id": "qn_0050",
+      "question": "The number of students in our class __________ forty, and a number of them __________ from other provinces.",
+      "options": [
+        "A. is; are",
+        "B. are; is",
+        "C. is; is",
+        "D. are; are"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "the number of...作主语时谓语用单数（is），强调「总数」；a number of...作主语时谓语用复数（are），意为「许多」。这是高考英语中的经典易错点。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0050"
+    },
+    {
+      "question_id": "qn_0051",
+      "question": "Not until he finished his homework __________ to play video games.",
+      "options": [
+        "A. he was allowed",
+        "B. was he allowed",
+        "C. he allowed",
+        "D. did he allowed"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Not until位于句首时，主句需部分倒装——将be动词/助动词/情态动词提到主语前。he was allowed → was he allowed。A语序错误，C缺少被动且无语义，D中did后应用动词原形allow。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0051"
+    },
+    {
+      "question_id": "qn_0052",
+      "question": "Only by working hard __________ achieve your goal.",
+      "options": [
+        "A. you can",
+        "B. can you",
+        "C. you will",
+        "D. you will"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Only + 状语（by working hard）位于句首时，主句需部分倒装。A、C、D均为陈述语序（you can/will），语法错误。正确倒装：can you / will you，但can强调「能力」与by working hard更匹配。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0052"
+    },
+    {
+      "question_id": "qn_0053",
+      "question": "Hardly __________ the station when the train left.",
+      "options": [
+        "A. I had reached",
+        "B. had I reached",
+        "C. I reached",
+        "D. did I reach"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Hardly...when...（一……就……）结构中，Hardly位于句首时主句需部分倒装，且主句用过去完成时（had + done）。when从句的left是一般过去时，主句动作发生在left之前，had I reached正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0053"
+    },
+    {
+      "question_id": "qn_0054",
+      "question": "It is essential that every student __________ the safety rules before the experiment.",
+      "options": [
+        "A. follows",
+        "B. follow",
+        "C. will follow",
+        "D. must follow"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "虚拟语气",
+      "explanation": "It is essential/necessary/important/vital that...从句中用虚拟语气（should + 动词原形），should可省略。故用动词原形follow，不是follows。这类句型是虚拟语气的经典考点，should可省但不能用follows/will follow。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0054"
+    },
+    {
+      "question_id": "qn_0055",
+      "question": "The professor suggested that the paper __________ before next Monday.",
+      "options": [
+        "A. be finished",
+        "B. is finished",
+        "C. was finished",
+        "D. finished"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "虚拟语气",
+      "explanation": "suggest（建议）/ recommend / demand / insist that...从句中用虚拟语气（should + 动词原形），should可省略。此处主语paper与finish是被动关系，故用(should) be finished。注意：suggest若表「暗示、表明」则不用虚拟语气，但此处语义是「建议」。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0055"
+    },
+    {
+      "question_id": "qn_0056",
+      "question": "If I __________ more careful at that time, the accident wouldn't have happened.",
+      "options": [
+        "A. am",
+        "B. were",
+        "C. had been",
+        "D. would be"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "虚拟语气",
+      "explanation": "与过去事实相反的虚拟条件句：If + 主语 + had done（从句），主语 + would/could/might + have done（主句）。at that time是过去时间的典型标志词，排除B（were，与现在事实相反）。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0056"
+    },
+    {
+      "question_id": "qn_0057",
+      "question": "__________ hard you may try, you cannot finish all the work in one day.",
+      "options": [
+        "A. Although",
+        "B. However",
+        "C. Whatever",
+        "D. No matter what"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "However引导让步状语从句时后接形容词或副词（However + adj./adv. + 主语 + 谓语），意为「无论多么……」。Although后须接完整从句（主语+谓语），不能直接接形容词hard。Whatever/No matter what后须接名词或名词短语，不能接形容词hard。因此只能选B。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0057"
+    },
+    {
+      "question_id": "qn_0058",
+      "question": "You'll miss the bus __________ you leave right now.",
+      "options": [
+        "A. if",
+        "B. unless",
+        "C. when",
+        "D. as long as"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "unless = if...not（如果不/除非）。句意：如果你不马上走，就会错过公交车。unless you leave = if you don't leave。if是「如果」含意相反，when表示「当…时」不通顺，as long as表示「只要」不符合逻辑。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0058"
+    },
+    {
+      "question_id": "qn_0059",
+      "question": "__________ everyone is here, let's begin the meeting.",
+      "options": [
+        "A. Because",
+        "B. For",
+        "C. Since",
+        "D. Due to"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "状语从句",
+      "explanation": "Since引导原因状语从句，语气比because弱，表示「既然」（已知信息）。Because虽也引导原因从句，但语气过强，此处更偏向「既然大家到了，咱们开始吧」。For作连词通常不放句首。Due to后接名词不接从句。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0059"
+    },
+    {
+      "question_id": "qn_0060",
+      "question": "__________ from the hill, the lake below looks like a shining mirror.",
+      "options": [
+        "A. Seeing",
+        "B. Seen",
+        "C. To see",
+        "D. To be seen"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "主语the lake与动词see是被动关系（湖被从山上看），故用过去分词Seen作状语。Seeing表主动，To see表目的/将来，与句意不符。本题与诊断题diag_nonfin_01为同类巩固练习。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0060"
+    },
+    {
+      "question_id": "qn_0061",
+      "question": "I regret __________ you that the meeting has been cancelled. I know how much you were looking forward to it.",
+      "options": [
+        "A. to inform",
+        "B. informing",
+        "C. informed",
+        "D. having informed"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "regret to do sth.表示「遗憾地要做某事」（动作尚未发生）；regret doing表示「后悔做了某事」（动作已发生）。这里通知还没发出，用to inform。常见搭配：regret to say / inform / tell you。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0061"
+    },
+    {
+      "question_id": "qn_0062",
+      "question": "After years of hard work, his efforts finally __________ off and he got the promotion.",
+      "options": [
+        "A. took",
+        "B. put",
+        "C. paid",
+        "D. carried"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "pay off是固定短语动词，意为「取得回报、得到好结果」。take off意为起飞/脱下/休假，put off意为推迟，carry off意为赢得（奖品）/ 夺走。句意：多年的努力终于得到了回报，他获得了晋升。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0062"
+    },
+    {
+      "question_id": "qn_0063",
+      "question": "The manager, together with his assistants, __________ working on the new project.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. were",
+        "D. have been"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "together with / as well as / along with连接两个主语时，谓语与前面的主语一致（就远原则）。the manager是单数，用is。不要被his assistants（复数）迷惑。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0063"
+    },
+    {
+      "question_id": "qn_0064",
+      "question": "It is _____ to cross the street when the traffic light is red.",
+      "options": [
+        "A. safely",
+        "B. safe",
+        "C. safety",
+        "D. to safe"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "固定搭配",
+      "explanation": "It is+形容词+to do sth.意为做某事是...的，空处需填形容词作表语。句意：红灯时过马路是不安全的。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0064"
+    },
+    {
+      "question_id": "qn_0065",
+      "question": "She is __________ girl in our class.",
+      "options": [
+        "A. tall",
+        "B. taller",
+        "C. tallest",
+        "D. the tallest"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "形容词最高级",
+      "explanation": "最高级前通常要加the，且 in our class暗示比较范围是全班，所以用最高级the tallest。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0065"
+    },
+    {
+      "question_id": "qn_0066",
+      "question": "Can you speak __________?",
+      "options": [
+        "A. English",
+        "B. an English",
+        "C. Englishes",
+        "D. the English"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "冠词",
+      "explanation": "English作为语言名词，前面不加冠词，直接说speak English。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0066"
+    },
+    {
+      "question_id": "qn_0067",
+      "question": "I am a __________. I study in a university.",
+      "options": [
+        "A. student",
+        "B. teacher",
+        "C. doctor",
+        "D. worker"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "名词",
+      "explanation": "student意思是'学生'。句意说我在某高校学习，所以是学生。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0067"
+    },
+    {
+      "question_id": "qn_0068",
+      "question": "The number of people invited _____ fifty, but a number of them _____ absent for different reasons.",
+      "options": [
+        "A. were; was",
+        "B. was; was",
+        "C. were; were",
+        "D. was; were"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "主谓一致",
+      "explanation": "the number of...作主语时谓语用单数(was)；a number of...作主语时谓语用复数(were)。句意：被邀请的人数为50人但许多人因各种原因缺席。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0068"
+    },
+    {
+      "question_id": "qn_0069",
+      "question": "This is __________ book.",
+      "options": [
+        "A. my",
+        "B. me",
+        "C. I",
+        "D. mine"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "物主代词",
+      "explanation": "my是形容词性物主代词，后面接名词book。me是宾格，I是主格，mine是名词性物主代词。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0069"
+    },
+    {
+      "question_id": "qn_0070",
+      "question": "__________ everyone is here, let's begin the meeting.",
+      "options": [
+        "A. Because",
+        "B. For",
+        "C. Since",
+        "D. Due to"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "状语从句",
+      "explanation": "Since引导原因状语从句，语气比because弱，表示「既然」（已知信息）。Because虽也引导原因从句，但语气过强，此处更偏向「既然大家到了，咱们开始吧」。For作连词通常不放句首。Due to后接名词不接从句。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0070"
+    },
+    {
+      "question_id": "qn_0071",
+      "question": "Would you like __________ tea?",
+      "options": [
+        "A. some",
+        "B. any",
+        "C. a",
+        "D. an"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "名词",
+      "explanation": "some用于疑问句中表示建议或邀请，用some tea。any用于否定句和疑问句。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0071"
+    },
+    {
+      "question_id": "qn_0072",
+      "question": "阅读理解：\n\nTom is a student. He is twenty years old. He studies at a university. He likes playing basketball and reading books.\n\nEvery morning, he gets up at six o'clock. He has breakfast at six thirty. He goes to class at seven thirty. He usually has lunch at twelve o'clock.\n\n问题：How old is Tom?",
+      "options": [
+        "A. 18",
+        "B. 19",
+        "C. 20",
+        "D. 21"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "文章第一句就说了He is twenty years old.所以是20岁。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0072"
+    },
+    {
+      "question_id": "qn_0073",
+      "question": "__________ from the hill, the lake below looks like a shining mirror.",
+      "options": [
+        "A. Seeing",
+        "B. Seen",
+        "C. To see",
+        "D. To be seen"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "主语the lake与动词see是被动关系（湖被从山上看），故用过去分词Seen作状语。Seeing表主动，To see表目的/将来，与句意不符。本题与诊断题diag_nonfin_01为同类巩固练习。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0073"
+    },
+    {
+      "question_id": "qn_0074",
+      "question": "There __________ a book on the desk.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. am",
+        "D. be"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "There be句型",
+      "explanation": "there be句型中，be动词的形式取决于后面的名词。a book是单数，所以用is。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0074"
+    },
+    {
+      "question_id": "qn_0075",
+      "question": "填空题：I am a student ______ a university.",
+      "options": [
+        "A. of",
+        "B. in",
+        "C. at",
+        "D. on"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "介词",
+      "explanation": "a student of ... 是固定搭配，意思是'...的学生'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0075"
+    },
+    {
+      "question_id": "qn_0076",
+      "question": "Hardly __________ the station when the train left.",
+      "options": [
+        "A. I had reached",
+        "B. had I reached",
+        "C. I reached",
+        "D. did I reach"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Hardly...when...（一……就……）结构中，Hardly位于句首时主句需部分倒装，且主句用过去完成时（had + done）。when从句的left是一般过去时，主句动作发生在left之前，had I reached正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0076"
+    },
+    {
+      "question_id": "qn_0077",
+      "question": "He __________ breakfast at 7 o'clock every morning.",
+      "options": [
+        "A. has",
+        "B. have",
+        "C. had",
+        "D. having"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "时态",
+      "explanation": "every morning表示习惯性动作，用一般现在时。主语是he，第三人称单数，动词用has。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0077"
+    },
+    {
+      "question_id": "qn_0078",
+      "question": "You'll miss the bus __________ you leave right now.",
+      "options": [
+        "A. if",
+        "B. unless",
+        "C. when",
+        "D. as long as"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "unless = if...not（如果不/除非）。句意：如果你不马上走，就会错过公交车。unless you leave = if you don't leave。if是「如果」含意相反，when表示「当…时」不通顺，as long as表示「只要」不符合逻辑。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0078"
+    },
+    {
+      "question_id": "qn_0079",
+      "question": "填空题：Good morning, sir. Can I help ______?",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "Can I help you? 是服务场合的经典固定表达，用于主动提供帮助。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0079"
+    },
+    {
+      "question_id": "qn_0080",
+      "question": "__________ hard you may try, you cannot finish all the work in one day.",
+      "options": [
+        "A. Although",
+        "B. However",
+        "C. Whatever",
+        "D. No matter what"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "However引导让步状语从句时后接形容词或副词（However + adj./adv. + 主语 + 谓语），意为「无论多么……」。Although后须接完整从句（主语+谓语），不能直接接形容词hard。Whatever/No matter what后须接名词或名词短语，不能接形容词hard。因此只能选B。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0080"
+    },
+    {
+      "question_id": "qn_0081",
+      "question": "If I __________ more careful at that time, the accident wouldn't have happened.",
+      "options": [
+        "A. am",
+        "B. were",
+        "C. had been",
+        "D. would be"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "虚拟语气",
+      "explanation": "与过去事实相反的虚拟条件句：If + 主语 + had done（从句），主语 + would/could/might + have done（主句）。at that time是过去时间的典型标志词，排除B（were，与现在事实相反）。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0081"
+    },
+    {
+      "question_id": "qn_0082",
+      "question": "Today is __________ than yesterday.",
+      "options": [
+        "A. hot",
+        "B. hotter",
+        "C. hottest",
+        "D. more hot"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "形容词比较级",
+      "explanation": "than是比较级的标志，用比较级hotter。hotter是hot的比较级。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0082"
+    },
+    {
+      "question_id": "qn_0083",
+      "question": "The sharing economy, also known as collaborative consumption, is a socio-economic system built around the sharing of human and physical resources. It includes the shared creation, production, distribution, trade, and consumption of goods and services by different people and organizations. This economic model is not new; in fact, sharing has always been a part of human society. However, the rise of digital technology and the internet has dramatically expanded its reach and impact. Today, platforms like Airbnb, Uber, and various bike-sharing systems have made sharing more convenient and accessible than ever before. One of the main benefits of the sharing economy is its potential to reduce waste. By sharing underused assets such as cars, homes, or tools, people can generate income while also reducing the consumption of resources. For example, an average car sits parked about 95% of the time. Through car-sharing services, that same car can be used by multiple people, reducing the need for vehicle ownership and minimizing environmental impact. However, the sharing economy also faces challenges. Regulatory issues are a major concern. Traditional industries, such as hotels and taxis, argue that sharing economy companies have an unfair advantage because they are not subject to the same regulations. This has led to legal battles in many cities around the world. Additionally, there are concerns about trust and safety. How can users be sure that the person they are sharing with is reliable? Most platforms have solved this through review systems and verified profiles, but incidents still occur. Despite these challenges, the sharing economy continues to grow. According to a recent report, the global sharing economy is expected to reach $335 billion by 2025. As technology continues to evolve, so too will the ways in which we share resources. In conclusion, the sharing economy represents a significant shift in how we think about ownership and consumption. It offers promising solutions to environmental and economic challenges, but also requires careful management to ensure fairness and safety for all participants.\n\nWhat is the main topic of this passage?",
+      "options": [
+        "A. The history of sharing",
+        "B. The benefits and challenges of the sharing economy",
+        "C. How to start a sharing economy business",
+        "D. The environmental impact of cars"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "全文讨论了分享经济的好处(减少浪费)和挑战(监管问题、信任安全)，因此B项正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0083"
+    },
+    {
+      "question_id": "qn_0084",
+      "question": "According to the passage, what has greatly expanded the reach of the sharing economy?",
+      "options": [
+        "A. Government policies",
+        "B. Digital technology and the internet",
+        "C. Environmental awareness",
+        "D. Traditional businesses"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "第2段第3句明确说明数字技术和互联网极大地扩展了分享经济的范围和影响。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0084"
+    },
+    {
+      "question_id": "qn_0085",
+      "question": "How much time does an average car spend parked, according to the passage?",
+      "options": [
+        "A. About 5%",
+        "B. About 50%",
+        "C. About 95%",
+        "D. About 100%"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第3段最后一句提到an average car sits parked about 95% of the time，因此C正确。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0085"
+    },
+    {
+      "question_id": "qn_0086",
+      "question": "What is one major concern of traditional industries about sharing economy companies?",
+      "options": [
+        "A. They are more popular",
+        "B. They have an unfair advantage",
+        "C. They are more expensive",
+        "D. They provide better service"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "第4段提到传统行业认为分享经济公司有不公平优势，因为它们不受相同监管。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0086"
+    },
+    {
+      "question_id": "qn_0087",
+      "question": "What is NOT mentioned as a way to ensure trust in the sharing economy?",
+      "options": [
+        "A. Review systems",
+        "B. Verified profiles",
+        "C. Government inspections",
+        "D. Platform policies"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第5段提到通过review systems和verified profiles确保信任，未提及政府检查(Government inspections)。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0087"
+    },
+    {
+      "question_id": "qn_0088",
+      "question": "What is the expected value of the global sharing economy by 2025?",
+      "options": [
+        "A. $33.5 billion",
+        "B. $100 billion",
+        "C. $335 billion",
+        "D. $1 trillion"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "第6段提到the global sharing economy is expected to reach $335 billion by 2025。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0088"
+    },
+    {
+      "question_id": "qn_0089",
+      "question": "What does the author suggest about the future of the sharing economy?",
+      "options": [
+        "A. It will replace traditional businesses completely",
+        "B. It requires careful management",
+        "C. It will decline due to regulations",
+        "D. It is only suitable for developed countries"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "阅读理解",
+      "explanation": "最后一段指出分享经济需要精心管理(requires careful management)以确保公平和安全。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "阅读",
+        "阅读理解"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0089"
+    },
+    {
+      "question_id": "qn_0090",
+      "question": "I __________ English for three years.",
+      "options": [
+        "A. learn",
+        "B. learns",
+        "C. learned",
+        "D. have learned"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "时态",
+      "explanation": "for three years是现在完成时的标志，表示持续了三年，用have learned。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0090"
+    },
+    {
+      "question_id": "qn_0091",
+      "question": "She __________ to school every day.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. went"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "every day表示习惯，用一般现在时。she是第三人称单数，用goes。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0091"
+    },
+    {
+      "question_id": "qn_0092",
+      "question": "The government has _____ several policies to support small businesses during the pandemic.",
+      "options": [
+        "A. carried out",
+        "B. carried on",
+        "C. carried away",
+        "D. carried off"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "carry out执行/实施；carry on继续；carry away带走；carry off拿走。句意：政府已经实施了几项政策来支持小企业。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0092"
+    },
+    {
+      "question_id": "qn_0093",
+      "question": "The book __________ I bought yesterday is very interesting.",
+      "options": [
+        "A. who",
+        "B. which",
+        "C. what",
+        "D. whose"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "定语从句",
+      "explanation": "which引导定语从句，修饰物（book）。who用于修饰人，what不引导定语从句。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "冲刺"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0093"
+    },
+    {
+      "question_id": "qn_0094",
+      "question": "It is important __________ English well.",
+      "options": [
+        "A. learn",
+        "B. to learn",
+        "C. learning",
+        "D. learned"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "It is important to do sth.是固定句型，意思是'做某事很重要'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0094"
+    },
+    {
+      "question_id": "qn_0095",
+      "question": "The lecture will begin at 9 oclock. Please make sure you _____ on time.",
+      "options": [
+        "A. will arrive",
+        "B. arrive",
+        "C. arrived",
+        "D. are arriving"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "make sure后的宾语从句用一般现在时表将来。句意：讲座9点开始请务必准时到。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0095"
+    },
+    {
+      "question_id": "qn_0096",
+      "question": "The number of students in our class __________ forty, and a number of them __________ from other provinces.",
+      "options": [
+        "A. is; are",
+        "B. are; is",
+        "C. is; is",
+        "D. are; are"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "the number of...作主语时谓语用单数（is），强调「总数」；a number of...作主语时谓语用复数（are），意为「许多」。这是高考英语中的经典易错点。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0096"
+    },
+    {
+      "question_id": "qn_0097",
+      "question": "It is essential that every student __________ the safety rules before the experiment.",
+      "options": [
+        "A. follows",
+        "B. follow",
+        "C. will follow",
+        "D. must follow"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "虚拟语气",
+      "explanation": "It is essential/necessary/important/vital that...从句中用虚拟语气（should + 动词原形），should可省略。故用动词原形follow，不是follows。这类句型是虚拟语气的经典考点，should可省但不能用follows/will follow。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0097"
+    },
+    {
+      "question_id": "qn_0098",
+      "question": "Only by working hard __________ achieve your goal.",
+      "options": [
+        "A. you can",
+        "B. can you",
+        "C. you will",
+        "D. you will"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Only + 状语（by working hard）位于句首时，主句需部分倒装。A、C、D均为陈述语序（you can/will），语法错误。正确倒装：can you / will you，但can强调「能力」与by working hard更匹配。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0098"
+    },
+    {
+      "question_id": "qn_0099",
+      "question": "If I _____ you, I would accept that job offer immediately.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "虚拟语气",
+      "explanation": "if引导的虚拟语气，与现在事实相反，从句用过去时，be动词用were。句意：如果我是你，我会立即接受那份工作。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0099"
+    },
+    {
+      "question_id": "qn_0100",
+      "question": "I like __________ TV in the evening.",
+      "options": [
+        "A. watching",
+        "B. watch",
+        "C. watches",
+        "D. watched"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0100"
+    },
+    {
+      "question_id": "qn_0101",
+      "question": "__________ the bad weather, they decided to go out for a picnic.",
+      "options": [
+        "A. Because of",
+        "B. In spite of",
+        "C. Due to",
+        "D. As a result of"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "介词短语",
+      "explanation": "解析：句意为“尽管天气不好，他们还是决定去野餐”。in spite of 表示“尽管”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "词汇语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0101"
+    },
+    {
+      "question_id": "qn_0102",
+      "question": "填空题：The weather is ______ today.",
+      "options": [
+        "A. fine",
+        "B. bad",
+        "C. cold",
+        "D. hot"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "形容词",
+      "explanation": "fine意思是'好的'，形容天气好。常见搭配fine weather。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0102"
+    },
+    {
+      "question_id": "qn_0103",
+      "question": "The book _____ on the shelf is a best-seller this year.",
+      "options": [
+        "A. laying",
+        "B. lying",
+        "C. laid",
+        "D. lied"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "非谓语动词",
+      "explanation": "lie(躺/位于)的现在分词为lying；lay(放置)的过去分词为laid。此处表示躺在书架上，用lying。lie说谎是规则动词。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0103"
+    },
+    {
+      "question_id": "qn_0104",
+      "question": "It was not _____ she took off her dark glasses that I realized she was a famous film star.",
+      "options": [
+        "A. when",
+        "B. until",
+        "C. after",
+        "D. before"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "not...until...直到...才...，强调动作发生得晚。句意：直到她摘下墨镜我才意识到她是一位著名影星。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0104"
+    },
+    {
+      "question_id": "qn_0105",
+      "question": "Hello, nice to meet __________.",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "代词",
+      "explanation": "nice to meet you意思是'很高兴认识你'，这里用you（宾格）作meet的宾语。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0105"
+    },
+    {
+      "question_id": "qn_0106",
+      "question": "填空题：I like ______ English books.",
+      "options": [
+        "A. reading",
+        "B. read",
+        "C. to read",
+        "D. reads"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0106"
+    },
+    {
+      "question_id": "qn_0107",
+      "question": "阅读理解：\n\nMr. Liu is a teacher. He teaches English at a middle school. He is forty years old. He has been teaching for fifteen years.\n\nEvery day, Mr. Liu gets to school at 7:30 in the morning. He teaches his students from 8:00 to 12:00.\n\nMr. Liu likes reading. He has many books in his office. He often says, 'Reading is very important.' His students like him very much because he is kind and patient.\n\n问题：What does Mr. Liu teach?",
+      "options": [
+        "A. Chinese",
+        "B. Math",
+        "C. English",
+        "D. History"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "阅读理解",
+      "explanation": "文章第二句就说了He teaches English.所以他教英语。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0107"
+    },
+    {
+      "question_id": "qn_0108",
+      "question": "I regret __________ you that the meeting has been cancelled. I know how much you were looking forward to it.",
+      "options": [
+        "A. to inform",
+        "B. informing",
+        "C. informed",
+        "D. having informed"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "regret to do sth.表示「遗憾地要做某事」（动作尚未发生）；regret doing表示「后悔做了某事」（动作已发生）。这里通知还没发出，用to inform。常见搭配：regret to say / inform / tell you。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0108"
+    },
+    {
+      "question_id": "qn_0109",
+      "question": "Either the students or the teacher __________ to attend the meeting tomorrow.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. have",
+        "D. were"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主谓一致",
+      "explanation": "either...or...连接并列主语时，谓语动词与最靠近的主语一致（就近原则）。the teacher是单数，故用is。are/have/were均为复数形式。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0109"
+    },
+    {
+      "question_id": "qn_0110",
+      "question": "写作：请用英语写一篇短文介绍你自己（30-50词），包括你的名字、学校、爱好和梦想。",
+      "options": [
+        "A. My name is Li Ming. I am a student. I like reading. I want to be a teacher.",
+        "B. I am John. I study at a university. I like playing basketball. I want to be an engineer.",
+        "C. My name is Wang Hui. I study at this university. I like music. I want to be a doctor.",
+        "D. I am a student. I like English. I want to go abroad."
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "写作",
+      "explanation": "这是一道写作题。A答案包含了名字、学校、爱好和梦想，是最完整的答案。注意：实际考试中需要自己写，这里提供参考范文。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0110"
+    },
+    {
+      "question_id": "qn_0111",
+      "question": "If it __________ tomorrow, I will stay home.",
+      "options": [
+        "A. rain",
+        "B. rains",
+        "C. rained",
+        "D. raining"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "条件状语从句",
+      "explanation": "if条件句中，主句用将来时，从句用一般现在时表示将来，所以用rains。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0111"
+    },
+    {
+      "question_id": "qn_0112",
+      "question": "After years of hard work, his efforts finally __________ off and he got the promotion.",
+      "options": [
+        "A. took",
+        "B. put",
+        "C. paid",
+        "D. carried"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "pay off是固定短语动词，意为「取得回报、得到好结果」。take off意为起飞/脱下/休假，put off意为推迟，carry off意为赢得（奖品）/ 夺走。句意：多年的努力终于得到了回报，他获得了晋升。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0112"
+    },
+    {
+      "question_id": "qn_0113",
+      "question": "I __________ my homework yesterday.",
+      "options": [
+        "A. finish",
+        "B. finishes",
+        "C. finished",
+        "D. finishing"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "yesterday是过去的时间状语，用过去式finished。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0113"
+    },
+    {
+      "question_id": "qn_0114",
+      "question": "— Hello, may I speak to Dr. Smith? — __________. He is in a meeting now.",
+      "options": [
+        "A. Hold on, please",
+        "B. Speaking",
+        "C. He is busy",
+        "D. Sorry, he is not available"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "情景对话",
+      "explanation": "解析：对方在开会，应回答“抱歉，他现在不方便”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "情景对话"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0114"
+    },
+    {
+      "question_id": "qn_0115",
+      "question": "The professor suggested that the paper __________ before next Monday.",
+      "options": [
+        "A. be finished",
+        "B. is finished",
+        "C. was finished",
+        "D. finished"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "虚拟语气",
+      "explanation": "suggest（建议）/ recommend / demand / insist that...从句中用虚拟语气（should + 动词原形），should可省略。此处主语paper与finish是被动关系，故用(should) be finished。注意：suggest若表「暗示、表明」则不用虚拟语气，但此处语义是「建议」。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0115"
+    },
+    {
+      "question_id": "qn_0116",
+      "question": "The teacher asked the students __________ so much noise.",
+      "options": [
+        "A. not to make",
+        "B. to not make",
+        "C. don't make",
+        "D. not make"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "非谓语动词",
+      "explanation": "解析：ask sb. not to do sth. 是固定搭配，意为“要求某人不要做某事”。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "2014年5月真题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0116"
+    },
+    {
+      "question_id": "qn_0117",
+      "question": "Please sit __________. Don't stand.",
+      "options": [
+        "A. down",
+        "B. up",
+        "C. in",
+        "D. on"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "介词",
+      "explanation": "sit down是固定搭配，意思是'坐下'。stand是'站者'，与sit相对。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0117"
+    },
+    {
+      "question_id": "qn_0118",
+      "question": "He __________ in China.",
+      "options": [
+        "A. live",
+        "B. lives",
+        "C. living",
+        "D. lived"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态",
+      "explanation": "主语是he，第三人称单数，一般现在时动词加s，所以用lives。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0118"
+    },
+    {
+      "question_id": "qn_0119",
+      "question": "He has a _____ attitude towards life and always sees the bright side of things.",
+      "options": [
+        "A. pessimistic",
+        "B. optimistic",
+        "C. critical",
+        "D. casual"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词义辨析",
+      "explanation": "根据后半句总是看到事物光明的一面可知是optimistic(乐观的)。pessimistic悲观的；critical批评的；casual随意的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0119"
+    },
+    {
+      "question_id": "qn_0120",
+      "question": "Not until he finished his homework __________ to play video games.",
+      "options": [
+        "A. he was allowed",
+        "B. was he allowed",
+        "C. he allowed",
+        "D. did he allowed"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "倒装句",
+      "explanation": "Not until位于句首时，主句需部分倒装——将be动词/助动词/情态动词提到主语前。he was allowed → was he allowed。A语序错误，C缺少被动且无语义，D中did后应用动词原形allow。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "专项训练"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0120"
+    },
+    {
+      "question_id": "qn_0121",
+      "question": "He suggested that we _____ there by bus instead of by subway.",
+      "options": [
+        "A. go",
+        "B. would go",
+        "C. will go",
+        "D. went"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "虚拟语气",
+      "explanation": "suggest后接that从句时从句要用虚拟语气，即should+动词原形，should可省略。句意：他建议我们乘公交车而不是地铁去那里。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0121"
+    },
+    {
+      "question_id": "qn_0122",
+      "question": "I want __________ to the library.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. to go"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "非谓语动词",
+      "explanation": "want to do sth.是固定搭配，意思是'想要做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "基础"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0122"
+    },
+    {
+      "question_id": "qn_0123",
+      "question": "By the time we arrived at the cinema, the movie _____ already.",
+      "options": [
+        "A. started",
+        "B. has started",
+        "C. had started",
+        "D. was starting"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "by the time...引导的时间状语从句表示在过去某个时间之前已经完成的动作，用过去完成时。句意：当我们到达电影院时，电影已经开始了。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0123"
+    },
+    {
+      "question_id": "qn_0124",
+      "question": "Look! The boy __________.",
+      "options": [
+        "A. runs",
+        "B. running",
+        "C. is running",
+        "D. ran"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "时态",
+      "explanation": "Look!是现在进行时的标志，表示正在进行的动作，用is running。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "进阶"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0124"
+    },
+    {
+      "question_id": "qn_0125",
+      "question": "Many people believe that intelligence is fixed at birth—that you are either born smart or you are not. However, recent studies in neuroscience suggest otherwise. Researchers have found that the brain is far more flexible than previously thought. When we learn new skills or face challenging situations, our brain creates new connections between neurons. This process, known as neuroplasticity, continues throughout our lives. Moreover, the effort we put into learning actually strengthens these neural pathways, making future learning easier. Scientists now argue that intelligence is not a static trait but rather a dynamic quality that can be developed through practice and persistence.\n\nWhat can be inferred about intelligence from the passage?",
+      "options": [
+        "A. Intelligence remains unchanged after childhood.",
+        "B. Intelligence can be improved through dedicated effort.",
+        "C. Intelligence is determined entirely by genetics.",
+        "D. Intelligence has no connection to brain structure."
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "推断题——隐含意义推理",
+      "explanation": "本题考查推断能力。文章明确指出大脑具有神经可塑性(neuroplasticity)，通过学习和挑战可以建立新的神经连接，智力是一种可以通过练习和坚持发展的动态品质，而非固定不变的特质。因此B正确。A与文意相反，C忽略了后天努力的作用，D与文中提到的大脑结构变化相矛盾。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0125"
+    },
+    {
+      "question_id": "qn_0126",
+      "question": "The concept of microplastics has become a household term in recent years, referring to tiny plastic particles less than five millimeters in size. These particles have been found everywhere from the deepest ocean trenches to the highest mountain peaks. What makes microplastics particularly concerning is not just their ubiquity, but their ability to enter the food chain. Small marine organisms ingest these particles, which are then consumed by larger predators, eventually reaching human plates. Studies have detected microplastics in bottled water, table salt, and even the air we breathe. While the full health impacts remain unclear, researchers warn that prolonged exposure could lead to serious consequences.\n\nWhich of the following best summarizes the main idea of the passage?",
+      "options": [
+        "A. Microplastics are only found in ocean environments.",
+        "B. Microplastics have entered the food chain and pose potential health risks.",
+        "C. Bottled water is more contaminated than tap water.",
+        "D. The health effects of microplastics have been fully proven."
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——概括中心思想",
+      "explanation": "本题考查主旨归纳能力。文章首先介绍微塑料的定义和广泛分布，重点强调它们进入食物链的过程（海洋生物→大型捕食者→人类），最后指出健康影响虽不明确但可能存在严重后果。B项全面涵盖了微塑料进入食物链和潜在健康风险两个核心要点。A过于片面，C文中未比较瓶装水和自来水，D与文中remain unclear矛盾。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0126"
+    },
+    {
+      "question_id": "qn_0127",
+      "question": "In the early twentieth century, the invention of the automobile transformed American society. Rural communities that had been isolated for generations suddenly found themselves connected to urban centers. This connectivity led to the decline of small-town life as people migrated to cities for better job opportunities. At the same time, the automobile industry created millions of jobs, from manufacturing to road construction. The cultural impact was equally profound: young people gained unprecedented freedom to socialize outside their immediate communities, which challenged traditional social norms and contributed to the emergence of a distinct youth culture in the 1920s.\n\nThe word unprecedented in the passage is closest in meaning to:",
+      "options": [
+        "A. previously unknown or without equal",
+        "B. gradually decreasing over time",
+        "C. heavily influenced by tradition",
+        "D. limited to specific geographic areas"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "词汇推断——根据上下文猜词",
+      "explanation": "本题考查词汇推断能力。从上下文看，年轻人获得了前所未有的社交自由，这种自由使他们能够走出社区去社交，挑战了传统社会规范。unprecedented由前缀un-（不）+ precedent（先例）构成，意为史无前例的。A项最接近。B、C、D均不符合语境。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0127"
+    },
+    {
+      "question_id": "qn_0128",
+      "question": "Sleep has long been considered a passive state—a period during which the body simply rests. Modern sleep science, however, reveals that sleeping is an extremely active process. During deep sleep, the brain consolidates memories, transferring information from short-term to long-term storage. It also clears out toxic proteins that accumulate during waking hours. REM sleep, the stage associated with dreaming, plays a crucial role in emotional regulation and creativity. Researchers have discovered that people who consistently get less than seven hours of sleep are significantly more likely to develop chronic health conditions, including heart disease, diabetes, and depression. The evidence is overwhelming: sleep is not a luxury, but a biological necessity.\n\nIt can be inferred from the passage that sleep researchers:",
+      "options": [
+        "A. still disagree about the basic functions of sleep",
+        "B. consider sleep primarily a time for physical rest",
+        "C. view sleep as essential for both physical and mental health",
+        "D. believe dreaming is the most important function of sleep"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "推断题——作者态度与隐含结论",
+      "explanation": "本题考查推断能力。文章指出睡眠是大脑巩固记忆、清除毒素、调节情绪和促进创造力的活跃过程，并且睡眠不足会导致多种慢性疾病。这表明研究人员认为睡眠对身心健康都至关重要。C正确。A与文中evidence is overwhelming矛盾，B是传统观点而非现代研究结论，D过度强调REM睡眠。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0128"
+    },
+    {
+      "question_id": "qn_0129",
+      "question": "The rise of artificial intelligence has sparked intense debate about its impact on employment. Some economists predict that AI will eliminate millions of jobs while creating new ones that we cannot yet imagine. Others argue that history shows technological revolutions always increase overall employment, though the transition can be painful. What seems clear is that certain types of work are more vulnerable than others. Routine, predictable tasks—whether manual or cognitive—are most at risk. Jobs requiring creativity, complex problem-solving, and emotional intelligence appear more resistant to automation. The key challenge for policymakers is not preventing technological change, but ensuring that workers can adapt to it through education and retraining programs.\n\nWhich statement best expresses the authors attitude toward AI impact on employment?",
+      "options": [
+        "A. Deeply pessimistic about the future of work",
+        "B. Completely optimistic with no concerns",
+        "C. Cautiously realistic, acknowledging both disruption and adaptation",
+        "D. Indifferent, believing the debate is unnecessary"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "主旨归纳——把握作者态度",
+      "explanation": "本题考查作者态度判断。文章既提到了AI可能消除大量就业的担忧，也提到了技术革命历来增加总体就业的历史经验，同时指出不同工作的脆弱性不同，并提出政策应对的关键在于帮助工人适应变化。这体现了一种审慎现实的态度。C正确。A只看到负面，B忽视了过渡期的痛苦，D与作者认真讨论的态度不符。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0129"
+    },
+    {
+      "question_id": "qn_0130",
+      "question": "Reading fiction has often been dismissed as mere entertainment, but emerging research suggests it offers profound cognitive benefits. A study published in the journal Science found that individuals who regularly read literary fiction scored higher on tests measuring empathy and social cognition. The researchers hypothesized that reading complex narratives requires readers to understand characters motivations, emotions, and perspectives—skills that transfer to real-life social interactions. Another study revealed that reading fiction can reduce stress levels by up to sixty-eight percent, outperforming other relaxation methods such as listening to music or taking a walk. These findings suggest that fiction reading is not an escape from reality, but rather a training ground for navigating it.\n\nThe authors main purpose in writing this passage is to:",
+      "options": [
+        "A. criticize people who do not read fiction",
+        "B. compare different methods of stress reduction",
+        "C. demonstrate the cognitive and emotional benefits of reading fiction",
+        "D. promote a specific journal publication"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "主旨归纳——写作目的",
+      "explanation": "本题考查写作目的判断。文章首先反驳小说阅读只是娱乐的观点，然后通过两项研究分别证明小说阅读能提升同理心和社会认知能力，以及降低压力水平。最后总结小说阅读是应对现实的训练场。C准确概括了作者展示小说阅读认知和情感益处的目的。A作者并未批评不读书的人，B只是其中一个论据而非主要目的，D明显不是目的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0130"
+    },
+    {
+      "question_id": "qn_0131",
+      "question": "Bees are among the most important pollinators on Earth, responsible for fertilizing approximately one-third of the crops that humans consume. Yet their populations have been declining dramatically worldwide due to a combination of factors including habitat loss, pesticide use, and disease. The phenomenon known as Colony Collapse Disorder (CCD) has caused beekeepers to lose between thirty and ninety percent of their hives in some years. Scientists are working tirelessly to understand the causes and find solutions. Some approaches include planting bee-friendly vegetation, reducing pesticide application, and developing disease-resistant bee breeds. The fate of bees is closely tied to our own survival, making their conservation a matter of global urgency.\n\nWhich of the following best describes the organization of the passage?",
+      "options": [
+        "A. A problem is introduced, followed by its causes and possible solutions.",
+        "B. A historical event is described, followed by its consequences.",
+        "C. Two opposing views are presented, followed by the authors opinion.",
+        "D. A scientific theory is explained, followed by experimental evidence."
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主旨归纳——文章结构组织",
+      "explanation": "本题考查文章组织结构。第一段先提出蜜蜂的重要性，接着指出种群下降的问题（problem），然后分析栖息地丧失、农药使用和疾病等原因（causes），最后介绍科学家正在采取的多种保护措施（possible solutions）。A准确描述了这一结构。B不涉及历史事件，C无对立观点，D非理论加实验证据的结构。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0131"
+    },
+    {
+      "question_id": "qn_0132",
+      "question": "The digital age has fundamentally altered how people consume news. Traditional newspapers, once the primary source of information for most households, have seen their circulation plummet. Meanwhile, social media platforms have become the dominant channel through which millions of people discover and share news content. This shift has raised concerns among media scholars about the quality and reliability of information. Unlike professional journalists who follow editorial standards and fact-checking procedures, social media users often share information without verification. Furthermore, algorithms designed to maximize engagement tend to create echo chambers, where users are exposed only to content that reinforces their existing beliefs. The implications for democratic societies are significant.\n\nThe word echo chambers in the passage most likely refers to:",
+      "options": [
+        "A. rooms specifically designed for recording audio content",
+        "B. environments where people encounter only reinforcing viewpoints",
+        "C. government-controlled media outlets",
+        "D. professional journalism organizations"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词汇推断——根据上下文理解术语",
+      "explanation": "本题考查词汇推断。从上下文看，算法为了最大化参与度，倾向于让用户只接触到强化其既有信念的内容。echo chambers字面意思是回声室，比喻在这种环境中人们只能听到与自己观点一致的声音，就像回声一样不断重复。B项最符合文意。A是字面意思，C和D与上下文无关。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0132"
+    },
+    {
+      "question_id": "qn_0133",
+      "question": "The practice of mindfulness meditation, originally rooted in Buddhist traditions, has gained widespread acceptance in Western healthcare systems over the past two decades. Clinical trials have demonstrated that regular mindfulness practice can reduce symptoms of anxiety and depression, lower blood pressure, and improve sleep quality. Hospitals across the United States now offer mindfulness-based stress reduction programs for patients dealing with chronic pain, cancer, and cardiovascular disease. Despite its growing popularity, some critics argue that mindfulness has been commercialized and stripped of its philosophical foundations. They worry that reducing meditation to a simple stress-relief technique overlooks its deeper spiritual dimensions. Nevertheless, the empirical evidence supporting its health benefits continues to grow.\n\nWhat is the main tension discussed in this passage?",
+      "options": [
+        "A. Between Eastern and Western religious traditions",
+        "B. Between clinical evidence and spiritual concerns about mindfulness",
+        "C. Between different types of meditation practices",
+        "D. Between hospital funding and patient care quality"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——识别核心冲突与张力",
+      "explanation": "本题考查识别核心冲突的能力。文章一方面列举了大量临床研究证明正念冥想的健康益处（临床证据），另一方面也提到了批评者的担忧——正念被商业化、剥离了其哲学基础和精神内涵（精神层面的关切）。B准确概括了这一核心张力。A不是文章焦点，C未比较不同类型冥想，D文中未涉及医院资金问题。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0133"
+    },
+    {
+      "question_id": "qn_0134",
+      "question": "Urbanization is one of the defining characteristics of the twenty-first century. By 2050, nearly seventy percent of the world population is projected to live in cities. This massive migration to urban areas presents both tremendous opportunities and significant challenges. On the positive side, cities concentrate economic activity, foster innovation, and provide access to education and healthcare. However, rapid urban growth has also led to overcrowding, inadequate infrastructure, environmental degradation, and rising inequality. Cities that fail to plan for sustainable growth risk becoming uninhabitable slums rather than thriving centers of opportunity. The difference between success and failure often comes down to forward-looking governance and community engagement.\n\nWhich title best captures the central theme of the passage?",
+      "options": [
+        "A. The Economic Advantages of City Living",
+        "B. Urbanization: Opportunities, Challenges, and the Need for Planning",
+        "C. How to Build Better Infrastructure in Cities",
+        "D. The History of Urban Development"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——选择最佳标题",
+      "explanation": "本题考查最佳标题选择。文章既讨论了城市化带来的机遇（经济活动聚集、创新、教育医疗资源），也分析了挑战（拥挤、基础设施不足、环境恶化、不平等），最后强调可持续增长规划和前瞻性治理的重要性。B项全面涵盖了这三个方面。A和C只涉及部分内容，D文章并非讨论城市化的历史。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_0134"
+    },
+    {
+      "question_id": "read_gen_001",
+      "question": "Many people believe that intelligence is fixed at birth—that you are either born smart or you are not. However, recent studies in neuroscience suggest otherwise. Researchers have found that the brain is far more flexible than previously thought. When we learn new skills or face challenging situations, our brain creates new connections between neurons. This process, known as neuroplasticity, continues throughout our lives. Moreover, the effort we put into learning actually strengthens these neural pathways, making future learning easier. Scientists now argue that intelligence is not a static trait but rather a dynamic quality that can be developed through practice and persistence.\n\nWhat can be inferred about intelligence from the passage?",
+      "options": [
+        "A. Intelligence remains unchanged after childhood.",
+        "B. Intelligence can be improved through dedicated effort.",
+        "C. Intelligence is determined entirely by genetics.",
+        "D. Intelligence has no connection to brain structure."
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "推断题——隐含意义推理",
+      "explanation": "本题考查推断能力。文章明确指出大脑具有神经可塑性(neuroplasticity)，通过学习和挑战可以建立新的神经连接，智力是一种可以通过练习和坚持发展的动态品质，而非固定不变的特质。因此B正确。A与文意相反，C忽略了后天努力的作用，D与文中提到的大脑结构变化相矛盾。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_001"
+    },
+    {
+      "question_id": "read_gen_002",
+      "question": "The concept of microplastics has become a household term in recent years, referring to tiny plastic particles less than five millimeters in size. These particles have been found everywhere from the deepest ocean trenches to the highest mountain peaks. What makes microplastics particularly concerning is not just their ubiquity, but their ability to enter the food chain. Small marine organisms ingest these particles, which are then consumed by larger predators, eventually reaching human plates. Studies have detected microplastics in bottled water, table salt, and even the air we breathe. While the full health impacts remain unclear, researchers warn that prolonged exposure could lead to serious consequences.\n\nWhich of the following best summarizes the main idea of the passage?",
+      "options": [
+        "A. Microplastics are only found in ocean environments.",
+        "B. Microplastics have entered the food chain and pose potential health risks.",
+        "C. Bottled water is more contaminated than tap water.",
+        "D. The health effects of microplastics have been fully proven."
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——概括中心思想",
+      "explanation": "本题考查主旨归纳能力。文章首先介绍微塑料的定义和广泛分布，重点强调它们进入食物链的过程（海洋生物→大型捕食者→人类），最后指出健康影响虽不明确但可能存在严重后果。B项全面涵盖了微塑料进入食物链和潜在健康风险两个核心要点。A过于片面，C文中未比较瓶装水和自来水，D与文中remain unclear矛盾。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_002"
+    },
+    {
+      "question_id": "read_gen_003",
+      "question": "In the early twentieth century, the invention of the automobile transformed American society. Rural communities that had been isolated for generations suddenly found themselves connected to urban centers. This connectivity led to the decline of small-town life as people migrated to cities for better job opportunities. At the same time, the automobile industry created millions of jobs, from manufacturing to road construction. The cultural impact was equally profound: young people gained unprecedented freedom to socialize outside their immediate communities, which challenged traditional social norms and contributed to the emergence of a distinct youth culture in the 1920s.\n\nThe word unprecedented in the passage is closest in meaning to:",
+      "options": [
+        "A. previously unknown or without equal",
+        "B. gradually decreasing over time",
+        "C. heavily influenced by tradition",
+        "D. limited to specific geographic areas"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "词汇推断——根据上下文猜词",
+      "explanation": "本题考查词汇推断能力。从上下文看，年轻人获得了前所未有的社交自由，这种自由使他们能够走出社区去社交，挑战了传统社会规范。unprecedented由前缀un-（不）+ precedent（先例）构成，意为史无前例的。A项最接近。B、C、D均不符合语境。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_003"
+    },
+    {
+      "question_id": "read_gen_004",
+      "question": "Sleep has long been considered a passive state—a period during which the body simply rests. Modern sleep science, however, reveals that sleeping is an extremely active process. During deep sleep, the brain consolidates memories, transferring information from short-term to long-term storage. It also clears out toxic proteins that accumulate during waking hours. REM sleep, the stage associated with dreaming, plays a crucial role in emotional regulation and creativity. Researchers have discovered that people who consistently get less than seven hours of sleep are significantly more likely to develop chronic health conditions, including heart disease, diabetes, and depression. The evidence is overwhelming: sleep is not a luxury, but a biological necessity.\n\nIt can be inferred from the passage that sleep researchers:",
+      "options": [
+        "A. still disagree about the basic functions of sleep",
+        "B. consider sleep primarily a time for physical rest",
+        "C. view sleep as essential for both physical and mental health",
+        "D. believe dreaming is the most important function of sleep"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "推断题——作者态度与隐含结论",
+      "explanation": "本题考查推断能力。文章指出睡眠是大脑巩固记忆、清除毒素、调节情绪和促进创造力的活跃过程，并且睡眠不足会导致多种慢性疾病。这表明研究人员认为睡眠对身心健康都至关重要。C正确。A与文中evidence is overwhelming矛盾，B是传统观点而非现代研究结论，D过度强调REM睡眠。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_004"
+    },
+    {
+      "question_id": "read_gen_005",
+      "question": "The rise of artificial intelligence has sparked intense debate about its impact on employment. Some economists predict that AI will eliminate millions of jobs while creating new ones that we cannot yet imagine. Others argue that history shows technological revolutions always increase overall employment, though the transition can be painful. What seems clear is that certain types of work are more vulnerable than others. Routine, predictable tasks—whether manual or cognitive—are most at risk. Jobs requiring creativity, complex problem-solving, and emotional intelligence appear more resistant to automation. The key challenge for policymakers is not preventing technological change, but ensuring that workers can adapt to it through education and retraining programs.\n\nWhich statement best expresses the authors attitude toward AI impact on employment?",
+      "options": [
+        "A. Deeply pessimistic about the future of work",
+        "B. Completely optimistic with no concerns",
+        "C. Cautiously realistic, acknowledging both disruption and adaptation",
+        "D. Indifferent, believing the debate is unnecessary"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "主旨归纳——把握作者态度",
+      "explanation": "本题考查作者态度判断。文章既提到了AI可能消除大量就业的担忧，也提到了技术革命历来增加总体就业的历史经验，同时指出不同工作的脆弱性不同，并提出政策应对的关键在于帮助工人适应变化。这体现了一种审慎现实的态度。C正确。A只看到负面，B忽视了过渡期的痛苦，D与作者认真讨论的态度不符。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_005"
+    },
+    {
+      "question_id": "read_gen_006",
+      "question": "Reading fiction has often been dismissed as mere entertainment, but emerging research suggests it offers profound cognitive benefits. A study published in the journal Science found that individuals who regularly read literary fiction scored higher on tests measuring empathy and social cognition. The researchers hypothesized that reading complex narratives requires readers to understand characters motivations, emotions, and perspectives—skills that transfer to real-life social interactions. Another study revealed that reading fiction can reduce stress levels by up to sixty-eight percent, outperforming other relaxation methods such as listening to music or taking a walk. These findings suggest that fiction reading is not an escape from reality, but rather a training ground for navigating it.\n\nThe authors main purpose in writing this passage is to:",
+      "options": [
+        "A. criticize people who do not read fiction",
+        "B. compare different methods of stress reduction",
+        "C. demonstrate the cognitive and emotional benefits of reading fiction",
+        "D. promote a specific journal publication"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "主旨归纳——写作目的",
+      "explanation": "本题考查写作目的判断。文章首先反驳小说阅读只是娱乐的观点，然后通过两项研究分别证明小说阅读能提升同理心和社会认知能力，以及降低压力水平。最后总结小说阅读是应对现实的训练场。C准确概括了作者展示小说阅读认知和情感益处的目的。A作者并未批评不读书的人，B只是其中一个论据而非主要目的，D明显不是目的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_006"
+    },
+    {
+      "question_id": "read_gen_007",
+      "question": "Bees are among the most important pollinators on Earth, responsible for fertilizing approximately one-third of the crops that humans consume. Yet their populations have been declining dramatically worldwide due to a combination of factors including habitat loss, pesticide use, and disease. The phenomenon known as Colony Collapse Disorder (CCD) has caused beekeepers to lose between thirty and ninety percent of their hives in some years. Scientists are working tirelessly to understand the causes and find solutions. Some approaches include planting bee-friendly vegetation, reducing pesticide application, and developing disease-resistant bee breeds. The fate of bees is closely tied to our own survival, making their conservation a matter of global urgency.\n\nWhich of the following best describes the organization of the passage?",
+      "options": [
+        "A. A problem is introduced, followed by its causes and possible solutions.",
+        "B. A historical event is described, followed by its consequences.",
+        "C. Two opposing views are presented, followed by the authors opinion.",
+        "D. A scientific theory is explained, followed by experimental evidence."
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "主旨归纳——文章结构组织",
+      "explanation": "本题考查文章组织结构。第一段先提出蜜蜂的重要性，接着指出种群下降的问题（problem），然后分析栖息地丧失、农药使用和疾病等原因（causes），最后介绍科学家正在采取的多种保护措施（possible solutions）。A准确描述了这一结构。B不涉及历史事件，C无对立观点，D非理论加实验证据的结构。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_007"
+    },
+    {
+      "question_id": "read_gen_008",
+      "question": "The digital age has fundamentally altered how people consume news. Traditional newspapers, once the primary source of information for most households, have seen their circulation plummet. Meanwhile, social media platforms have become the dominant channel through which millions of people discover and share news content. This shift has raised concerns among media scholars about the quality and reliability of information. Unlike professional journalists who follow editorial standards and fact-checking procedures, social media users often share information without verification. Furthermore, algorithms designed to maximize engagement tend to create echo chambers, where users are exposed only to content that reinforces their existing beliefs. The implications for democratic societies are significant.\n\nThe word echo chambers in the passage most likely refers to:",
+      "options": [
+        "A. rooms specifically designed for recording audio content",
+        "B. environments where people encounter only reinforcing viewpoints",
+        "C. government-controlled media outlets",
+        "D. professional journalism organizations"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词汇推断——根据上下文理解术语",
+      "explanation": "本题考查词汇推断。从上下文看，算法为了最大化参与度，倾向于让用户只接触到强化其既有信念的内容。echo chambers字面意思是回声室，比喻在这种环境中人们只能听到与自己观点一致的声音，就像回声一样不断重复。B项最符合文意。A是字面意思，C和D与上下文无关。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_008"
+    },
+    {
+      "question_id": "read_gen_009",
+      "question": "The practice of mindfulness meditation, originally rooted in Buddhist traditions, has gained widespread acceptance in Western healthcare systems over the past two decades. Clinical trials have demonstrated that regular mindfulness practice can reduce symptoms of anxiety and depression, lower blood pressure, and improve sleep quality. Hospitals across the United States now offer mindfulness-based stress reduction programs for patients dealing with chronic pain, cancer, and cardiovascular disease. Despite its growing popularity, some critics argue that mindfulness has been commercialized and stripped of its philosophical foundations. They worry that reducing meditation to a simple stress-relief technique overlooks its deeper spiritual dimensions. Nevertheless, the empirical evidence supporting its health benefits continues to grow.\n\nWhat is the main tension discussed in this passage?",
+      "options": [
+        "A. Between Eastern and Western religious traditions",
+        "B. Between clinical evidence and spiritual concerns about mindfulness",
+        "C. Between different types of meditation practices",
+        "D. Between hospital funding and patient care quality"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——识别核心冲突与张力",
+      "explanation": "本题考查识别核心冲突的能力。文章一方面列举了大量临床研究证明正念冥想的健康益处（临床证据），另一方面也提到了批评者的担忧——正念被商业化、剥离了其哲学基础和精神内涵（精神层面的关切）。B准确概括了这一核心张力。A不是文章焦点，C未比较不同类型冥想，D文中未涉及医院资金问题。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_009"
+    },
+    {
+      "question_id": "read_gen_010",
+      "question": "Urbanization is one of the defining characteristics of the twenty-first century. By 2050, nearly seventy percent of the world population is projected to live in cities. This massive migration to urban areas presents both tremendous opportunities and significant challenges. On the positive side, cities concentrate economic activity, foster innovation, and provide access to education and healthcare. However, rapid urban growth has also led to overcrowding, inadequate infrastructure, environmental degradation, and rising inequality. Cities that fail to plan for sustainable growth risk becoming uninhabitable slums rather than thriving centers of opportunity. The difference between success and failure often comes down to forward-looking governance and community engagement.\n\nWhich title best captures the central theme of the passage?",
+      "options": [
+        "A. The Economic Advantages of City Living",
+        "B. Urbanization: Opportunities, Challenges, and the Need for Planning",
+        "C. How to Build Better Infrastructure in Cities",
+        "D. The History of Urban Development"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主旨归纳——选择最佳标题",
+      "explanation": "本题考查最佳标题选择。文章既讨论了城市化带来的机遇（经济活动聚集、创新、教育医疗资源），也分析了挑战（拥挤、基础设施不足、环境恶化、不平等），最后强调可持续增长规划和前瞻性治理的重要性。B项全面涵盖了这三个方面。A和C只涉及部分内容，D文章并非讨论城市化的历史。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "阅读理解",
+        "新题"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "read_gen_010"
+    },
+    {
+      "question_id": "qn_new_001",
+      "question": "Staring at the ruins of his house, he couldn't _____ how the fire had broken out.",
+      "options": [
+        "A. bring out",
+        "B. turn out",
+        "C. figure out",
+        "D. pick out"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "词义辨析",
+      "explanation": "bring out:生产（新产品）；turn out:生产，制造，结果是；figure out:弄懂，弄明白；pick out:精心挑选。句意：盯着被烧毁的房子的废墟，他弄不明白火是怎样烧起来的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_001"
+    },
+    {
+      "question_id": "qn_new_002",
+      "question": "I didn't know what to do, but then an idea _____ to me suddenly.",
+      "options": [
+        "A. happened",
+        "B. entered",
+        "C. hit",
+        "D. occurred"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "固定搭配",
+      "explanation": "occur to sb.为固定用法，意为'(观念或想法)被想到，出现在头脑中'。happen to sb.意为'某人出了某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_002"
+    },
+    {
+      "question_id": "qn_new_003",
+      "question": "When and where to hold the meeting _____ not been decided yet.",
+      "options": [
+        "A. will",
+        "B. might",
+        "C. has",
+        "D. have"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "主谓一致",
+      "explanation": "When and where to hold the meeting指的是同一件事情，谓语动词用单数。根据yet可知用现在完成时，故选has。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_003"
+    },
+    {
+      "question_id": "qn_new_004",
+      "question": "_____ us harm or good remains to be seen in the near future.",
+      "options": [
+        "A. If it will do",
+        "B. Whether it will do",
+        "C. That it will do",
+        "D. What it will do"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "状语从句",
+      "explanation": "remains之前为主语从句。whether引导主语从句表示'是否'。if引导主语从句时不能位于句首。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_004"
+    },
+    {
+      "question_id": "qn_new_005",
+      "question": "Not only I but also Jane and Mary _____ worn out after having one examination after another.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. am",
+        "D. be"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "主谓一致",
+      "explanation": "not only...but also...连接主语时，谓语动词遵循'就近原则'，由but also后的主语决定。Jane and Mary是复数，故选are。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_005"
+    },
+    {
+      "question_id": "qn_new_006",
+      "question": "_____ you've got an opportunity, you should take good advantage of it.",
+      "options": [
+        "A. Now that",
+        "B. After",
+        "C. Although",
+        "D. As soon as"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "状语从句",
+      "explanation": "now that引导原因状语从句，意为'既然'。根据句意'既然你得到这么好的机会，就要好好利用'，选A。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_006"
+    },
+    {
+      "question_id": "qn_new_007",
+      "question": "Fred used to _____ late with his roommates and watch movies.",
+      "options": [
+        "A. stay in",
+        "B. stay away",
+        "C. stay up",
+        "D. stay on"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "stay up:熬夜。句意：Fred过去常和室友熬夜看电影。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_007"
+    },
+    {
+      "question_id": "qn_new_008",
+      "question": "The development of new energy sources _____ to be rewarding.",
+      "options": [
+        "A. turned out",
+        "B. turned up",
+        "C. turned back",
+        "D. turned away"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "turn out to be:结果是，证明是。句意：新能源的发展被证明是有益的。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_008"
+    },
+    {
+      "question_id": "qn_new_009",
+      "question": "Researchers have spent five years collecting data _____ the study was based.",
+      "options": [
+        "A. on that",
+        "B. in which",
+        "C. in that",
+        "D. on which"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "定语从句",
+      "explanation": "be based on是固定搭配，先行词data在定语从句中作on的宾语，用on which引导。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_009"
+    },
+    {
+      "question_id": "qn_new_010",
+      "question": "He warned his students _____ late for the examination next week.",
+      "options": [
+        "A. don't be",
+        "B. not be",
+        "C. not to be",
+        "D. to be not"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "warn sb. not to do sth.意为'警告某人不要做某事'。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_010"
+    },
+    {
+      "question_id": "qn_new_011",
+      "question": "No sooner _____ home than it started to rain.",
+      "options": [
+        "A. have we arrived",
+        "B. did we arrive",
+        "C. had we arrived",
+        "D. shall we arrive"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "倒装句",
+      "explanation": "no sooner...than...结构中，no sooner放在句首时主句要用过去完成时且需要倒装。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_011"
+    },
+    {
+      "question_id": "qn_new_012",
+      "question": "Only when she finished all the work _____ be allowed to go home.",
+      "options": [
+        "A. she did",
+        "B. she would",
+        "C. did she",
+        "D. would she"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "倒装句",
+      "explanation": "only+状语从句位于句首时，主句需要部分倒装。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_012"
+    },
+    {
+      "question_id": "qn_new_013",
+      "question": "She came _____ some old photographs in a drawer.",
+      "options": [
+        "A. about",
+        "B. across",
+        "C. with",
+        "D. by"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "固定搭配",
+      "explanation": "come across:偶然发现。句意：她在抽屉里偶然发现了一些旧照片。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_013"
+    },
+    {
+      "question_id": "qn_new_014",
+      "question": "We had to put _____ our wedding until September.",
+      "options": [
+        "A. forward",
+        "B. down",
+        "C. up",
+        "D. off"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "固定搭配",
+      "explanation": "put off:推迟，延期。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_014"
+    },
+    {
+      "question_id": "qn_new_015",
+      "question": "Lozano claimed that the motorcycle driver was trying to run him _____.",
+      "options": [
+        "A. out",
+        "B. in",
+        "C. down",
+        "D. up"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "run sb. down:撞倒某人。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_015"
+    },
+    {
+      "question_id": "qn_new_016",
+      "question": "Language, maths and history, _____ the children are also taught music and art.",
+      "options": [
+        "A. except for",
+        "B. instead of",
+        "C. in addition to",
+        "D. in spite of"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "介词短语",
+      "explanation": "in addition to:除……之外（还有）。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_016"
+    },
+    {
+      "question_id": "qn_new_017",
+      "question": "Details of the murder were _____ by the local paper.",
+      "options": [
+        "A. discovered",
+        "B. revealed",
+        "C. exposed",
+        "D. found"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词义辨析",
+      "explanation": "reveal:揭露，公布（秘密、真相等）。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_017"
+    },
+    {
+      "question_id": "qn_new_018",
+      "question": "Humble _____ it may be, there is no place like home.",
+      "options": [
+        "A. as",
+        "B. although",
+        "C. that",
+        "D. how"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "倒装句",
+      "explanation": "as引导让步状语从句时，需要将表语提前，构成倒装结构。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_018"
+    },
+    {
+      "question_id": "qn_new_019",
+      "question": "I don't think the snow will _____ our plans for a picnic.",
+      "options": [
+        "A. effect",
+        "B. affect",
+        "C. differ",
+        "D. infer"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词义辨析",
+      "explanation": "affect:影响（动词）；effect:影响（名词）。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_019"
+    },
+    {
+      "question_id": "qn_new_020",
+      "question": "He gives us a lot of trouble—but I like him _____.",
+      "options": [
+        "A. by the way",
+        "B. all the same",
+        "C. by and by",
+        "D. over and over"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "固定搭配",
+      "explanation": "all the same:仍然，照样。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_020"
+    },
+    {
+      "question_id": "qn_new_021",
+      "question": "Don't play with the burning stick, boys, for it often _____ fire.",
+      "options": [
+        "A. catches",
+        "B. makes",
+        "C. causes",
+        "D. gets"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "固定搭配",
+      "explanation": "cause fire:引起火灾。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_021"
+    },
+    {
+      "question_id": "qn_new_022",
+      "question": "We need _____ information about the climate before we make our decision.",
+      "options": [
+        "A. a few",
+        "B. few",
+        "C. a little",
+        "D. little"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "代词",
+      "explanation": "information是不可数名词，用a little修饰。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_022"
+    },
+    {
+      "question_id": "qn_new_023",
+      "question": "Is there a gas station around _____ I can get some petrol?",
+      "options": [
+        "A. what",
+        "B. which",
+        "C. that",
+        "D. where"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "定语从句",
+      "explanation": "where引导定语从句修饰gas station，在从句中作地点状语。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_023"
+    },
+    {
+      "question_id": "qn_new_024",
+      "question": "It is always difficult to live in a foreign country, _____ if you don't speak its language.",
+      "options": [
+        "A. naturally",
+        "B. extremely",
+        "C. especially",
+        "D. basically"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "词汇语法",
+      "explanation": "especially:尤其，特别。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_024"
+    },
+    {
+      "question_id": "qn_new_025",
+      "question": "The plane will take off at 6:00 pm, so I have to be at the airport _____ 4:00 pm at the latest.",
+      "options": [
+        "A. after",
+        "B. until",
+        "C. since",
+        "D. by"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "介词",
+      "explanation": "by:不迟于，在……之前。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_025"
+    },
+    {
+      "question_id": "qn_new_026",
+      "question": "You can buy these maps at _____ railway station. They all have them.",
+      "options": [
+        "A. any",
+        "B. that",
+        "C. this",
+        "D. either"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "代词",
+      "explanation": "any:任何（三者或以上）。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_026"
+    },
+    {
+      "question_id": "qn_new_027",
+      "question": "He didn't go into details on the subject, but just spoke _____.",
+      "options": [
+        "A. in particular",
+        "B. in general",
+        "C. in short",
+        "D. in common"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "固定搭配",
+      "explanation": "in general:总体上，概括地说。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_027"
+    },
+    {
+      "question_id": "qn_new_028",
+      "question": "I was just about to leave school _____ I heard the doorbell.",
+      "options": [
+        "A. when",
+        "B. while",
+        "C. after",
+        "D. as"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "固定搭配",
+      "explanation": "be about to do...when...是固定句型，意为'正要……就在这时……'。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_028"
+    },
+    {
+      "question_id": "qn_new_029",
+      "question": "He _____ the test, but he wasn't careful enough.",
+      "options": [
+        "A. must have passed",
+        "B. should pass",
+        "C. might pass",
+        "D. could have passed"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "虚拟语气",
+      "explanation": "could have done:本来能够做某事（但实际没有）。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_029"
+    },
+    {
+      "question_id": "qn_new_030",
+      "question": "Please let me know _____ you want your coffee, black or white?",
+      "options": [
+        "A. where",
+        "B. why",
+        "C. how",
+        "D. what"
+      ],
+      "correct_answer": "C",
+      "knowledge_point": "词汇语法",
+      "explanation": "how在此询问方式/偏好。",
+      "bank": "某高校学位英语",
+      "difficulty": 1,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_030"
+    },
+    {
+      "question_id": "qn_new_031",
+      "question": "The government will consider _____ future actions against terrorist bombers.",
+      "options": [
+        "A. taken",
+        "B. of taking",
+        "C. to take",
+        "D. taking"
+      ],
+      "correct_answer": "D",
+      "knowledge_point": "非谓语动词",
+      "explanation": "consider doing sth.意为'考虑做某事'，consider后接动名词作宾语。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_031"
+    },
+    {
+      "question_id": "qn_new_032",
+      "question": "The reporter said that the UFO _____ east to west when he saw it.",
+      "options": [
+        "A. traveled",
+        "B. was traveling",
+        "C. was to travel",
+        "D. had been traveling"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "时态-过去进行时",
+      "explanation": "when引导的时间状语从句中，主句用过去进行时表示过去某一时刻正在进行的动作。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_032"
+    },
+    {
+      "question_id": "qn_new_033",
+      "question": "I'm sorry to _____ your party; I weren't in town.",
+      "options": [
+        "A. be missed",
+        "B. miss",
+        "C. have missed",
+        "D. be missing"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词汇语法",
+      "explanation": "miss the party:缺席聚会。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_033"
+    },
+    {
+      "question_id": "qn_new_034",
+      "question": "Which one of his books do you think _____ best among the best-sellers?",
+      "options": [
+        "A. sells",
+        "B. sell",
+        "C. is sold",
+        "D. are sold"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "词汇语法",
+      "explanation": "sell在此用作不及物动词，表示'销量'，用主动表被动。Which one为单数，故选sells。",
+      "bank": "某高校学位英语",
+      "difficulty": 3,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_034"
+    },
+    {
+      "question_id": "qn_new_035",
+      "question": "She has got _____ from all three top Universities she has applied for.",
+      "options": [
+        "A. promises",
+        "B. offers",
+        "C. acceptance",
+        "D. invitations"
+      ],
+      "correct_answer": "B",
+      "knowledge_point": "词汇语法",
+      "explanation": "offer:录取通知书。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_035"
+    },
+    {
+      "question_id": "qn_new_036",
+      "question": "Staff have been holding a number of _____ to raise money for charity.",
+      "options": [
+        "A. events",
+        "B. incidents",
+        "C. affairs",
+        "D. cases"
+      ],
+      "correct_answer": "A",
+      "knowledge_point": "词义辨析",
+      "explanation": "event:活动，大事（尤指公共活动）。",
+      "bank": "某高校学位英语",
+      "difficulty": 2,
+      "tags": [
+        "真题",
+        "广东"
+      ],
+      "source": "某高校学位英语真题汇编",
+      "type": "single",
+      "passage": "",
+      "reference": "",
+      "id": "qn_new_036"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Many people believe that climate change is primarily caused by human activities such as burning fossil fuels. However, some scientists argue that natural cycles play a significant role as well. Recent studies suggest that while natural factors contribute to warming, the rapid increase in global temperatures over the past century cannot be explained by natural cycles alone. The consensus among climate researchers is that human activities are the dominant cause of recent climate change.",
+      "question": "According to the passage, what can be inferred about natural cycles in relation to climate change?",
+      "options": [
+        "A. Natural cycles are the sole cause of current climate change.",
+        "B. Natural cycles have no impact on climate change at all.",
+        "C. Natural cycles contribute to warming but cannot explain the rapid temperature increase.",
+        "D. Natural cycles are becoming less significant over time."
+      ],
+      "explanation": "The passage states that 'while natural factors contribute to warming, the rapid increase in global temperatures over the past century cannot be explained by natural cycles alone.' This directly supports option C. Option A is wrong because the passage says human activities are the dominant cause. Option B is wrong because natural factors do contribute. Option D is not mentioned.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 3,
+      "tags": [
+        "因果推断",
+        "薄弱点专项"
+      ],
+      "source": "https://example.com/climate-consensus-study",
+      "question_id": "NEW_RC_001",
+      "correct_answer": "C",
+      "reference": "",
+      "id": "NEW_RC_001"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "The decline of bee populations has raised concerns among farmers and environmentalists alike. Bees are essential pollinators for many crops, and their disappearance could lead to a significant reduction in food production. While pesticides are often blamed for bee deaths, recent research indicates that a combination of factors — including habitat loss, disease, and climate change — is responsible. Farmers who have switched to organic farming methods report higher bee survival rates, suggesting that pesticide reduction is indeed a contributing factor.",
+      "question": "What can be concluded about the relationship between organic farming and bee populations?",
+      "options": [
+        "A. Organic farming is the only solution to saving bees.",
+        "B. Organic farming has no effect on bee survival.",
+        "C. Reducing pesticides through organic farming appears to improve bee survival rates.",
+        "D. Climate change is more harmful to bees than pesticides."
+      ],
+      "explanation": "The passage states that 'farmers who have switched to organic farming methods report higher bee survival rates, suggesting that pesticide reduction is indeed a contributing factor.' This supports option C. Option A is too extreme (the passage mentions multiple factors). Option B contradicts the passage. Option D compares two factors not directly compared in the text.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 3,
+      "tags": [
+        "因果推断",
+        "薄弱点专项"
+      ],
+      "source": "https://example.com/bee-population-study",
+      "question_id": "NEW_RC_002",
+      "correct_answer": "C",
+      "reference": "",
+      "id": "NEW_RC_002"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Sleep deprivation has become a widespread problem in modern society. Research shows that adults who regularly get less than six hours of sleep per night are twice as likely to develop cardiovascular disease as those who get seven to eight hours. The link is believed to be mediated by increased stress hormones and inflammation. Additionally, poor sleep affects the body's ability to regulate blood sugar, which can lead to weight gain and diabetes. Experts recommend that individuals prioritize sleep as part of a healthy lifestyle.",
+      "question": "Why do experts recommend prioritizing sleep according to the passage?",
+      "options": [
+        "A. Because sleep is the most important factor in determining life expectancy.",
+        "B. Because insufficient sleep increases the risk of cardiovascular disease, diabetes, and weight gain.",
+        "C. Because sleeping more than eight hours can prevent all chronic diseases.",
+        "D. Because stress hormones have no effect on cardiovascular health."
+      ],
+      "explanation": "The passage links insufficient sleep to increased cardiovascular disease risk, blood sugar regulation problems, weight gain, and diabetes. Option B captures all these connections. Option A is not stated (life expectancy is not mentioned). Option C is too absolute. Option D contradicts the passage which says stress hormones mediate the link.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 2,
+      "tags": [
+        "因果推断",
+        "健康"
+      ],
+      "source": "https://example.com/sleep-research",
+      "question_id": "NEW_RC_003",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RC_003"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "The rise of remote work has transformed urban landscapes. City centers that once bustled with office workers during weekdays are now quieter, leading to declining revenues for restaurants and retail stores. At the same time, suburban and rural areas have seen an increase in demand for housing and local services. Some cities are responding by converting office buildings into residential apartments, while others are investing in public spaces to attract residents back to downtown areas.",
+      "question": "What is the main cause of declining revenues for downtown restaurants and retail stores?",
+      "options": [
+        "A. Increased competition from online shopping.",
+        "B. The shift to remote work reducing weekday foot traffic.",
+        "C. Higher taxes on urban businesses.",
+        "D. A general economic recession affecting all sectors."
+      ],
+      "explanation": "The passage explicitly states that city centers 'once bustled with office workers during weekdays are now quieter, leading to declining revenues for restaurants and retail stores' in the context of remote work transforming urban landscapes. Option B correctly identifies this causal chain. Options A, C, and D are not mentioned in the passage.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 2,
+      "tags": [
+        "因果推断",
+        "社会变迁"
+      ],
+      "source": "https://example.com/remote-work-impact",
+      "question_id": "NEW_RC_004",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RC_004"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Plastic pollution in oceans has reached alarming levels. Every year, approximately 8 million tons of plastic waste enters the ocean. Marine animals mistake plastic debris for food, leading to starvation and death. Plastic also breaks down into microplastics, which enter the food chain and eventually reach humans. Scientists warn that without significant reduction in plastic production and improved waste management, the problem will worsen dramatically by 2050.",
+      "question": "How does plastic pollution ultimately affect humans according to the passage?",
+      "options": [
+        "A. Through direct contact with large plastic debris while swimming.",
+        "B. Through microplastics entering the food chain.",
+        "C. Through increased taxes on seafood products.",
+        "D. Through the destruction of coastal tourism industries."
+      ],
+      "explanation": "The passage states that 'Plastic also breaks down into microplastics, which enter the food chain and eventually reach humans.' This describes the causal pathway from plastic to human exposure. Option B is correct. Option A is not mentioned. Options C and D are consequences not discussed in the passage.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 2,
+      "tags": [
+        "因果推断",
+        "环境"
+      ],
+      "source": "https://example.com/ocean-plastic-study",
+      "question_id": "NEW_RC_005",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RC_005"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Reading fiction has been shown to improve empathy and social understanding. A study published in Science magazine followed 1,000 participants over five years and found that those who read literary fiction scored significantly higher on tests measuring emotional intelligence and theory of mind. Researchers believe that fiction allows readers to simulate social experiences and practice understanding different perspectives without real-world consequences.",
+      "question": "Why do researchers believe fiction improves empathy?",
+      "options": [
+        "A. Because reading fiction increases vocabulary size.",
+        "B. Because fiction allows readers to simulate social experiences and practice understanding different perspectives.",
+        "C. Because literary fiction is always written by psychologists.",
+        "D. Because reading fiction reduces stress levels."
+      ],
+      "explanation": "The passage directly states that 'fiction allows readers to simulate social experiences and practice understanding different perspectives without real-world consequences.' Option B is a direct paraphrase. Option A is not mentioned. Option C is factually incorrect and not supported. Option D may be true but is not the reason given for empathy improvement.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 2,
+      "tags": [
+        "因果推断",
+        "心理学"
+      ],
+      "source": "https://example.com/fiction-empathy-study",
+      "question_id": "NEW_RC_006",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RC_006"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Exercise has numerous benefits for mental health. Regular physical activity has been linked to reduced symptoms of depression and anxiety. One mechanism is the release of endorphins, chemicals in the brain that act as natural painkillers and mood elevators. Another is the improvement in sleep quality, which is often disrupted in people with mental health conditions. Studies show that even moderate exercise, such as brisk walking for 30 minutes a day, can produce significant improvements in mood.",
+      "question": "What is the main reason exercise helps reduce depression according to the passage?",
+      "options": [
+        "A. It causes weight loss which boosts self-confidence.",
+        "B. Endorphin release and improved sleep quality are mechanisms through which exercise helps.",
+        "C. Exercise replaces the need for medication in treating depression.",
+        "D. Physical activity prevents all forms of mental illness."
+      ],
+      "explanation": "The passage identifies two mechanisms: 'the release of endorphins' and 'improvement in sleep quality.' Option B correctly summarizes both. Option A is not mentioned. Option C is too strong (the passage says 'linked to reduced symptoms,' not 'replaces medication'). Option D is an overgeneralization.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 3,
+      "tags": [
+        "因果推断",
+        "心理健康"
+      ],
+      "source": "https://example.com/exercise-mental-health",
+      "question_id": "NEW_RC_007",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RC_007"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "The Internet has fundamentally changed how people access information. Before the digital age, information was primarily available through libraries, newspapers, and television — sources controlled by professional editors and publishers. Today, anyone with an Internet connection can publish content and access information instantly. However, this democratization of information has also led to the spread of misinformation, as anyone can share unverified claims without editorial oversight.",
+      "question": "What is the unintended consequence of the democratization of information mentioned in the passage?",
+      "options": [
+        "A. Libraries have closed down completely.",
+        "B. People no longer watch television.",
+        "C. The spread of misinformation due to lack of editorial oversight.",
+        "D. Professional editors have lost their jobs."
+      ],
+      "explanation": "The passage states that 'this democratization of information has also led to the spread of misinformation, as anyone can share unverified claims without editorial oversight.' Option C directly captures this consequence. Options A, B, and D are not stated in the passage.",
+      "knowledge_point": "阅读理解-因果推断",
+      "difficulty": 2,
+      "tags": [
+        "因果推断",
+        "信息技术"
+      ],
+      "source": "https://example.com/internet-information-age",
+      "question_id": "NEW_RC_008",
+      "correct_answer": "C",
+      "reference": "",
+      "id": "NEW_RC_008"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Urban gardening has gained popularity in recent years as city dwellers seek to reconnect with nature and promote sustainable living. Community gardens transform vacant lots into green spaces where residents grow fruits, vegetables, and flowers. These gardens not only provide fresh produce but also serve as social hubs where neighbors meet and build relationships. Studies have shown that participation in community gardening reduces stress, improves physical health, and strengthens community bonds. Cities worldwide are now supporting urban agriculture through policy changes and funding programs.",
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "A. Community gardens are the best way to grow vegetables in cities.",
+        "B. Urban gardening offers multiple benefits including fresh produce, social connections, and health improvements.",
+        "C. Cities should eliminate all vacant lots and replace them with gardens.",
+        "D. Government funding for urban agriculture is insufficient."
+      ],
+      "explanation": "The passage covers multiple benefits of urban gardening: fresh produce, social connections (social hubs), health improvements (stress reduction, physical health), and community bonds. Option B captures all these aspects. Option A is too narrow. Option C is extreme and not stated. Option D is not addressed.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 2,
+      "tags": [
+        "主旨概括",
+        "城市生活"
+      ],
+      "source": "https://example.com/urban-gardening-trends",
+      "question_id": "NEW_RM_001",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_001"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "The concept of lifelong learning has become essential in the modern world. Rapid technological advancement means that skills learned in college may become obsolete within a few years. Professionals across all fields are now expected to continuously update their knowledge through online courses, workshops, and certifications. Companies are increasingly offering tuition reimbursement and professional development budgets to encourage employee learning. Educational institutions are adapting by offering flexible programs designed for working adults who need to balance learning with career and family commitments.",
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "A. College degrees are no longer valuable in the modern world.",
+        "B. Lifelong learning is necessary due to rapid technological change and professional demands.",
+        "C. Online courses are superior to traditional classroom education.",
+        "D. Companies should pay for all employee education."
+      ],
+      "explanation": "The passage argues that lifelong learning is essential because of technological advancement making skills obsolete, and that professionals across fields are expected to continuously update knowledge. Option B captures this main argument. Option A is too extreme. Option C is not compared. Option D is a specific detail, not the main idea.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 2,
+      "tags": [
+        "主旨概括",
+        "终身学习"
+      ],
+      "source": "https://example.com/lifelong-learning-trends",
+      "question_id": "NEW_RM_002",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_002"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Fast fashion has transformed the clothing industry, making trendy garments affordable and accessible to millions. However, this convenience comes at a significant environmental cost. The production of cheap clothing requires vast amounts of water, energy, and chemicals. Synthetic fibers used in fast fashion release microplastics into waterways when washed. Landfills around the world are overflowing with discarded garments, many of which were worn only a few times. Environmental activists are calling for consumers to buy less and choose quality over quantity.",
+      "question": "What is the main point of the passage?",
+      "options": [
+        "A. Fast fashion is the cheapest way to buy clothes.",
+        "B. The environmental costs of fast fashion outweigh its affordability benefits.",
+        "C. Consumers should never buy clothes from fast fashion brands.",
+        "D. Synthetic fibers are the only problem with fast fashion."
+      ],
+      "explanation": "The passage presents fast fashion's benefits (affordability, accessibility) but focuses on its environmental costs (water, energy, chemicals, microplastics, landfill waste). The overall point is that the environmental toll is significant. Option B captures this contrast. Option A only states one benefit. Option C is too absolute. Option D is too narrow.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 2,
+      "tags": [
+        "主旨概括",
+        "环境保护"
+      ],
+      "source": "https://example.com/fast-fashion-impact",
+      "question_id": "NEW_RM_003",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_003"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Artificial intelligence is reshaping healthcare in multiple ways. AI algorithms can analyze medical images faster and sometimes more accurately than human doctors, detecting early signs of diseases like cancer. Natural language processing enables AI systems to review patient records and identify patterns that might indicate treatment risks. Robotic surgery systems guided by AI allow for minimally invasive procedures with greater precision. Despite these advances, experts caution that AI should augment rather than replace physicians, as human judgment and empathy remain essential in patient care.",
+      "question": "What is the main idea of this passage about AI in healthcare?",
+      "options": [
+        "A. AI will completely replace doctors in the near future.",
+        "B. AI is transforming healthcare through diagnostics, data analysis, and surgery while complementing rather than replacing physicians.",
+        "C. Robotic surgery is the most important application of AI in medicine.",
+        "D. Medical images cannot be analyzed by humans accurately."
+      ],
+      "explanation": "The passage discusses multiple AI applications in healthcare (medical imaging, patient records, robotic surgery) and concludes that AI should augment rather than replace physicians. Option B comprehensively captures all these points. Option A contradicts the passage's conclusion. Option C is too narrow. Option D is an overstatement.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 3,
+      "tags": [
+        "主旨概括",
+        "人工智能"
+      ],
+      "source": "https://example.com/ai-healthcare-future",
+      "question_id": "NEW_RM_004",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_004"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "The four-day workweek is gaining traction as companies experiment with alternative scheduling models. Several pilot programs in the UK and US have shown that reducing working hours from 40 to 32 per week did not decrease productivity — in many cases, it increased it. Employees reported lower stress levels, better work-life balance, and improved mental health. Companies noted reduced absenteeism and higher employee retention. Critics argue that not all industries can adopt this model, particularly those requiring continuous operations like healthcare and manufacturing.",
+      "question": "What is the central theme of the passage?",
+      "options": [
+        "A. All companies should immediately switch to a four-day workweek.",
+        "B. The four-day workweek shows promising results in productivity and wellbeing, though not universally applicable.",
+        "C. Healthcare and manufacturing cannot function without a five-day schedule.",
+        "D. Employee stress levels are the only metric that matters in workplace design."
+      ],
+      "explanation": "The passage presents evidence of positive outcomes (productivity, stress reduction, retention) from four-day workweek pilots, but also acknowledges limitations (not all industries can adopt it). Option B captures both the promise and the caveat. Option A is too absolute. Option C is too narrow. Option D ignores other benefits mentioned.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 3,
+      "tags": [
+        "主旨概括",
+        "职场文化"
+      ],
+      "source": "https://example.com/four-day-workweek-study",
+      "question_id": "NEW_RM_005",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_005"
+    },
+    {
+      "type": "reading",
+      "bank": "2026年6月薄弱点专项",
+      "passage": "Music education has long been debated in schools. Supporters argue that learning music enhances cognitive development, improves memory and concentration, and fosters creativity. Students who participate in music programs often perform better academically across all subjects. Music also teaches discipline and teamwork — ensemble playing requires listening to others and coordinating with the group. Despite these benefits, school budgets are increasingly being cut, with music programs among the first to be eliminated. Advocates are campaigning to restore music education as a core component of school curricula.",
+      "question": "What is the main argument of the passage?",
+      "options": [
+        "A. Music education should be eliminated from school budgets.",
+        "B. Music education provides cognitive, academic, and social benefits that justify its place in school curricula.",
+        "C. Students who learn music always get better grades.",
+        "D. Ensemble playing is the most important part of music education."
+      ],
+      "explanation": "The passage outlines multiple benefits of music education (cognitive development, academic performance, discipline, teamwork) and concludes with advocates campaigning to restore it. Option B captures the overall argument. Option A contradicts the passage. Option C is too absolute ('always'). Option D is a detail, not the main argument.",
+      "knowledge_point": "阅读理解-主旨概括",
+      "difficulty": 2,
+      "tags": [
+        "主旨概括",
+        "教育"
+      ],
+      "source": "https://example.com/music-education-benefits",
+      "question_id": "NEW_RM_006",
+      "correct_answer": "B",
+      "reference": "",
+      "id": "NEW_RM_006"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The two companies decided to ________ forces to develop a new product line.",
+      "options": [
+        "A. join",
+        "B. make",
+        "C. do",
+        "D. take"
+      ],
+      "explanation": "Join forces is a fixed collocation meaning 'to combine efforts or resources.' 'Make forces,' 'do forces,' and 'take forces' are not valid English collocations. This phrase is commonly used in business and military contexts.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 1,
+      "tags": [
+        "固定搭配",
+        "商业英语"
+      ],
+      "source": "https://example.com/collocations-dictionary",
+      "question_id": "NEW_FC_001",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_001"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "She managed to ________ with her studies despite having a full-time job.",
+      "options": [
+        "A. keep up",
+        "B. keep on",
+        "C. keep off",
+        "D. keep out"
+      ],
+      "explanation": "Keep up with means 'to continue at the same level or pace as someone or something.' Keep on means 'to continue doing something,' keep off means 'to stay away from,' and keep out means 'to stay outside.' Only 'keep up with' fits the context of maintaining academic progress alongside work.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "动词短语"
+      ],
+      "source": "https://example.com/phrasal-verbs-guide",
+      "question_id": "NEW_FC_002",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_002"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The government has taken ________ measures to combat inflation.",
+      "options": [
+        "A. effective",
+        "B. efficient",
+        "C. sufficient",
+        "D. adequate"
+      ],
+      "explanation": "Take effective measures is a fixed collocation meaning 'to implement actions that produce the desired result.' Efficient refers to doing things with minimum waste of time/energy (used for people/processes, not measures). Sufficient and adequate mean 'enough' but don't convey the idea of producing results.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "形容词搭配"
+      ],
+      "source": "https://example.com/academic-collocations",
+      "question_id": "NEW_FC_003",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_003"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "He has a strong ________ for classical music.",
+      "options": [
+        "A. preference",
+        "B. affection",
+        "C. inclination",
+        "D. attraction"
+      ],
+      "explanation": "Preference for is a fixed collocation meaning 'a liking or favor for one thing over another.' Affection for means warm feeling but not specifically about choice. Inclination toward suggests tendency. Attraction to refers to appeal. 'Strong preference for' is the standard collocation.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "名词搭配"
+      ],
+      "source": "https://example.com/noun-collocations",
+      "question_id": "NEW_FC_004",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_004"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The scientist made a significant ________ in the field of genetics.",
+      "options": [
+        "A. contribution",
+        "B. donation",
+        "C. submission",
+        "D. addition"
+      ],
+      "explanation": "Make a contribution to is a fixed collocation meaning 'to help something improve or succeed.' Donation refers to giving money/goods. Submission means presenting something for consideration. Addition means something added. Scientists make contributions to their fields.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 1,
+      "tags": [
+        "固定搭配",
+        "学术英语"
+      ],
+      "source": "https://example.com/academic-phrases",
+      "question_id": "NEW_FC_005",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_005"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "We need to come ________ with a solution to this problem.",
+      "options": [
+        "A. up",
+        "B. with",
+        "C. about",
+        "D. across"
+      ],
+      "explanation": "Come up with is a phrasal verb meaning 'to think of or produce an idea, plan, or solution.' Come with means to accompany. Come about means to happen. Come across means to find by chance. Only 'come up with' fits the context of producing a solution.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "动词短语"
+      ],
+      "source": "https://example.com/phrasal-verbs-list",
+      "question_id": "NEW_FC_006",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_006"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The company is committed to ________ the environment.",
+      "options": [
+        "A. protecting",
+        "B. preserving",
+        "C. conserving",
+        "D. sustaining"
+      ],
+      "explanation": "Committed to protecting is the most natural collocation. While preserving, conserving, and sustaining are related concepts, 'protect the environment' is the standard fixed expression in English. The preposition 'to' here is followed by the gerund 'protecting.'",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "环保用语"
+      ],
+      "source": "https://example.com/environmental-terms",
+      "question_id": "NEW_FC_007",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_007"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "She has a talent ________ painting landscapes.",
+      "options": [
+        "A. for",
+        "B. in",
+        "C. at",
+        "D. with"
+      ],
+      "explanation": "Have a talent for is a fixed collocation. We say 'talent for painting/music/writing' not 'talent in/at/with.' This is one of the most common preposition errors in English.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 1,
+      "tags": [
+        "固定搭配",
+        "介词搭配"
+      ],
+      "source": "https://example.com/preposition-collocations",
+      "question_id": "NEW_FC_008",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_008"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The teacher drew the students' ________ to the importance of regular practice.",
+      "options": [
+        "A. attention",
+        "B. interest",
+        "C. focus",
+        "D. mind"
+      ],
+      "explanation": "Draw someone's attention to is a fixed collocation meaning 'to make someone notice something.' Draw interest, draw focus, and draw mind are not standard collocations. This is a commonly tested phrase pattern.",
+      "knowledge_point": "固定搭配",
+      "difficulty": 1,
+      "tags": [
+        "固定搭配",
+        "动词短语"
+      ],
+      "source": "https://example.com/verb-collocations",
+      "question_id": "NEW_FC_009",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_009"
+    },
+    {
+      "type": "single",
+      "bank": "2026年6月薄弱点专项",
+      "question": "The new policy is expected to have a major ________ on the economy.",
+      "options": [
+        "A. impact",
+        "B. effect",
+        "C. influence",
+        "D. result"
+      ],
+      "explanation": "Have an impact on is the standard collocation. While 'effect on' and 'influence on' are grammatically possible, 'major impact on' is the most natural and commonly used expression in formal English. 'Result' takes 'of' not 'on.'",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        "固定搭配",
+        "名词搭配"
+      ],
+      "source": "https://example.com/formal-collocations",
+      "question_id": "NEW_FC_010",
+      "correct_answer": "A",
+      "passage": "",
+      "reference": "",
+      "id": "NEW_FC_010"
+    }
+  ],
+  "banks": {
+    "某高校学位英语": {
+      "name": "某高校学位英语",
+      "description": "经5位教练联合出题整理的全新题库（2026-06-12）",
+      "total": 180,
+      "categories": {
+        "基础语法": 124,
+        "阅读理解": 18,
+        "写作专项": 2,
+        "对话补全": 2
+      }
+    }
+  },
+  "meta": {
+    "version": 3,
+    "updated": "2026-06-14",
+    "total_questions": 204,
+    "last_updated": "2026-06-18T17:40:06.590397"
+  }
+}

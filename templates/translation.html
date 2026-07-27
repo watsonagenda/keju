@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科举 — 翻译训练</title>
+<style>
+:root {
+  --primary: #4361ee; --primary-light: #eef1ff; --primary-dark: #2f48c7;
+  --success: #10b981; --warning: #f59e0b; --danger: #ef4444; --orange: #f97316;
+  --bg: #f8fafc; --surface: #ffffff; --text: #1e293b; --text-secondary: #64748b;
+  --border: #e2e8f0; --border-light: #f1f5f9;
+  --radius: 12px; --radius-sm: 8px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+  --transition: 0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;letter-spacing:0.01em;-webkit-font-smoothing:antialiased}
+.navbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;gap:32px}
+.navbar .logo{font-size:1.25rem;font-weight:700;color:var(--primary);display:flex;align-items:center;gap:8px}
+.navbar .logo .icon{width:28px;height:28px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.nav-links{display:flex;gap:8px;margin-left:auto}
+.nav-links a{padding:6px 16px;border-radius:6px;color:var(--text-secondary);font-size:0.9rem;font-weight:500;transition:all var(--transition)}
+.nav-links a:hover,.nav-links a.active{background:var(--primary-light);color:var(--primary)}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.page-header{margin-bottom:24px}
+.page-header h1{font-size:1.5rem;font-weight:700}
+.main-layout{display:flex;gap:20px}
+.left-panel{flex:3;min-width:0}
+.right-panel{flex:5;min-width:0}
+.prompt-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-card);margin-bottom:16px}
+.prompt-card .prompt-label{font-size:0.8rem;color:var(--text-secondary);font-weight:600;margin-bottom:8px}
+.prompt-card .prompt-text{font-size:1.05rem;line-height:1.8;color:var(--text);white-space:pre-wrap}
+.q-type-badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.75rem;font-weight:600;background:var(--primary-light);color:var(--primary)}
+.answer-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-card)}
+.answer-panel textarea{width:100%;min-height:200px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px;font-family:inherit;font-size:0.95rem;line-height:1.8;resize:vertical;color:var(--text);transition:border-color var(--transition)}
+.answer-panel textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light)}
+.btn-row{display:flex;gap:12px;margin-top:16px}
+.btn{padding:10px 20px;border-radius:var(--radius-sm);font-size:0.9rem;font-weight:600;cursor:pointer;transition:all var(--transition);border:none}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark);box-shadow:var(--shadow-hover)}
+.btn-primary:disabled{background:var(--border);color:var(--text-secondary);cursor:not-allowed}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text-secondary)}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+.result-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-top:16px;box-shadow:var(--shadow-card);display:none}
+.result-card.show{display:block}
+.result-card .result-header{font-weight:700;font-size:1rem;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border-light)}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+.stat-item{text-align:center;padding:12px;background:var(--border-light);border-radius:var(--radius-sm)}
+.stat-item .stat-num{font-size:1.5rem;font-weight:700;color:var(--primary)}
+.stat-item .stat-label{font-size:0.75rem;color:var(--text-secondary);margin-top:2px}
+.reference-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-sm);padding:16px;margin:16px 0}
+.reference-box .ref-label{font-weight:700;font-size:0.85rem;color:#059669;margin-bottom:8px}
+.reference-box .ref-text{font-size:0.95rem;line-height:1.8;color:var(--text);white-space:pre-wrap}
+.scoring-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:0.85rem}
+.scoring-table th{text-align:left;padding:8px 12px;background:var(--border-light);font-weight:600;color:var(--text-secondary)}
+.scoring-table td{padding:8px 12px;border-bottom:1px solid var(--border-light)}
+.q-list{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.q-item{padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:all var(--transition);font-size:0.9rem}
+.q-item:hover{border-color:var(--primary);box-shadow:var(--shadow-hover)}
+.q-item.active{border-color:var(--primary);background:var(--primary-light);color:var(--primary);font-weight:600}
+.q-item .q-num{font-weight:700;margin-right:8px}
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-secondary)}
+@media(max-width:720px){.main-layout{flex-direction:column}.stats-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo"><span class="icon">K</span>科举</div>
+  <div class="nav-links">
+    <a href="/">首页</a>
+    <a href="/translation" class="active">翻译</a>
+    <a href="/writing">写作</a>
+    <a href="/results">成绩</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="page-header"><h1>翻译训练</h1></div>
+  <div id="app"><div class="empty-state"><p>加载中...</p></div></div>
+</div>
+<script>
+const allQuestions = {{ questions | tojson }};
+if(!allQuestions.length){
+  document.getElementById('app').innerHTML='<div class="empty-state"><p>暂无翻译题目，请通过 /api/agent/import 导入。</p></div>';
+}else{
+  let currentIdx=0;
+  let currentQ=allQuestions[0];
+  let answers={};
+  let results={};
+
+  function render(){
+    const q=currentQ;
+    const userAnswer=answers[q.id]||'';
+    const hasResult=!!results[q.id];
+    const res=results[q.id];
+
+    document.getElementById('app').innerHTML=`
+    <div class="q-list">
+      ${allQuestions.map((qi,i)=>`<div class="q-item${qi.id===q.id?' active':''}" onclick="switchQ(${i})">
+        <span class="q-num">#${i+1}</span>${qi.question.substring(0,50)}...
+      </div>`).join('')}
+    </div>
+    <div class="main-layout">
+      <div class="left-panel">
+        <div class="prompt-card">
+          <div class="prompt-label"><span class="q-type-badge">翻译</span> ${q.knowledge_point||''} ${q.source||''}</div>
+          <div class="prompt-text">${q.question}</div>
+        </div>
+        ${q.explanation?`<div class="prompt-card" style="background:#f0fdf4;border-color:#bbf7d0"><div class="prompt-label" style="color:#059669">评分说明</div><div class="prompt-text" style="font-size:0.9rem">${q.explanation}</div></div>`:''}
+      </div>
+      <div class="right-panel">
+        <div class="answer-panel">
+          <textarea id="answer-ta" placeholder="在此输入你的译文..." ${hasResult?'readonly':''}>${userAnswer}</textarea>
+          <div style="font-size:0.8rem;color:var(--text-secondary);margin-top:8px">已输入 <strong>${userAnswer.replace(/\\s/g,'').length}</strong> 字</div>
+          <div class="btn-row">
+            <button class="btn btn-outline" onclick="clearAnswer()" ${hasResult?'disabled':''}>清空</button>
+            <button class="btn btn-primary" id="submit-btn" onclick="submitTranslation()" ${hasResult||!userAnswer?'disabled':''}>提交并查看参考译文</button>
+          </div>
+        </div>
+        ${hasResult?`
+        <div class="result-card show">
+          <div class="result-header">翻译反馈</div>
+          <div class="stats-row">
+            <div class="stat-item"><div class="stat-num">${res.stats.user_words}</div><div class="stat-label">你的词数</div></div>
+            <div class="stat-item"><div class="stat-num">${res.stats.ref_words}</div><div class="stat-label">参考词数</div></div>
+            <div class="stat-item"><div class="stat-num">${res.stats.keyword_overlap_rate}%</div><div class="stat-label">关键词覆盖率</div></div>
+          </div>
+          <div class="reference-box">
+            <div class="ref-label">参考译文</div>
+            <div class="ref-text">${res.reference}</div>
+          </div>
+          <details style="margin-top:12px">
+            <summary style="font-weight:600;cursor:pointer;font-size:0.9rem">评分维度参考</summary>
+            <table class="scoring-table">
+              <tr><th>维度</th><th>权重</th><th>说明</th></tr>
+              ${res.scoring_dimensions.map(d=>`<tr><td>${d.name}</td><td>${d.weight}</td><td>${d.description}</td></tr>`).join('')}
+            </table>
+          </details>
+        </div>`:''}
+      </div>
+    </div>`;
+  }
+
+  window.switchQ=function(idx){
+    const ta=document.getElementById('answer-ta');
+    if(ta && !results[currentQ.id]) answers[currentQ.id]=ta.value;
+    currentIdx=idx;
+    currentQ=allQuestions[idx];
+    render();
+  };
+  window.clearAnswer=function(){
+    answers[currentQ.id]='';
+    render();
+  };
+  window.submitTranslation=function(){
+    const ta=document.getElementById('answer-ta');
+    if(!ta) return;
+    const text=ta.value.trim();
+    if(!text) return;
+    answers[currentQ.id]=text;
+    const btn=document.getElementById('submit-btn');
+    if(btn){btn.disabled=true;btn.textContent='提交中...';}
+    fetch('/api/quiz/check-translation',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({question_id:currentQ.id,answer:text})
+    }).then(r=>r.json()).then(data=>{
+      if(data.success){
+        results[currentQ.id]=data;
+        render();
+      }
+    });
+  };
+  render();
+}
+</script>
+</body>
+</html>

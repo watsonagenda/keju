@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科举 — 成绩</title>
+<style>
+:root {
+  --primary: #4361ee; --primary-light: #eef1ff; --primary-dark: #2f48c7;
+  --success: #10b981; --warning: #f59e0b; --danger: #ef4444; --orange: #f97316;
+  --bg: #f8fafc; --surface: #ffffff; --text: #1e293b; --text-secondary: #64748b;
+  --border: #e2e8f0; --border-light: #f1f5f9;
+  --radius: 12px; --radius-sm: 8px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+  --transition: 0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;letter-spacing:0.01em;-webkit-font-smoothing:antialiased}
+
+.navbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;gap:32px}
+.navbar .logo{font-size:1.25rem;font-weight:700;color:var(--primary);display:flex;align-items:center;gap:8px}
+.navbar .logo .icon{width:28px;height:28px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.nav-links{display:flex;gap:8px;margin-left:auto}
+.nav-links a{padding:6px 16px;border-radius:6px;color:var(--text-secondary);font-size:0.9rem;font-weight:500;transition:all var(--transition)}
+.nav-links a:hover,.nav-links a.active{background:var(--primary-light);color:var(--primary)}
+
+.container{max-width:960px;margin:0 auto;padding:24px}
+.page-header{margin-bottom:24px;display:flex;justify-content:space-between;align-items:center}
+.page-header h1{font-size:1.5rem;font-weight:700}
+
+/* 概览统计 */
+.overview-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:32px}
+.oc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;box-shadow:var(--shadow-card);transition:all var(--transition)}
+.oc:hover{box-shadow:var(--shadow-hover)}
+.oc .oc-num{font-size:2.2rem;font-weight:800;line-height:1.1;margin-bottom:4px}
+.oc .oc-label{font-size:0.8rem;color:var(--text-secondary);font-weight:500}
+.oc:nth-child(1) .oc-num{color:var(--primary)}
+.oc:nth-child(2) .oc-num{color:var(--success)}
+.oc:nth-child(3) .oc-num{color:var(--warning)}
+.oc:nth-child(4) .oc-num{color:var(--text)}
+
+/* 筛选 */
+.filter-row{display:flex;gap:10px;margin-bottom:20px}
+.filter-row select{padding:8px 14px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:0.9rem;background:var(--surface);color:var(--text);cursor:pointer}
+.filter-row select:focus{outline:none;border-color:var(--primary)}
+
+/* 导出按钮 */
+.btn{padding:8px 18px;border-radius:var(--radius-sm);font-size:0.85rem;font-weight:600;cursor:pointer;transition:all var(--transition);border:none;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text-secondary)}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+.btn-success{background:var(--success);color:#fff}
+.btn-success:hover{background:#059669}
+
+/* 记录列表 */
+.record-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-card);margin-bottom:16px;transition:all var(--transition)}
+.record-card:hover{box-shadow:var(--shadow-hover)}
+.record-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px}
+.record-header .rh-left{}
+.record-header .rh-bank{font-size:1.05rem;font-weight:700}
+.record-header .rh-date{font-size:0.8rem;color:var(--text-secondary);margin-top:2px}
+.record-header .rh-score{text-align:right}
+.record-header .rh-score-num{font-size:1.5rem;font-weight:800;color:var(--primary);line-height:1.1}
+.record-header .rh-score-label{font-size:0.75rem;color:var(--text-secondary)}
+
+.score-bar{width:100%;height:14px;background:var(--border-light);border-radius:7px;overflow:hidden;margin-bottom:12px}
+.score-bar-fill{height:100%;border-radius:7px;transition:width 0.5s ease}
+.score-bar-fill.high{background:linear-gradient(90deg,var(--success),#34d399)}
+.score-bar-fill.mid{background:linear-gradient(90deg,var(--warning),#fbbf24)}
+.score-bar-fill.low{background:linear-gradient(90deg,var(--danger),#f87171)}
+
+/* 信心度分布 */
+.confidence-chart{display:flex;gap:8px;height:40px;align-items:flex-end;margin-bottom:8px}
+.conf-bar{flex:1;border-radius:4px 4px 0 0;min-width:8px;transition:height 0.4s ease}
+.conf-bar.confident{background:var(--success)}
+.conf-bar.neutral{background:#94a3b8}
+.conf-bar.guess{background:var(--orange)}
+.conf-legend{display:flex;gap:16px;font-size:0.75rem;color:var(--text-secondary)}
+.conf-legend span{display:flex;align-items:center;gap:4px}
+.conf-legend .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dot.confident{background:var(--success)}
+.dot.neutral{background:#94a3b8}
+.dot.guess{background:var(--orange)}
+
+.record-detail{margin-top:12px;border-top:1px solid var(--border-light);padding-top:12px}
+.record-detail summary{font-weight:600;font-size:0.85rem;cursor:pointer;color:var(--primary)}
+.answer-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border-light);font-size:0.85rem}
+.answer-item:last-child{border-bottom:none}
+.answer-item .ai-icon{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+.answer-item .ai-icon.correct{background:#dcfce7;color:var(--success)}
+.answer-item .ai-icon.wrong{background:#fee2e2;color:var(--danger)}
+.answer-item .ai-icon.skip{background:var(--border-light);color:var(--text-secondary)}
+.answer-item .ai-conf{font-size:0.7rem;padding:1px 6px;border-radius:10px;font-weight:600}
+.ai-conf.confident{background:#dcfce7;color:#059669}
+.ai-conf.neutral{background:#f1f5f9;color:#475569}
+.ai-conf.guess{background:#fff7ed;color:#c2410c}
+
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-secondary)}
+.empty-state p{font-size:0.95rem}
+
+.section-title{font-size:1.1rem;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'';width:4px;height:18px;background:var(--primary);border-radius:2px}
+
+/* 导出 loading */
+.toast{position:fixed;bottom:24px;right:24px;background:var(--text);color:#fff;padding:12px 20px;border-radius:var(--radius-sm);font-size:0.85rem;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,0.15);animation:fadeIn 0.2s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:640px){
+  .overview-cards{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo"><span class="icon">K</span>科举</div>
+  <div class="nav-links">
+    <a href="/">首页</a>
+    <a href="/writing">写作</a>
+    <a href="/results" class="active">成绩</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>答题成绩</h1>
+    <div style="display:flex;gap:10px">
+      <button class="btn btn-outline" onclick="exportResults()">导出答题记录</button>
+      <button class="btn btn-success" onclick="exportWeakpoints()">导出薄弱分析</button>
+    </div>
+  </div>
+
+  <div class="overview-cards">
+    <div class="oc"><div class="oc-num" id="ov-total">0</div><div class="oc-label">总答题数</div></div>
+    <div class="oc"><div class="oc-num" id="ov-correct">0</div><div class="oc-label">正确题数</div></div>
+    <div class="oc"><div class="oc-num" id="ov-rate">0%</div><div class="oc-label">正确率</div></div>
+    <div class="oc"><div class="oc-num" id="ov-attempts">0</div><div class="oc-label">答题次数</div></div>
+  </div>
+
+  <div class="filter-row">
+    <select id="bank-filter" onchange="renderAll()">
+      <option value="">全部题库</option>
+    </select>
+  </div>
+
+  <div id="records-container">
+    <div class="empty-state"><p>加载中...</p></div>
+  </div>
+</div>
+
+<script>
+let allResults = [];
+let banks = new Set();
+
+// 获取全部 results
+fetch('/api/analysis/export-results')
+  .then(r=>r.json())
+  .then(data=>{
+    if(!data.success)return;
+    allResults = (data.data.records||[]).reverse(); // 正序用于列表
+    allResults.forEach(r=>{
+      if(r.bank)banks.add(r.bank);
+    });
+    // 填充 bank filter
+    const sel=document.getElementById('bank-filter');
+    banks.forEach(b=>{const o=document.createElement('option');o.value=b;o.textContent=b;sel.appendChild(o)});
+    renderAll();
+  });
+
+// 概览
+fetch('/api/analysis/overview')
+  .then(r=>r.json())
+  .then(data=>{
+    document.getElementById('ov-total').textContent=data.total_answered;
+    document.getElementById('ov-correct').textContent=data.total_correct;
+    document.getElementById('ov-rate').textContent=data.overall_rate+'%';
+    document.getElementById('ov-attempts').textContent=data.attempts;
+  });
+
+function renderAll(){
+  const sel=document.getElementById('bank-filter').value;
+  let filtered=allResults;
+  if(sel) filtered=allResults.filter(r=>r.bank===sel);
+
+  if(!filtered.length){
+    document.getElementById('records-container').innerHTML='<div class="empty-state"><p>暂无答题记录</p></div>';
+    return;
+  }
+
+  const html=filtered.map(r=>{
+    const correct=r.correct_count||0;
+    const total=r.total_questions||0;
+    const rate=total?Math.round(correct/total*100):0;
+    const barClass=rate>=80?'high':rate>=60?'mid':'low';
+    const cs=r.confidence_stats||{confident:0,neutral:0,guess:0};
+    const maxConf=Math.max(cs.confident,cs.neutral,cs.guess,1);
+    const gc=r.guess_correct||0;
+    const gt=r.guess_total||0;
+
+    const answersHtml=(r.answers||[]).map(a=>{
+      let iconCls=a.is_correct?'correct':(a.is_correct===false?'wrong':'skip');
+      let iconTxt=a.is_correct?'✓':(a.is_correct===false?'✗':'--');
+      const conf=a.confidence||'';
+      const confLabel=conf==='confident'?'有把握':conf==='neutral'?'一般':conf==='guess'?'没把握':'';
+      return `<div class="answer-item">
+        <span class="ai-icon ${iconCls}">${iconTxt}</span>
+        <span style="flex:1">${(a.question||'').substring(0,60)}</span>
+        ${conf?`<span class="ai-conf ${conf}">${confLabel}</span>`:''}
+      </div>`;
+    }).join('');
+
+    return `<div class="record-card">
+      <div class="record-header">
+        <div class="rh-left">
+          <div class="rh-bank">${r.bank}</div>
+          <div class="rh-date">${(r.date||'').substring(0,19).replace('T',' ')}</div>
+        </div>
+        <div class="rh-score">
+          <div class="rh-score-num">${rate}%</div>
+          <div class="rh-score-label">${correct}/${total}</div>
+        </div>
+      </div>
+      <div class="score-bar"><div class="score-bar-fill ${barClass}" style="width:${rate}%"></div></div>
+
+      ${(cs.confident+cs.neutral+cs.guess)>0?`
+      <div class="confidence-chart">
+        <div class="conf-bar confident" style="height:${Math.max(6,cs.confident/maxConf*40)}px" title="有把握 ${cs.confident}"></div>
+        <div class="conf-bar neutral" style="height:${Math.max(6,cs.neutral/maxConf*40)}px" title="一般 ${cs.neutral}"></div>
+        <div class="conf-bar guess" style="height:${Math.max(6,cs.guess/maxConf*40)}px" title="没把握 ${cs.guess}"></div>
+      </div>
+      <div class="conf-legend">
+        <span><span class="dot confident"></span>有把握 ${cs.confident}</span>
+        <span><span class="dot neutral"></span>一般 ${cs.neutral}</span>
+        <span><span class="dot guess"></span>没把握 ${cs.guess}</span>
+        ${gt>0?`<span style="color:var(--orange);font-weight:600">蒙对 ${gc}/${gt}</span>`:''}
+      </div>`:''}
+
+      <details class="record-detail"><summary>查看答题明细 (${(r.answers||[]).length}题)</summary>${answersHtml}</details>
+    </div>`;
+  }).join('');
+
+  document.getElementById('records-container').innerHTML=html;
+}
+
+function showToast(msg){
+  const t=document.createElement('div');t.className='toast';t.textContent=msg;document.body.appendChild(t);
+  setTimeout(()=>t.remove(),2000);
+}
+
+function exportResults(){
+  fetch('/api/analysis/export-results')
+    .then(r=>r.json())
+    .then(data=>{
+      const blob=new Blob([JSON.stringify(data.data,null,2)],{type:'application/json'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url;a.download=`答题记录_${new Date().toISOString().substring(0,10)}.json`;a.click();
+      URL.revokeObjectURL(url);
+      showToast('答题记录已导出');
+    });
+}
+
+function exportWeakpoints(){
+  fetch('/api/analysis/export-weakpoints')
+    .then(r=>r.json())
+    .then(data=>{
+      const blob=new Blob([JSON.stringify({summary:data.data,details:data.details},null,2)],{type:'application/json'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url;a.download=`薄弱知识点分析_${new Date().toISOString().substring(0,10)}.json`;a.click();
+      URL.revokeObjectURL(url);
+      showToast('薄弱知识点分析已导出');
+    });
+}
+</script>
+</body>
+</html>

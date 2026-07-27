@@ -1,0 +1,202 @@
+# 科举 审题规则配置
+# 教研审核老师专用 - 所有题目入库前必须通过本规则校验
+
+version: "2.0"
+updated: "2026-06-13"
+
+# ─── 题型必填字段定义 ───
+question_types:
+  # 词汇语法单选题
+  single:
+    label: "词汇语法"
+    required_fields:
+      - id          # 唯一ID，建议 bank_xxxx 格式
+      - type        # 固定值: single
+      - question    # 题目正文，不得为空
+      - options     # 选项数组，最少2个，建议4个
+      - answer      # 正确答案（单个字母 A/B/C/D）
+      - knowledge_point  # 知识点标注
+    recommended_fields:
+      - explanation  # 答案解析
+      - difficulty   # 难度 1-5
+      - tags         # 标签数组
+      - source       # 题目来源
+      - bank         # 所属题库
+    format_rules:
+      options_format: "每个选项以大写字母+英文句点开头，如 'A. ...'"
+      answer_format: "单个大写字母或字母组合(多选题)，如 'A' 或 'B,C,D'"
+      question_min_length: 10
+
+  # 多选题（词汇语法类）
+  multiple:
+    label: "多选题"
+    required_fields:
+      - id
+      - type        # 固定值: multiple
+      - question
+      - options
+      - answer      # 多个字母组合，如 "B,C,D"
+      - knowledge_point
+    recommended_fields:
+      - explanation
+      - difficulty
+      - tags
+      - source
+    format_rules:
+      options_format: "同单选题"
+      answer_format: "逗号分隔的大写字母，如 'A,C'"
+
+  # 阅读理解
+  reading:
+    label: "阅读理解"
+    required_fields:
+      - id
+      - type        # 固定值: reading
+      - passage     # 阅读短文，不得为空，最少50词
+      - question    # 基于短文的问题
+      - options     # 4个选项
+      - answer      # 正确选项字母
+      - knowledge_point  # 标注为"阅读理解"
+    recommended_fields:
+      - explanation
+      - difficulty
+      - tags
+      - source
+    format_rules:
+      passage_min_words: 50
+      passage_max_words: 500
+      options_count: 4
+
+  # 翻译题
+  translation:
+    label: "翻译"
+    required_fields:
+      - id
+      - type        # 固定值: translation
+      - question    # 待翻译文本（英译汉或汉译英）
+      - answer      # 固定值: "主观题"
+      - reference   # 参考译文（必填，供学生对照）
+      - knowledge_point  # 标注为"翻译"
+    recommended_fields:
+      - explanation  # 翻译要点说明（关键词、语法点）
+      - key_points   # 关键采分点数组，如 ["时态正确", "核心词汇准确", "语序通顺"]
+      - difficulty
+      - tags
+      - source
+      - source_text  # 原文（如果是英译汉则为英文原文，汉译英则为中文原文）
+    format_rules:
+      reference_required: true
+      key_points_min_count: 3
+
+  # 写作题
+  writing:
+    label: "写作"
+    required_fields:
+      - id
+      - type        # 固定值: writing
+      - question    # 写作题目/要求
+      - answer      # 固定值: "主观题"
+      - reference   # 参考范文（必填）
+      - knowledge_point  # 标注为"写作"
+    recommended_fields:
+      - explanation  # 评分标准说明
+      - topic        # 作文主题（从question中提取）
+      - requirements # 写作要求数组，如 ["100-120词", "三段式结构"]
+      - scoring_criteria  # 评分维度对象，如 {content: 0.3, language: 0.25, structure: 0.2, vocabulary: 0.15, format: 0.1}
+      - difficulty
+      - tags
+      - source
+    format_rules:
+      reference_min_words: 80
+      question_must_contain_word_count: true  # 题目中必须包含词数要求
+
+  # 对话补全
+  dialogue_completion:
+    label: "对话补全"
+    required_fields:
+      - id
+      - type        # 固定值: dialogue_completion
+      - passage     # 对话文本（含 __BLANK__ 标记）
+      - question    # 题干说明
+      - options     # 选项数组，最少3个
+      - answer      # 正确选项字母
+      - knowledge_point  # 标注为"对话补全"
+    recommended_fields:
+      - explanation
+      - dialogue    # 如果passage已包含完整对话，此项可选
+      - blanks      # 挖空位置说明数组
+      - difficulty
+      - tags
+      - source
+    format_rules:
+      passage_must_contain: "__BLANK__"
+      options_min_count: 3
+      options_max_count: 5
+
+# ─── 全局格式校验规则 ───
+global_rules:
+  id_uniqueness: "ID必须在当前题库中唯一"
+  type_valid: "type必须为以下值之一: single, multiple, reading, translation, writing, dialogue_completion"
+  difficulty_range: "1-5（1最简单，5最难）"
+  tags_format: "字符串数组，建议使用中文标签"
+  bank_required: "bank字段建议填写，便于分类管理"
+
+# ─── 审题不通过原因分类 ───
+rejection_reasons:
+  - category: "格式错误"
+    codes:
+      - "F001"  # 缺少必填字段
+      - "F002"  # type字段值无效
+      - "F003"  # 选项格式不符合规范（如缺少字母前缀）
+      - "F004"  # answer格式错误（不匹配选项数量）
+      - "F005"  # ID格式不规范或重复
+
+  - category: "内容质量"
+    codes:
+      - "C001"  # 题干不清晰或有歧义
+      - "C002"  # 选项与题干不匹配
+      - "C003"  # 题目过于简单（难度与实际不符）
+      - "C004"  # 阅读短文过短或过长
+      - "C005"  # 翻译/写作题缺少参考译文/范文
+      - "C006"  # 对话补全缺少__BLANK__标记
+
+  - category: "答案问题"
+    codes:
+      - "A001"  # 正确答案缺失
+      - "A002"  # 答案不在选项中
+      - "A003"  # 多选题答案字母去重
+      - "A004"  # 主观题answer字段应为"主观题"
+
+  - category: "知识点标注"
+    codes:
+      - "K001"  # knowledge_point为空或标注错误
+      - "K002"  # knowledge_point与题型不匹配
+      - "K003"  # 缺少必要的知识点标签
+
+  - category: "解析问题"
+    codes:
+      - "E001"  # explanation缺失
+      - "E002"  # 解析过于简短（少于10字）
+      - "E003"  # 解析与正确答案矛盾
+
+# ─── 审题流转规则 ───
+workflow:
+  # 审题通过
+  approved:
+    action: "写入questions.json并同步SQLite数据库"
+    log: "记录审题人、时间、通过结果到shenpi_log.json"
+    notify: "通知题库研发老师：题目已入库"
+
+  # 审题打回
+  rejected:
+    action: "仅写入shenpi_log.json，不入库"
+    log: "记录打回原因码和详细说明"
+    notify: "通知题库研发老师：题目被打回，附带原因码和修改建议"
+    retry_policy: "题库研发老师修正后可重新提交，不限制重试次数"
+
+  # 批量审题
+  batch_mode:
+    input: "JSON数组，每道题独立审核"
+    output: "每道题独立的通过/打回结论"
+    partial_import: "通过的题目正常入库，打回的题目跳过"
+    summary: "审题完成后输出汇总统计（通过数/打回数/原因分布）"

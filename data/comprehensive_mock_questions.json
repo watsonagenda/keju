@@ -1,0 +1,4070 @@
+{
+  "bank_name": "某高校学位英语综合模拟",
+  "total_questions": 199,
+  "created_at": "2026-06-12T14:09:05.737998",
+  "questions": [
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_02",
+      "bank": "某高校学位英语",
+      "question": "The manager, together with his assistants, __________ working on the new project.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. were",
+        "D. have been"
+      ],
+      "answer": "A",
+      "knowledge_point": "主谓一致",
+      "difficulty": 2,
+      "explanation": "together with / as well as / along with连接两个主语时，谓语与前面的主语一致（就远原则）。the manager是单数，用is。不要被his assistants（复数）迷惑。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "type": "single",
+      "question": "It is _____ to cross the street when the traffic light is red.",
+      "options": [
+        "A. safely",
+        "B. safe",
+        "C. safety",
+        "D. to safe"
+      ],
+      "answer": "B",
+      "explanation": "It is+形容词+to do sth.意为做某事是...的，空处需填形容词作表语。句意：红灯时过马路是不安全的。",
+      "knowledge_point": "固定搭配",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 1,
+      "id": "某高校学位英语样题_86",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280079"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "6",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "She is __________ girl in our class.",
+      "options": [
+        "A. tall",
+        "B. taller",
+        "C. tallest",
+        "D. the tallest"
+      ],
+      "answer": "D",
+      "explanation": "最高级前通常要加the，且 in our class暗示比较范围是全班，所以用最高级the tallest。",
+      "knowledge_point": "形容词最高级",
+      "tags": [
+        "进阶"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "diag_adv_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "__________ hard you try, you won't succeed without proper guidance.",
+      "options": [
+        "A. No matter how",
+        "B. However",
+        "C. Whatever",
+        "D. Both A and B"
+      ],
+      "answer": "D",
+      "explanation": "no matter how和however都可以引导让步状语从句，后接形容词或副词。",
+      "knowledge_point": "状语从句",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "9",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Can you speak __________?",
+      "options": [
+        "A. English",
+        "B. an English",
+        "C. Englishes",
+        "D. the English"
+      ],
+      "answer": "A",
+      "explanation": "English作为语言名词，前面不加冠词，直接说speak English。",
+      "knowledge_point": "冠词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "diag_vocab_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "The teacher __________ the students to work harder for the final exam.",
+      "options": [
+        "A. encouraged",
+        "B. enabled",
+        "C. ensured",
+        "D. engaged"
+      ],
+      "answer": "A",
+      "explanation": "encourage sb. to do鼓励某人做某事。enable使能够，ensure确保，engage参与。",
+      "knowledge_point": "词义辨析",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_dial_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "— I'm sorry I broke your cup.\n— __________. I have another one.",
+      "options": [
+        "A. You're welcome",
+        "B. Never mind",
+        "C. That's right",
+        "D. With pleasure"
+      ],
+      "answer": "B",
+      "explanation": "对方道歉，回答Never mind最恰当。",
+      "knowledge_point": "情景对话",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "id": "2",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I am a __________. I study in a university.",
+      "options": [
+        "A. student",
+        "B. teacher",
+        "C. doctor",
+        "D. worker"
+      ],
+      "answer": "A",
+      "explanation": "student意思是'学生'。句意说我在某高校学习，所以是学生。",
+      "knowledge_point": "名词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "type": "single",
+      "question": "The number of people invited _____ fifty, but a number of them _____ absent for different reasons.",
+      "options": [
+        "A. were; was",
+        "B. was; was",
+        "C. were; were",
+        "D. was; were"
+      ],
+      "answer": "D",
+      "explanation": "the number of...作主语时谓语用单数(was)；a number of...作主语时谓语用复数(were)。句意：被邀请的人数为50人但许多人因各种原因缺席。",
+      "knowledge_point": "主谓一致",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_80",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280076"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "3",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "This is __________ book.",
+      "options": [
+        "A. my",
+        "B. me",
+        "C. I",
+        "D. mine"
+      ],
+      "answer": "A",
+      "explanation": "my是形容词性物主代词，后面接名词book。me是宾格，I是主格，mine是名词性物主代词。",
+      "knowledge_point": "物主代词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "phase1_12",
+      "bank": "某高校学位英语",
+      "question": "__________ everyone is here, let's begin the meeting.",
+      "options": [
+        "A. Because",
+        "B. For",
+        "C. Since",
+        "D. Due to"
+      ],
+      "answer": "C",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "explanation": "Since引导原因状语从句，语气比because弱，表示「既然」（已知信息）。Because虽也引导原因从句，但语气过强，此处更偏向「既然大家到了，咱们开始吧」。For作连词通常不放句首。Due to后接名词不接从句。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "id": "diag_tense_02",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "It __________ for three days. The roads will be very muddy.",
+      "options": [
+        "A. has been raining",
+        "B. rained",
+        "C. is raining",
+        "D. rains"
+      ],
+      "answer": "A",
+      "explanation": "for three days与现在完成进行时连用，表示动作持续到现在。",
+      "knowledge_point": "时态",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_nonfin_02",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I regret __________ you that your application has been rejected.",
+      "options": [
+        "A. to inform",
+        "B. informing",
+        "C. informed",
+        "D. having informed"
+      ],
+      "answer": "A",
+      "explanation": "regret to do表示遗憾要做某事；regret doing后悔做过某事。这里通知坏消息用to inform。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "19",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Would you like __________ tea?",
+      "options": [
+        "A. some",
+        "B. any",
+        "C. a",
+        "D. an"
+      ],
+      "answer": "A",
+      "explanation": "some用于疑问句中表示建议或邀请，用some tea。any用于否定句和疑问句。",
+      "knowledge_point": "名词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "21",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nTom is a student. He is twenty years old. He studies at a university. He likes playing basketball and reading books.\n\nEvery morning, he gets up at six o'clock. He has breakfast at six thirty. He goes to class at seven thirty. He usually has lunch at twelve o'clock.\n\n问题：How old is Tom?",
+      "options": [
+        "A. 18",
+        "B. 19",
+        "C. 20",
+        "D. 21"
+      ],
+      "answer": "C",
+      "explanation": "文章第一句就说了He is twenty years old.所以是20岁。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "25",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nMr. Liu is a teacher. He teaches English at a middle school. He is forty years old. He has been teaching for fifteen years.\n\nEvery day, Mr. Liu gets to school at 7:30 in the morning. He teaches his students from 8:00 to 12:00.\n\nMr. Liu likes reading. He has many books in his office. He often says, 'Reading is very important.' His students like him very much because he is kind and patient.\n\n问题：Why do students like Mr. Liu?",
+      "options": [
+        "A. He gives them a lot of homework.",
+        "B. He is strict.",
+        "C. He is kind and patient.",
+        "D. He is old."
+      ],
+      "answer": "C",
+      "explanation": "文章最后一句说because he is kind and patient.所以学生喜欢他是因为他善良且有耐心。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "phase1_13",
+      "bank": "某高校学位英语",
+      "question": "__________ from the hill, the lake below looks like a shining mirror.",
+      "options": [
+        "A. Seeing",
+        "B. Seen",
+        "C. To see",
+        "D. To be seen"
+      ],
+      "answer": "B",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "explanation": "主语the lake与动词see是被动关系（湖被从山上看），故用过去分词Seen作状语。Seeing表主动，To see表目的/将来，与句意不符。本题与诊断题diag_nonfin_01为同类巩固练习。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "I was about to leave ______ the phone rang.",
+      "options": [
+        "A. when",
+        "B. while",
+        "C. as",
+        "D. during"
+      ],
+      "answer": "A",
+      "explanation": "when引导时间状语从句，表示'正当...的时候'。",
+      "knowledge_point": "连词",
+      "difficulty": 2,
+      "tags": [
+        "连词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "diag_subj_02",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "If I __________ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. were",
+        "C. be",
+        "D. was"
+      ],
+      "answer": "B",
+      "explanation": "与现在事实相反的虚拟条件句，If I were you是固定用法。",
+      "knowledge_point": "虚拟语气",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "4",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "There __________ a book on the desk.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. am",
+        "D. be"
+      ],
+      "answer": "A",
+      "explanation": "there be句型中，be动词的形式取决于后面的名词。a book是单数，所以用is。",
+      "knowledge_point": "There be句型",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "27",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "填空题：I am a student ______ a university.",
+      "options": [
+        "A. of",
+        "B. in",
+        "C. at",
+        "D. on"
+      ],
+      "answer": "A",
+      "explanation": "a student of ... 是固定搭配，意思是'...的学生'。",
+      "knowledge_point": "介词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "She is interested ______ learning foreign languages.",
+      "options": [
+        "A. on",
+        "B. at",
+        "C. in",
+        "D. for"
+      ],
+      "answer": "C",
+      "explanation": "be interested in 是固定搭配，表示'对...感兴趣'。",
+      "knowledge_point": "介词短语",
+      "difficulty": 2,
+      "tags": [
+        "介词短语",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_agree_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Either the manager or his assistants __________ to attend the meeting.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. has",
+        "D. have"
+      ],
+      "answer": "B",
+      "explanation": "either...or...就近原则，assistants是复数用are。",
+      "knowledge_point": "主谓一致",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "22",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nTom is a student. He is twenty years old. He studies at a university. He likes playing basketball and reading books.\n\nEvery morning, he gets up at six o'clock. He has breakfast at six thirty. He goes to class at seven thirty. He usually has lunch at twelve o'clock.\n\n问题：What does Tom like to do?",
+      "options": [
+        "A. Only reading",
+        "B. Only basketball",
+        "C. Basketball and reading",
+        "D. Watching TV"
+      ],
+      "answer": "C",
+      "explanation": "文章说He likes playing basketball and reading books.所以他喜欢篮球和阅读。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He didn't go to school ______ he was ill.",
+      "options": [
+        "A. because",
+        "B. though",
+        "C. unless",
+        "D. until"
+      ],
+      "answer": "A",
+      "explanation": "because引导原因状语从句，表示'因为'。",
+      "knowledge_point": "连词",
+      "difficulty": 2,
+      "tags": [
+        "连词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_attr_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "The reason __________ he was late is that he got stuck in traffic.",
+      "options": [
+        "A. why",
+        "B. which",
+        "C. that",
+        "D. what"
+      ],
+      "answer": "A",
+      "explanation": "先行词是reason，定语从句用why引导表示原因。",
+      "knowledge_point": "定语从句",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_inver_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Not until the teacher came in __________ talking.",
+      "options": [
+        "A. the students stopped",
+        "B. did the students stop",
+        "C. the students had stopped",
+        "D. have the students stopped"
+      ],
+      "answer": "B",
+      "explanation": "Not until放在句首，主句要部分倒装，即助动词did提前。",
+      "knowledge_point": "倒装句",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "You ______ smoke in the hospital. It's forbidden.",
+      "options": [
+        "A. can",
+        "B. may",
+        "C. mustn't",
+        "D. needn't"
+      ],
+      "answer": "C",
+      "explanation": "mustn't表示'禁止'，用于表达强烈的否定。",
+      "knowledge_point": "情态动词",
+      "difficulty": 2,
+      "tags": [
+        "情态动词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_06",
+      "bank": "某高校学位英语",
+      "question": "Hardly __________ the station when the train left.",
+      "options": [
+        "A. I had reached",
+        "B. had I reached",
+        "C. I reached",
+        "D. did I reach"
+      ],
+      "answer": "B",
+      "knowledge_point": "倒装句",
+      "difficulty": 3,
+      "explanation": "Hardly...when...（一……就……）结构中，Hardly位于句首时主句需部分倒装，且主句用过去完成时（had + done）。when从句的left是一般过去时，主句动作发生在left之前，had I reached正确。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rains tomorrow, we will stay at home.",
+      "options": [
+        "A. If",
+        "B. Unless",
+        "C. Although",
+        "D. Because"
+      ],
+      "answer": "A",
+      "explanation": "if引导条件状语从句，表示'如果...'。",
+      "knowledge_point": "条件状语从句",
+      "difficulty": 2,
+      "tags": [
+        "条件状语从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "10",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "He __________ breakfast at 7 o'clock every morning.",
+      "options": [
+        "A. has",
+        "B. have",
+        "C. had",
+        "D. having"
+      ],
+      "answer": "A",
+      "explanation": "every morning表示习惯性动作，用一般现在时。主语是he，第三人称单数，动词用has。",
+      "knowledge_point": "时态",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "phase1_11",
+      "bank": "某高校学位英语",
+      "question": "You'll miss the bus __________ you leave right now.",
+      "options": [
+        "A. if",
+        "B. unless",
+        "C. when",
+        "D. as long as"
+      ],
+      "answer": "B",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "explanation": "unless = if...not（如果不/除非）。句意：如果你不马上走，就会错过公交车。unless you leave = if you don't leave。if是「如果」含意相反，when表示「当…时」不通顺，as long as表示「只要」不符合逻辑。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "26",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "填空题：Good morning, sir. Can I help ______?",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "answer": "A",
+      "explanation": "Can I help you? 是服务场合的经典固定表达，用于主动提供帮助。",
+      "knowledge_point": "固定搭配",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "phase1_10",
+      "bank": "某高校学位英语",
+      "question": "__________ hard you may try, you cannot finish all the work in one day.",
+      "options": [
+        "A. Although",
+        "B. However",
+        "C. Whatever",
+        "D. No matter what"
+      ],
+      "answer": "B",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "explanation": "However引导让步状语从句时后接形容词或副词（However + adj./adv. + 主语 + 谓语），意为「无论多么……」。Although后须接完整从句（主语+谓语），不能直接接形容词hard。Whatever/No matter what后须接名词或名词短语，不能接形容词hard。因此只能选B。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The new bridge ______ next year.",
+      "options": [
+        "A. will build",
+        "B. will be built",
+        "C. builds",
+        "D. is built"
+      ],
+      "answer": "B",
+      "explanation": "将来时的被动语态，表示'将被建造'。",
+      "knowledge_point": "被动语态",
+      "difficulty": 2,
+      "tags": [
+        "被动语态",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither of my parents ______ a doctor.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. be",
+        "D. were"
+      ],
+      "answer": "A",
+      "explanation": "neither作主语时，谓语动词用单数。",
+      "knowledge_point": "代词",
+      "difficulty": 3,
+      "tags": [
+        "代词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "phase1_09",
+      "bank": "某高校学位英语",
+      "question": "If I __________ more careful at that time, the accident wouldn't have happened.",
+      "options": [
+        "A. am",
+        "B. were",
+        "C. had been",
+        "D. would be"
+      ],
+      "answer": "C",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 3,
+      "explanation": "与过去事实相反的虚拟条件句：If + 主语 + had done（从句），主语 + would/could/might + have done（主句）。at that time是过去时间的典型标志词，排除B（were，与现在事实相反）。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "20",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Today is __________ than yesterday.",
+      "options": [
+        "A. hot",
+        "B. hotter",
+        "C. hottest",
+        "D. more hot"
+      ],
+      "answer": "B",
+      "explanation": "than是比较级的标志，用比较级hotter。hotter是hot的比较级。",
+      "knowledge_point": "形容词比较级",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The man ______ is talking to my mother is my teacher.",
+      "options": [
+        "A. which",
+        "B. whom",
+        "C. who",
+        "D. whose"
+      ],
+      "answer": "C",
+      "explanation": "定语从句中，先行词是人，且在从句中作主语，用who。",
+      "knowledge_point": "定语从句",
+      "difficulty": 2,
+      "tags": [
+        "定语从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "type": "reading",
+      "passage": "The sharing economy, also known as collaborative consumption, is a socio-economic system built around the sharing of human and physical resources. It includes the shared creation, production, distribution, trade, and consumption of goods and services by different people and organizations. This economic model is not new; in fact, sharing has always been a part of human society. However, the rise of digital technology and the internet has dramatically expanded its reach and impact. Today, platforms like Airbnb, Uber, and various bike-sharing systems have made sharing more convenient and accessible than ever before. One of the main benefits of the sharing economy is its potential to reduce waste. By sharing underused assets such as cars, homes, or tools, people can generate income while also reducing the consumption of resources. For example, an average car sits parked about 95% of the time. Through car-sharing services, that same car can be used by multiple people, reducing the need for vehicle ownership and minimizing environmental impact. However, the sharing economy also faces challenges. Regulatory issues are a major concern. Traditional industries, such as hotels and taxis, argue that sharing economy companies have an unfair advantage because they are not subject to the same regulations. This has led to legal battles in many cities around the world. Additionally, there are concerns about trust and safety. How can users be sure that the person they are sharing with is reliable? Most platforms have solved this through review systems and verified profiles, but incidents still occur. Despite these challenges, the sharing economy continues to grow. According to a recent report, the global sharing economy is expected to reach $335 billion by 2025. As technology continues to evolve, so too will the ways in which we share resources. In conclusion, the sharing economy represents a significant shift in how we think about ownership and consumption. It offers promising solutions to environmental and economic challenges, but also requires careful management to ensure fairness and safety for all participants.",
+      "question": "What is the main topic of this passage?",
+      "options": [
+        "A. The history of sharing",
+        "B. The benefits and challenges of the sharing economy",
+        "C. How to start a sharing economy business",
+        "D. The environmental impact of cars"
+      ],
+      "answer": "B",
+      "explanation": "全文讨论了分享经济的好处(减少浪费)和挑战(监管问题、信任安全)，因此B项正确。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "样题",
+        "阅读"
+      ],
+      "difficulty": 2,
+      "sub_questions": [
+        {
+          "question": "According to the passage, what has greatly expanded the reach of the sharing economy?",
+          "options": [
+            "A. Government policies",
+            "B. Digital technology and the internet",
+            "C. Environmental awareness",
+            "D. Traditional businesses"
+          ],
+          "answer": "B",
+          "explanation": "第2段第3句明确说明数字技术和互联网极大地扩展了分享经济的范围和影响。"
+        },
+        {
+          "question": "How much time does an average car spend parked, according to the passage?",
+          "options": [
+            "A. About 5%",
+            "B. About 50%",
+            "C. About 95%",
+            "D. About 100%"
+          ],
+          "answer": "C",
+          "explanation": "第3段最后一句提到an average car sits parked about 95% of the time，因此C正确。"
+        },
+        {
+          "question": "What is one major concern of traditional industries about sharing economy companies?",
+          "options": [
+            "A. They are more popular",
+            "B. They have an unfair advantage",
+            "C. They are more expensive",
+            "D. They provide better service"
+          ],
+          "answer": "B",
+          "explanation": "第4段提到传统行业认为分享经济公司有不公平优势，因为它们不受相同监管。"
+        },
+        {
+          "question": "What is NOT mentioned as a way to ensure trust in the sharing economy?",
+          "options": [
+            "A. Review systems",
+            "B. Verified profiles",
+            "C. Government inspections",
+            "D. Platform policies"
+          ],
+          "answer": "C",
+          "explanation": "第5段提到通过review systems和verified profiles确保信任，未提及政府检查(Government inspections)。"
+        },
+        {
+          "question": "What is the expected value of the global sharing economy by 2025?",
+          "options": [
+            "A. $33.5 billion",
+            "B. $100 billion",
+            "C. $335 billion",
+            "D. $1 trillion"
+          ],
+          "answer": "C",
+          "explanation": "第6段提到the global sharing economy is expected to reach $335 billion by 2025。"
+        },
+        {
+          "question": "What does the author suggest about the future of the sharing economy?",
+          "options": [
+            "A. It will replace traditional businesses completely",
+            "B. It requires careful management",
+            "C. It will decline due to regulations",
+            "D. It is only suitable for developed countries"
+          ],
+          "answer": "B",
+          "explanation": "最后一段指出分享经济需要精心管理(requires careful management)以确保公平和安全。"
+        }
+      ],
+      "id": "某高校学位英语样题_90",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280081"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "—How do you do? —______",
+      "options": [
+        "A. How are you?",
+        "B. How do you do?",
+        "C. Fine, thank you.",
+        "D. Nice to meet you."
+      ],
+      "answer": "B",
+      "explanation": "How do you do? 的答语也是 How do you do?。",
+      "knowledge_point": "情景交际",
+      "difficulty": 1,
+      "tags": [
+        "情景交际",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "15",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I __________ English for three years.",
+      "options": [
+        "A. learn",
+        "B. learns",
+        "C. learned",
+        "D. have learned"
+      ],
+      "answer": "D",
+      "explanation": "for three years是现在完成时的标志，表示持续了三年，用have learned。",
+      "knowledge_point": "时态",
+      "tags": [
+        "进阶"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "13",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "She __________ to school every day.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. went"
+      ],
+      "answer": "B",
+      "explanation": "every day表示习惯，用一般现在时。she是第三人称单数，用goes。",
+      "knowledge_point": "时态",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "type": "single",
+      "question": "The government has _____ several policies to support small businesses during the pandemic.",
+      "options": [
+        "A. carried out",
+        "B. carried on",
+        "C. carried away",
+        "D. carried off"
+      ],
+      "answer": "A",
+      "explanation": "carry out执行/实施；carry on继续；carry away带走；carry off拿走。句意：政府已经实施了几项政策来支持小企业。",
+      "knowledge_point": "固定搭配",
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_84",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280077"
+    },
+    {
+      "id": "17",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "The book __________ I bought yesterday is very interesting.",
+      "options": [
+        "A. who",
+        "B. which",
+        "C. what",
+        "D. whose"
+      ],
+      "answer": "B",
+      "explanation": "which引导定语从句，修饰物（book）。who用于修饰人，what不引导定语从句。",
+      "knowledge_point": "定语从句",
+      "tags": [
+        "冲刺"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "18",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "It is important __________ English well.",
+      "options": [
+        "A. learn",
+        "B. to learn",
+        "C. learning",
+        "D. learned"
+      ],
+      "answer": "B",
+      "explanation": "It is important to do sth.是固定句型，意思是'做某事很重要'。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "type": "single",
+      "question": "The lecture will begin at 9 oclock. Please make sure you _____ on time.",
+      "options": [
+        "A. will arrive",
+        "B. arrive",
+        "C. arrived",
+        "D. are arriving"
+      ],
+      "answer": "B",
+      "explanation": "make sure后的宾语从句用一般现在时表将来。句意：讲座9点开始请务必准时到。",
+      "knowledge_point": "时态",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 2,
+      "id": "某高校学位英语样题_88",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280080"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "We should ______ good care of the elderly.",
+      "options": [
+        "A. take",
+        "B. make",
+        "C. do",
+        "D. give"
+      ],
+      "answer": "A",
+      "explanation": "take care of 是固定搭配，表示'照顾'。",
+      "knowledge_point": "动词短语",
+      "difficulty": 2,
+      "tags": [
+        "动词短语",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "phase1_03",
+      "bank": "某高校学位英语",
+      "question": "The number of students in our class __________ forty, and a number of them __________ from other provinces.",
+      "options": [
+        "A. is; are",
+        "B. are; is",
+        "C. is; is",
+        "D. are; are"
+      ],
+      "answer": "A",
+      "knowledge_point": "主谓一致",
+      "difficulty": 2,
+      "explanation": "the number of...作主语时谓语用单数（is），强调「总数」；a number of...作主语时谓语用复数（are），意为「许多」。这是高考英语中的经典易错点。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_07",
+      "bank": "某高校学位英语",
+      "question": "It is essential that every student __________ the safety rules before the experiment.",
+      "options": [
+        "A. follows",
+        "B. follow",
+        "C. will follow",
+        "D. must follow"
+      ],
+      "answer": "B",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 3,
+      "explanation": "It is essential/necessary/important/vital that...从句中用虚拟语气（should + 动词原形），should可省略。故用动词原形follow，不是follows。这类句型是虚拟语气的经典考点，should可省但不能用follows/will follow。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "She is ______ honest girl.",
+      "options": [
+        "A. a",
+        "B. an",
+        "C. the",
+        "D. /"
+      ],
+      "answer": "B",
+      "explanation": "honest以元音音素开头，用an。",
+      "knowledge_point": "冠词",
+      "difficulty": 2,
+      "tags": [
+        "冠词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_05",
+      "bank": "某高校学位英语",
+      "question": "Only by working hard __________ achieve your goal.",
+      "options": [
+        "A. you can",
+        "B. can you",
+        "C. you will",
+        "D. you will"
+      ],
+      "answer": "B",
+      "knowledge_point": "倒装句",
+      "difficulty": 3,
+      "explanation": "Only + 状语（by working hard）位于句首时，主句需部分倒装。A、C、D均为陈述语序（you can/will），语法错误。正确倒装：can you / will you，但can强调「能力」与by working hard更匹配。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "Please ______ the lights when you leave the room.",
+      "options": [
+        "A. turn off",
+        "B. turn on",
+        "C. turn up",
+        "D. turn down"
+      ],
+      "answer": "A",
+      "explanation": "turn off表示'关闭'，符合语境。",
+      "knowledge_point": "动词短语",
+      "difficulty": 1,
+      "tags": [
+        "动词短语",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_prep_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "He is very strict __________ his students and also strict __________ his own work.",
+      "options": [
+        "A. with; in",
+        "B. in; with",
+        "C. with; with",
+        "D. in; in"
+      ],
+      "answer": "A",
+      "explanation": "be strict with sb. 对某人严格；be strict in sth. 对某事严格。",
+      "knowledge_point": "介词",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "The fact ______ he passed the exam is true.",
+      "options": [
+        "A. which",
+        "B. that",
+        "C. what",
+        "D. whether"
+      ],
+      "answer": "B",
+      "explanation": "that引导同位语从句，解释fact的具体内容。",
+      "knowledge_point": "名词性从句",
+      "difficulty": 3,
+      "tags": [
+        "名词性从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "type": "single",
+      "question": "If I _____ you, I would accept that job offer immediately.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "C",
+      "explanation": "if引导的虚拟语气，与现在事实相反，从句用过去时，be动词用were。句意：如果我是你，我会立即接受那份工作。",
+      "knowledge_point": "虚拟语气",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 2,
+      "id": "某高校学位英语样题_78",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280075"
+    },
+    {
+      "question": "He runs ______ of all the students.",
+      "options": [
+        "A. fast",
+        "B. faster",
+        "C. fastest",
+        "D. the fastest"
+      ],
+      "answer": "D",
+      "explanation": "最高级前加the，表示'跑得最快'。",
+      "knowledge_point": "形容词和副词",
+      "difficulty": 2,
+      "tags": [
+        "形容词和副词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "8",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I like __________ TV in the evening.",
+      "options": [
+        "A. watching",
+        "B. watch",
+        "C. watches",
+        "D. watched"
+      ],
+      "answer": "A",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_nonfin_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "__________ from the top of the mountain, the city looks magnificent.",
+      "options": [
+        "A. Seeing",
+        "B. Seen",
+        "C. To see",
+        "D. Having seen"
+      ],
+      "answer": "B",
+      "explanation": "主语city与see是被动关系，用过去分词Seen作状语。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "103",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "__________ the bad weather, they decided to go out for a picnic.",
+      "options": [
+        "A. Because of",
+        "B. In spite of",
+        "C. Due to",
+        "D. As a result of"
+      ],
+      "answer": "B",
+      "explanation": "解析：句意为“尽管天气不好，他们还是决定去野餐”。in spite of 表示“尽管”。",
+      "knowledge_point": "介词短语",
+      "tags": [
+        "2014年5月真题",
+        "词汇语法"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "28",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "填空题：The weather is ______ today.",
+      "options": [
+        "A. fine",
+        "B. bad",
+        "C. cold",
+        "D. hot"
+      ],
+      "answer": "A",
+      "explanation": "fine意思是'好的'，形容天气好。常见搭配fine weather。",
+      "knowledge_point": "形容词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "type": "single",
+      "question": "The book _____ on the shelf is a best-seller this year.",
+      "options": [
+        "A. laying",
+        "B. lying",
+        "C. laid",
+        "D. lied"
+      ],
+      "answer": "B",
+      "explanation": "lie(躺/位于)的现在分词为lying；lay(放置)的过去分词为laid。此处表示躺在书架上，用lying。lie说谎是规则动词。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_74",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280072"
+    },
+    {
+      "type": "single",
+      "question": "It was not _____ she took off her dark glasses that I realized she was a famous film star.",
+      "options": [
+        "A. when",
+        "B. until",
+        "C. after",
+        "D. before"
+      ],
+      "answer": "B",
+      "explanation": "not...until...直到...才...，强调动作发生得晚。句意：直到她摘下墨镜我才意识到她是一位著名影星。",
+      "knowledge_point": "状语从句",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_76",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280074"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "1",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Hello, nice to meet __________.",
+      "options": [
+        "A. you",
+        "B. your",
+        "C. yours",
+        "D. yourself"
+      ],
+      "answer": "A",
+      "explanation": "nice to meet you意思是'很高兴认识你'，这里用you（宾格）作meet的宾语。",
+      "knowledge_point": "代词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "id": "29",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "填空题：I like ______ English books.",
+      "options": [
+        "A. reading",
+        "B. read",
+        "C. to read",
+        "D. reads"
+      ],
+      "answer": "A",
+      "explanation": "like doing sth.是固定搭配，意思是'喜欢做某事'。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_subj_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "It is essential that every student __________ the safety rules.",
+      "options": [
+        "A. follows",
+        "B. follow",
+        "C. will follow",
+        "D. must follow"
+      ],
+      "answer": "B",
+      "explanation": "It is essential that + 虚拟语气，从句用should + 动词原形，should可省略。",
+      "knowledge_point": "虚拟语气",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_vocab_02",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "The two companies decided to __________ forces to develop the new product.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. combine",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces是固定搭配，意为联合力量通力合作。",
+      "knowledge_point": "固定搭配",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "24",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nMr. Liu is a teacher. He teaches English at a middle school. He is forty years old. He has been teaching for fifteen years.\n\nEvery day, Mr. Liu gets to school at 7:30 in the morning. He teaches his students from 8:00 to 12:00.\n\nMr. Liu likes reading. He has many books in his office. He often says, 'Reading is very important.' His students like him very much because he is kind and patient.\n\n问题：What does Mr. Liu teach?",
+      "options": [
+        "A. Chinese",
+        "B. Math",
+        "C. English",
+        "D. History"
+      ],
+      "answer": "C",
+      "explanation": "文章第二句就说了He teaches English.所以他教英语。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "English ______ all over the world.",
+      "options": [
+        "A. speaks",
+        "B. is spoken",
+        "C. spoke",
+        "D. is speaking"
+      ],
+      "answer": "B",
+      "explanation": "一般现在时的被动语态，表示'被说'。",
+      "knowledge_point": "被动语态",
+      "difficulty": 2,
+      "tags": [
+        "被动语态",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_14",
+      "bank": "某高校学位英语",
+      "question": "I regret __________ you that the meeting has been cancelled. I know how much you were looking forward to it.",
+      "options": [
+        "A. to inform",
+        "B. informing",
+        "C. informed",
+        "D. having informed"
+      ],
+      "answer": "A",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "explanation": "regret to do sth.表示「遗憾地要做某事」（动作尚未发生）；regret doing表示「后悔做了某事」（动作已发生）。这里通知还没发出，用to inform。常见搭配：regret to say / inform / tell you。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "id": "phase1_01",
+      "bank": "某高校学位英语",
+      "question": "Either the students or the teacher __________ to attend the meeting tomorrow.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. have",
+        "D. were"
+      ],
+      "answer": "A",
+      "knowledge_point": "主谓一致",
+      "difficulty": 2,
+      "explanation": "either...or...连接并列主语时，谓语动词与最靠近的主语一致（就近原则）。the teacher是单数，故用is。are/have/were均为复数形式。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "30",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "写作：请用英语写一篇短文介绍你自己（30-50词），包括你的名字、学校、爱好和梦想。",
+      "options": [
+        "A. My name is Li Ming. I am a student. I like reading. I want to be a teacher.",
+        "B. I am John. I study at a university. I like playing basketball. I want to be an engineer.",
+        "C. My name is Wang Hui. I study at this university. I like music. I want to be a doctor.",
+        "D. I am a student. I like English. I want to go abroad."
+      ],
+      "answer": "A",
+      "explanation": "这是一道写作题。A答案包含了名字、学校、爱好和梦想，是最完整的答案。注意：实际考试中需要自己写，这里提供参考范文。",
+      "knowledge_point": "写作",
+      "tags": [
+        "进阶"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_read_02",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nA survey conducted by the university showed that students who participated in extracurricular activities scored higher on average than those who did not. The researchers followed 500 students over four years and found that those who engaged in at least two activities per week had GPAs that were 0.3 points higher.\n\n问题：What can be inferred from the survey?",
+      "options": [
+        "A. Extracurricular activities guarantee high grades.",
+        "B. There may be a positive link between activities and academic performance.",
+        "C. All students should join at least two activities.",
+        "D. The survey results are not reliable."
+      ],
+      "answer": "B",
+      "explanation": "调查显示有关联但不能推断绝对因果关系，B最准确。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "16",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "If it __________ tomorrow, I will stay home.",
+      "options": [
+        "A. rain",
+        "B. rains",
+        "C. rained",
+        "D. raining"
+      ],
+      "answer": "B",
+      "explanation": "if条件句中，主句用将来时，从句用一般现在时表示将来，所以用rains。",
+      "knowledge_point": "条件状语从句",
+      "tags": [
+        "进阶"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_15",
+      "bank": "某高校学位英语",
+      "question": "After years of hard work, his efforts finally __________ off and he got the promotion.",
+      "options": [
+        "A. took",
+        "B. put",
+        "C. paid",
+        "D. carried"
+      ],
+      "answer": "C",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "explanation": "pay off是固定短语动词，意为「取得回报、得到好结果」。take off意为起飞/脱下/休假，put off意为推迟，carry off意为赢得（奖品）/ 夺走。句意：多年的努力终于得到了回报，他获得了晋升。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "id": "12",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I __________ my homework yesterday.",
+      "options": [
+        "A. finish",
+        "B. finishes",
+        "C. finished",
+        "D. finishing"
+      ],
+      "answer": "C",
+      "explanation": "yesterday是过去的时间状语，用过去式finished。",
+      "knowledge_point": "时态",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "23",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nTom is a student. He is twenty years old. He studies at a university. He likes playing basketball and reading books.\n\nEvery morning, he gets up at six o'clock. He has breakfast at six thirty. He goes to class at seven thirty. He usually has lunch at twelve o'clock.\n\n问题：When does Tom have breakfast?",
+      "options": [
+        "A. 6:00",
+        "B. 6:30",
+        "C. 7:00",
+        "D. 7:30"
+      ],
+      "answer": "B",
+      "explanation": "文章说He has breakfast at six thirty.所以早餐时间是6:30。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "diag_tense_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "By the time he arrived at the station, the train __________ already.",
+      "options": [
+        "A. left",
+        "B. has left",
+        "C. had left",
+        "D. was leaving"
+      ],
+      "answer": "C",
+      "explanation": "by the time + 过去时间，主句用过去完成时 had done。",
+      "knowledge_point": "时态",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 3,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "id": "101",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "— Hello, may I speak to Dr. Smith? — __________. He is in a meeting now.",
+      "options": [
+        "A. Hold on, please",
+        "B. Speaking",
+        "C. He is busy",
+        "D. Sorry, he is not available"
+      ],
+      "answer": "D",
+      "explanation": "解析：对方在开会，应回答“抱歉，他现在不方便”。",
+      "knowledge_point": "情景对话",
+      "tags": [
+        "2014年5月真题",
+        "情景对话"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ he said at the meeting surprised everyone.",
+      "options": [
+        "A. What",
+        "B. That",
+        "C. Which",
+        "D. Who"
+      ],
+      "answer": "A",
+      "explanation": "what引导主语从句，在从句中作宾语，表示'所说的话'。",
+      "knowledge_point": "名词性从句",
+      "difficulty": 3,
+      "tags": [
+        "名词性从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ sun rises in the east.",
+      "options": [
+        "A. A",
+        "B. An",
+        "C. The",
+        "D. /"
+      ],
+      "answer": "C",
+      "explanation": "sun是独一无二的事物，用the。",
+      "knowledge_point": "冠词",
+      "difficulty": 1,
+      "tags": [
+        "冠词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "phase1_08",
+      "bank": "某高校学位英语",
+      "question": "The professor suggested that the paper __________ before next Monday.",
+      "options": [
+        "A. be finished",
+        "B. is finished",
+        "C. was finished",
+        "D. finished"
+      ],
+      "answer": "A",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 3,
+      "explanation": "suggest（建议）/ recommend / demand / insist that...从句中用虚拟语气（should + 动词原形），should可省略。此处主语paper与finish是被动关系，故用(should) be finished。注意：suggest若表「暗示、表明」则不用虚拟语气，但此处语义是「建议」。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He ______ be at home because I saw him outside just now.",
+      "options": [
+        "A. can't",
+        "B. mustn't",
+        "C. shouldn't",
+        "D. won't"
+      ],
+      "answer": "A",
+      "explanation": "can't表示不可能，用于推测。",
+      "knowledge_point": "情态动词",
+      "difficulty": 3,
+      "tags": [
+        "情态动词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "This is the house ______ I lived ten years ago.",
+      "options": [
+        "A. which",
+        "B. that",
+        "C. where",
+        "D. when"
+      ],
+      "answer": "C",
+      "explanation": "定语从句中，先行词是地点，且在从句中作地点状语，用where。",
+      "knowledge_point": "定语从句",
+      "difficulty": 3,
+      "tags": [
+        "定语从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "102",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "The teacher asked the students __________ so much noise.",
+      "options": [
+        "A. not to make",
+        "B. to not make",
+        "C. don't make",
+        "D. not make"
+      ],
+      "answer": "A",
+      "explanation": "解析：ask sb. not to do sth. 是固定搭配，意为“要求某人不要做某事”。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "2014年5月真题",
+        "语法"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "This is ______ book I have ever read.",
+      "options": [
+        "A. interesting",
+        "B. more interesting",
+        "C. most interesting",
+        "D. the most interesting"
+      ],
+      "answer": "D",
+      "explanation": "最高级前加the，表示'最有趣的'。",
+      "knowledge_point": "形容词和副词",
+      "difficulty": 2,
+      "tags": [
+        "形容词和副词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "id": "diag_read_01",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "阅读理解：\n\nThe Internet has changed the way we communicate, work, and live. However, along with its benefits come risks. Cybersecurity has become a major concern for individuals and organizations alike. Experts suggest that everyone should take basic steps to protect themselves online, such as using strong passwords, updating software regularly, and being cautious about sharing personal information.\n\n问题：What is the main idea of this passage?",
+      "options": [
+        "A. The Internet has many benefits.",
+        "B. People should be careful online.",
+        "C. Cybersecurity is everyone's responsibility.",
+        "D. Both benefits and risks of the Internet exist."
+      ],
+      "answer": "C",
+      "explanation": "文章核心是网络安全已成为重大问题，每个人都应采取措施保护自己。",
+      "knowledge_point": "阅读理解",
+      "tags": [
+        "诊断"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-06-01T12:16:26.326447"
+    },
+    {
+      "id": "7",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Please sit __________. Don't stand.",
+      "options": [
+        "A. down",
+        "B. up",
+        "C. in",
+        "D. on"
+      ],
+      "answer": "A",
+      "explanation": "sit down是固定搭配，意思是'坐下'。stand是'站者'，与sit相对。",
+      "knowledge_point": "介词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "11",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "He __________ in China.",
+      "options": [
+        "A. live",
+        "B. lives",
+        "C. living",
+        "D. lived"
+      ],
+      "answer": "B",
+      "explanation": "主语是he，第三人称单数，一般现在时动词加s，所以用lives。",
+      "knowledge_point": "时态",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 1,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "type": "single",
+      "question": "He has a _____ attitude towards life and always sees the bright side of things.",
+      "options": [
+        "A. pessimistic",
+        "B. optimistic",
+        "C. critical",
+        "D. casual"
+      ],
+      "answer": "B",
+      "explanation": "根据后半句总是看到事物光明的一面可知是optimistic(乐观的)。pessimistic悲观的；critical批评的；casual随意的。",
+      "knowledge_point": "词义辨析",
+      "tags": [
+        "样题",
+        "词汇"
+      ],
+      "difficulty": 2,
+      "id": "某高校学位英语样题_82",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280077"
+    },
+    {
+      "id": "phase1_04",
+      "bank": "某高校学位英语",
+      "question": "Not until he finished his homework __________ to play video games.",
+      "options": [
+        "A. he was allowed",
+        "B. was he allowed",
+        "C. he allowed",
+        "D. did he allowed"
+      ],
+      "answer": "B",
+      "knowledge_point": "倒装句",
+      "difficulty": 3,
+      "explanation": "Not until位于句首时，主句需部分倒装——将be动词/助动词/情态动词提到主语前。he was allowed → was he allowed。A语序错误，C缺少被动且无语义，D中did后应用动词原形allow。",
+      "type": "single",
+      "tags": [
+        "专项训练"
+      ],
+      "passage": "",
+      "reference": "",
+      "has_attempts": false,
+      "_created": "2026-06-01T00:00:00"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He succeeded ______ passing the exam.",
+      "options": [
+        "A. on",
+        "B. in",
+        "C. at",
+        "D. for"
+      ],
+      "answer": "B",
+      "explanation": "succeed in doing sth. 是固定搭配，表示'成功做某事'。",
+      "knowledge_point": "介词短语",
+      "difficulty": 2,
+      "tags": [
+        "介词短语",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "type": "single",
+      "question": "He suggested that we _____ there by bus instead of by subway.",
+      "options": [
+        "A. go",
+        "B. would go",
+        "C. will go",
+        "D. went"
+      ],
+      "answer": "A",
+      "explanation": "suggest后接that从句时从句要用虚拟语气，即should+动词原形，should可省略。句意：他建议我们乘公交车而不是地铁去那里。",
+      "knowledge_point": "虚拟语气",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_72",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280071"
+    },
+    {
+      "id": "5",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "I want __________ to the library.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. to go"
+      ],
+      "answer": "D",
+      "explanation": "want to do sth.是固定搭配，意思是'想要做某事'。",
+      "knowledge_point": "非谓语动词",
+      "tags": [
+        "基础"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "type": "single",
+      "question": "By the time we arrived at the cinema, the movie _____ already.",
+      "options": [
+        "A. started",
+        "B. has started",
+        "C. had started",
+        "D. was starting"
+      ],
+      "answer": "C",
+      "explanation": "by the time...引导的时间状语从句表示在过去某个时间之前已经完成的动作，用过去完成时。句意：当我们到达电影院时，电影已经开始了。",
+      "knowledge_point": "时态",
+      "tags": [
+        "样题",
+        "语法"
+      ],
+      "difficulty": 3,
+      "id": "某高校学位英语样题_70",
+      "bank": "某高校学位英语",
+      "has_attempts": false,
+      "passage": "",
+      "reference": "",
+      "_created": "2026-05-29T20:36:39.280065"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "You will succeed ______ you work hard.",
+      "options": [
+        "A. unless",
+        "B. if",
+        "C. although",
+        "D. whether"
+      ],
+      "answer": "B",
+      "explanation": "if引导条件状语从句，表示'如果...'。",
+      "knowledge_point": "条件状语从句",
+      "difficulty": 2,
+      "tags": [
+        "条件状语从句",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "id": "14",
+      "type": "single",
+      "bank": "某高校学位英语",
+      "question": "Look! The boy __________.",
+      "options": [
+        "A. runs",
+        "B. running",
+        "C. is running",
+        "D. ran"
+      ],
+      "answer": "C",
+      "explanation": "Look!是现在进行时的标志，表示正在进行的动作，用is running。",
+      "knowledge_point": "时态",
+      "tags": [
+        "进阶"
+      ],
+      "difficulty": 2,
+      "passage": "",
+      "reference": "",
+      "has_attempts": true,
+      "_created": "2026-05-28T00:00:00"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ of the two books is interesting.",
+      "options": [
+        "A. Each",
+        "B. Every",
+        "C. All",
+        "D. Both"
+      ],
+      "answer": "A",
+      "explanation": "each表示'每一个'，用于两者或三者以上。",
+      "knowledge_point": "代词",
+      "difficulty": 2,
+      "tags": [
+        "代词",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "—May I borrow your pen? —______",
+      "options": [
+        "A. Yes, you may borrow.",
+        "B. Certainly, here you are.",
+        "C. You can borrow it.",
+        "D. I don't mind."
+      ],
+      "answer": "B",
+      "explanation": "here you are 是常用的肯定回答。",
+      "knowledge_point": "情景交际",
+      "difficulty": 1,
+      "tags": [
+        "情景交际",
+        "AI生成",
+        "高级"
+      ],
+      "source": "AI生成",
+      "type": "single"
+    }
+  ]
+}

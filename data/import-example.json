@@ -1,0 +1,41 @@
+{
+  "bank": "示例题库",
+  "bank_description": "FORMAT.md 标准格式示例",
+  "questions": [
+    {
+      "type": "single",
+      "question": "The new policy will come into _____ next month.",
+      "options": ["A. effect", "B. affect", "C. effort", "D. efficient"],
+      "answer": "A",
+      "explanation": "come into effect 是固定搭配，意为'生效'。affect 是动词，effort 意为'努力'，efficient 是形容词。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": ["词汇", "固定搭配"],
+      "source": "模拟卷A"
+    },
+    {
+      "type": "reading",
+      "passage": "Environmental protection has become a global concern. Governments around the world are taking measures to reduce pollution. For example, many countries have banned single-use plastics and are promoting renewable energy sources such as solar and wind power. Individuals can also contribute by recycling, using public transportation, and reducing energy consumption at home.",
+      "question": "What is one measure mentioned in the passage to protect the environment?",
+      "options": ["A. Increasing plastic production", "B. Banning single-use plastics", "C. Building more factories", "D. Using more fossil fuels"],
+      "answer": "B",
+      "explanation": "文章明确提到 many countries have banned single-use plastics。A、C、D 均与文意相反。",
+      "knowledge_point": "阅读理解",
+      "difficulty": 2,
+      "tags": ["阅读", "环保"],
+      "source": "2023年模拟卷"
+    },
+    {
+      "type": "translation",
+      "question": "将下列句子翻译成英文：\n读书不仅能增长知识，还能开阔视野。",
+      "options": [],
+      "answer": "主观题",
+      "explanation": "翻译要点：'不仅...还...' 用 not only...but also...；'增长知识' 用 increase/gain knowledge；'开阔视野' 用 broaden horizons。",
+      "knowledge_point": "翻译",
+      "difficulty": 3,
+      "reference": "Reading can not only increase our knowledge but also broaden our horizons.",
+      "tags": ["翻译", "读书"],
+      "source": "2021年真题"
+    }
+  ]
+}

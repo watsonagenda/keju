@@ -1,0 +1,19 @@
+[
+  {
+    "id": "bank_20250613_0059",
+    "type": "writing",
+    "bank": "某高校学位英语",
+    "source": "2021年10月学位英语真题",
+    "knowledge_point": "写作-议论文",
+    "question": "You are to write in no less than 100 words on the topic \"Teenage Smoking Soars\". You could base your composition on the Chinese outline given below:\n1. 近些年来越来越多青少年吸烟，尤其是许多女孩子也开始吸烟了。\n2. 分析这种现象形成的原因。\n3. 我的建议。",
+    "reference": "Teenage Smoking Soars\nIn recent years, more and more teenagers have taken up smoking, and what is more alarming is that many girls have also started to smoke. This phenomenon has drawn widespread attention from the whole society.\nThere are several reasons behind this trend. First, many teenagers regard smoking as a symbol of maturity and independence. Second, peer pressure plays an important role. Third, the influence of media cannot be ignored, as smoking is sometimes portrayed as cool and fashionable.\nIn my opinion, effective measures should be taken to address this problem. Schools should strengthen health education. Parents should set good examples. Meanwhile, the government should enforce stricter regulations on tobacco sales to minors.",
+    "scoring_criteria": [
+      "内容完整性",
+      "语言表达准确性",
+      "结构合理性",
+      "词汇语法多样性",
+      "字数达标"
+    ],
+    "answer": "主观题"
+  }
+]

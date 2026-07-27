@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科举 — 对话补全训练</title>
+<style>
+:root {
+  --primary: #4361ee; --primary-light: #eef1ff; --primary-dark: #2f48c7;
+  --success: #10b981; --warning: #f59e0b; --danger: #ef4444;
+  --bg: #f8fafc; --surface: #ffffff; --text: #1e293b; --text-secondary: #64748b;
+  --border: #e2e8f0; --border-light: #f1f5f9;
+  --radius: 12px; --radius-sm: 8px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04);
+  --transition: 0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.navbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;gap:32px}
+.navbar .logo{font-size:1.25rem;font-weight:700;color:var(--primary);display:flex;align-items:center;gap:8px}
+.navbar .logo .icon{width:28px;height:28px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.nav-links{display:flex;gap:8px;margin-left:auto}
+.nav-links a{padding:6px 16px;border-radius:6px;color:var(--text-secondary);font-size:0.9rem;font-weight:500;transition:all var(--transition)}
+.nav-links a:hover,.nav-links a.active{background:var(--primary-light);color:var(--primary)}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.page-header{margin-bottom:24px}
+.page-header h1{font-size:1.5rem;font-weight:700}
+.option-group{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.option-btn{padding:10px 18px;border:2px solid var(--border);border-radius:var(--radius-sm);background:var(--surface);cursor:pointer;font-size:0.9rem;font-weight:500;transition:all var(--transition);text-align:center;min-width:60px}
+.option-btn:hover{border-color:var(--primary);background:var(--primary-light)}
+.option-btn.selected{border-color:var(--primary);background:var(--primary);color:#fff}
+.option-btn.correct{border-color:var(--success);background:#d1fae5;color:#065f46}
+.option-btn.wrong{border-color:var(--danger);background:#fee2e2;color:#991b1b}
+.option-btn.used{opacity:0.5;pointer-events:none;text-decoration:line-through}
+.dialogue-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-card);margin-bottom:16px}
+.dialogue-line{display:flex;gap:12px;padding:6px 0;font-size:0.95rem;line-height:1.7}
+.dialogue-line .speaker{font-weight:700;min-width:70px;color:var(--primary)}
+.dialogue-line .content{flex:1}
+.dialogue-line .blank{display:inline-block;min-width:80px;border-bottom:2px dashed var(--primary);padding:0 8px;color:var(--primary);font-weight:600;margin:0 4px;text-align:center}
+.blank.filled{background:var(--primary-light);border-radius:4px;border-bottom-style:solid}
+.result-bar{padding:12px 16px;border-radius:var(--radius-sm);margin-bottom:16px;font-weight:600}
+.result-bar.correct{background:#d1fae5;color:#065f46}
+.result-bar.wrong{background:#fee2e2;color:#991b1b}
+.btn-row{display:flex;gap:12px;margin-top:16px}
+.btn{padding:10px 20px;border-radius:var(--radius-sm);font-size:0.9rem;font-weight:600;cursor:pointer;transition:all var(--transition);border:none}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-primary:disabled{background:var(--border);color:var(--text-secondary);cursor:not-allowed}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text-secondary)}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+.q-list{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.q-item{padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:all var(--transition);font-size:0.9rem}
+.q-item:hover{border-color:var(--primary)}
+.q-item.active{border-color:var(--primary);background:var(--primary-light);color:var(--primary);font-weight:600}
+.q-item .q-num{font-weight:700;margin-right:8px}
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-secondary)}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo"><span class="icon">K</span>科举</div>
+  <div class="nav-links">
+    <a href="/">首页</a>
+    <a href="/dialogue" class="active">对话</a>
+    <a href="/results">成绩</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="page-header"><h1>对话补全训练</h1></div>
+  <div id="app"><div class="empty-state"><p>加载中...</p></div></div>
+</div>
+<script>
+const allQuestions = {{ questions | tojson }};
+if(!allQuestions.length){
+  document.getElementById('app').innerHTML='<div class="empty-state"><p>暂无对话补全题目，请通过 /api/agent/import 导入。</p></div>';
+}else{
+  let currentIdx=0;
+  let currentQ=allQuestions[0];
+  let answers={};
+  let checks={};
+
+  function parseOptions(q){
+    if(!q.options || !q.options.length) return [];
+    return q.options.map(o=>{
+      const m=o.match(/^([A-Z])[.、\s]+(.+)/);
+      if(m) return {letter:m[1],text:m[2]};
+      return {letter:'',text:o};
+    });
+  }
+
+  function parseDialogue(passage){
+    if(!passage) return [];
+    const lines=passage.split('\n').filter(l=>l.trim());
+    return lines.map(line=>{
+      const colonIdx=line.indexOf('：')!==-1?line.indexOf('：'):line.indexOf(':');
+      if(colonIdx===-1) return {speaker:'',content:line};
+      return {
+        speaker:line.substring(0,colonIdx).trim(),
+        content:line.substring(colonIdx+1).trim()
+      };
+    });
+  }
+
+  function render(){
+    const q=currentQ;
+    const opts=parseOptions(q);
+    const dialogue=parseDialogue(q.passage);
+    const userAnswer=answers[q.id]||'';
+    const checkResult=checks[q.id];
+    const showResult=!!checkResult;
+    const correctAns=q.correct_answer||'';
+    const isCorrect=checkResult?checkResult.is_correct:null;
+
+    let optionButtons='';
+    if(q.passage && q.options && q.options.length){
+      // 对话补全：通常一段对话有多个空格，选项多于空格数
+      // 此处按标准题型处理：每个 question 是一个独立的补全任务
+      optionButtons=opts.map(o=>{
+        let cls=userAnswer===o.letter?'selected':'';
+        if(showResult){
+          if(o.letter===correctAns.toUpperCase()) cls+=' correct';
+          else if(userAnswer===o.letter && !isCorrect) cls+=' wrong';
+        }
+        return `<button class="option-btn${cls}" onclick="${showResult?'':'selectAnswer(\''+o.letter+'\')'}">${o.letter}. ${o.text}</button>`;
+      }).join('');
+    }
+
+    let dialogueHTML='';
+    if(dialogue.length){
+      dialogueHTML=dialogue.map(d=>{
+        let contentWithBlanks=d.content;
+        // 用 __BLANK__ 标记需要填空的位置
+        if(contentWithBlanks.includes('__BLANK__')){
+          const filled=userAnswer?`<span class="blank filled">${userAnswer||'___'}</span>`:`<span class="blank">___</span>`;
+          contentWithBlanks=contentWithBlanks.replace('__BLANK__',filled);
+        }
+        return `<div class="dialogue-line"><span class="speaker">${d.speaker}</span><span class="content">${contentWithBlanks}</span></div>`;
+      }).join('');
+    }
+
+    document.getElementById('app').innerHTML=`
+    <div class="q-list">
+      ${allQuestions.map((qi,i)=>`<div class="q-item${qi.id===q.id?' active':''}" onclick="switchQ(${i})">
+        <span class="q-num">#${i+1}</span>${qi.question.substring(0,50)}...
+      </div>`).join('')}
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:12px">
+      <div style="font-weight:600;margin-bottom:8px;color:var(--primary)">题目</div>
+      <div style="font-size:1rem;margin-bottom:4px">${q.question}</div>
+      ${q.knowledge_point?`<div style="font-size:0.8rem;color:var(--text-secondary)">${q.knowledge_point}</div>`:''}
+    </div>
+    ${dialogueHTML?`<div class="dialogue-card"><div style="font-weight:600;margin-bottom:12px">对话</div>${dialogueHTML}</div>`:''}
+    ${showResult?`<div class="result-bar ${isCorrect?'correct':'wrong'}">${isCorrect?'回答正确！':'回答错误。'} 正确答案: ${correctAns}</div>`:''}
+    ${optionButtons?`<div class="option-group">${optionButtons}</div>`:''}
+    ${showResult&&q.explanation?`<div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-sm);padding:16px;margin-top:12px"><strong>解析：</strong>${q.explanation}</div>`:''}
+    <div class="btn-row">
+      <button class="btn btn-outline" onclick="clearAnswer()" ${showResult?'disabled':''}>清除选择</button>
+      <button class="btn btn-primary" onclick="submitAnswer()" ${showResult||!userAnswer?'disabled':''}>提交答案</button>
+    </div>`;
+  }
+
+  window.switchQ=function(idx){
+    currentIdx=idx;
+    currentQ=allQuestions[idx];
+    render();
+  };
+  window.selectAnswer=function(letter){
+    answers[currentQ.id]=letter;
+    render();
+  };
+  window.clearAnswer=function(){
+    answers[currentQ.id]='';
+    render();
+  };
+  window.submitAnswer=function(){
+    const ans=answers[currentQ.id];
+    if(!ans) return;
+    fetch('/api/quiz/check',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({question_id:currentQ.id,answer:ans,qtype:'dialogue_completion'})
+    }).then(r=>r.json()).then(data=>{
+      if(data.success){
+        checks[currentQ.id]=data;
+        render();
+      }
+    });
+  };
+  render();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1783 @@
+{
+  "bank_name": "学位英语模拟题",
+  "total_questions": 100,
+  "created_at": "2026-06-12T14:05:14.748689",
+  "questions": [
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "By the end of next year, I ______ here for ten years.",
+      "options": [
+        "A. will work",
+        "B. will have worked",
+        "C. am working",
+        "D. work"
+      ],
+      "answer": "B",
+      "explanation": "将来完成时，表示到将来某一时刻为止已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "I look forward to ______ from you soon.",
+      "options": [
+        "A. hear",
+        "B. hearing",
+        "C. heard",
+        "D. be heard"
+      ],
+      "answer": "B",
+      "explanation": "look forward to doing sth. 是固定搭配。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "She ______ English for five years before she came to China.",
+      "options": [
+        "A. studies",
+        "B. studied",
+        "C. had studied",
+        "D. has studied"
+      ],
+      "answer": "C",
+      "explanation": "过去完成时，表示在过去某一时间之前已经完成的动作。",
+      "knowledge_point": "时态",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The book ______ on the desk is mine.",
+      "options": [
+        "A. lying",
+        "B. lay",
+        "C. lain",
+        "D. to lie"
+      ],
+      "answer": "A",
+      "explanation": "现在分词作定语，表示主动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 2,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ in the dictionary, the word is easy to understand.",
+      "options": [
+        "A. Defining",
+        "B. Defined",
+        "C. Being defined",
+        "D. To define"
+      ],
+      "answer": "B",
+      "explanation": "过去分词作状语，表示被动关系。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 3,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "If I ______ you, I would accept the offer.",
+      "options": [
+        "A. am",
+        "B. was",
+        "C. were",
+        "D. be"
+      ],
+      "answer": "C",
+      "explanation": "虚拟语气中，if从句用were表示与现在事实相反。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ the exam, he felt very relaxed.",
+      "options": [
+        "A. Finishing",
+        "B. Finished",
+        "C. Having finished",
+        "D. To finish"
+      ],
+      "answer": "C",
+      "explanation": "现在分词的完成式作状语，表示动作已经完成。",
+      "knowledge_point": "非谓语动词",
+      "difficulty": 4,
+      "tags": [
+        15,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "______ it rained heavily, we still went out.",
+      "options": [
+        "A. Because",
+        "B. Although",
+        "C. Since",
+        "D. Unless"
+      ],
+      "answer": "B",
+      "explanation": "although引导让步状语从句，表示'虽然...但是...'。",
+      "knowledge_point": "状语从句",
+      "difficulty": 2,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "No matter how hard he tried, he couldn't lift the box.",
+      "options": [
+        "A. 正确",
+        "B. 错误"
+      ],
+      "answer": "A",
+      "explanation": "no matter how + 形容词/副词引导让步状语从句，用法正确。",
+      "knowledge_point": "状语从句",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "The two countries decided to ______ efforts to fight against climate change.",
+      "options": [
+        "A. join",
+        "B. connect",
+        "C. link",
+        "D. unite"
+      ],
+      "answer": "A",
+      "explanation": "join forces/efforts 是固定搭配，表示'联合起来'。",
+      "knowledge_point": "固定搭配",
+      "difficulty": 3,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Neither the students nor the teacher ______ present at the meeting.",
+      "options": [
+        "A. was",
+        "B. were",
+        "C. are",
+        "D. have"
+      ],
+      "answer": "A",
+      "explanation": "neither...nor...遵循就近原则，teacher是单数，用was。",
+      "knowledge_point": "主谓一致",
+      "difficulty": 3,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "He would have come to the party if he ______ invited.",
+      "options": [
+        "A. is",
+        "B. was",
+        "C. were",
+        "D. had been"
+      ],
+      "answer": "D",
+      "explanation": "虚拟语气中，与过去事实相反的条件句用过去完成时。",
+      "knowledge_point": "虚拟语气",
+      "difficulty": 4,
+      "tags": [
+        10,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    },
+    {
+      "question": "Not until yesterday ______ about the new plan.",
+      "options": [
+        "A. did I tell",
+        "B. I was told",
+        "C. was I told",
+        "D. I told"
+      ],
+      "answer": "C",
+      "explanation": "not until开头的句子主句要用部分倒装。",
+      "knowledge_point": "倒装句",
+      "difficulty": 4,
+      "tags": [
+        8,
+        "AI生成"
+      ],
+      "source": "AI生成"
+    }
+  ]
+}

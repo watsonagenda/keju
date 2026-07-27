@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科举 — 答题</title>
+<style>
+:root {
+  --primary: #4361ee; --primary-light: #eef1ff; --primary-dark: #2f48c7;
+  --success: #10b981; --warning: #f59e0b; --danger: #ef4444; --orange: #f97316;
+  --bg: #f8fafc; --surface: #ffffff; --text: #1e293b; --text-secondary: #64748b;
+  --border: #e2e8f0; --border-light: #f1f5f9;
+  --radius: 12px; --radius-sm: 8px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+  --transition: 0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;letter-spacing:0.01em;-webkit-font-smoothing:antialiased}
+
+.navbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;gap:32px}
+.navbar .logo{font-size:1.25rem;font-weight:700;color:var(--primary);display:flex;align-items:center;gap:8px}
+.navbar .logo .icon{width:28px;height:28px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.nav-links{display:flex;gap:8px;margin-left:auto}
+.nav-links a{padding:6px 16px;border-radius:6px;color:var(--text-secondary);font-size:0.9rem;font-weight:500;transition:all var(--transition)}
+.nav-links a:hover,.nav-links a.active{background:var(--primary-light);color:var(--primary)}
+.nav-info{display:flex;align-items:center;gap:16px;margin-left:8px}
+.nav-info span{font-size:0.85rem;color:var(--text-secondary)}
+
+.container{max-width:860px;margin:0 auto;padding:24px}
+
+/* 顶部条 */
+.top-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;gap:16px}
+.top-bar .bank-name{font-size:1rem;font-weight:700;color:var(--text)}
+.timer-box{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background:var(--surface);border:1px solid var(--border);border-radius:24px;font-size:0.85rem;font-weight:600;color:var(--text-secondary);white-space:nowrap}
+.timer-box.warning{color:var(--danger);border-color:var(--danger);background:#fef2f2}
+.timer-box .timer-num{font-variant-numeric:tabular-nums}
+
+/* 试卷卡片 */
+.question-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-card);margin-bottom:16px}
+.question-card .q-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:16px}
+.question-card .q-header .q-num{font-size:1.3rem;font-weight:800;color:var(--primary);flex-shrink:0;margin-right:12px}
+.question-card .q-header .q-type{font-size:0.75rem;padding:2px 10px;border-radius:12px;background:var(--primary-light);color:var(--primary);font-weight:600;white-space:nowrap}
+.question-card .q-text{font-size:1.1rem;line-height:1.8;color:var(--text);margin-bottom:20px;white-space:pre-wrap}
+.question-card .q-passage{font-size:0.95rem;line-height:1.8;padding:16px;background:var(--border-light);border-radius:var(--radius-sm);margin-bottom:20px;white-space:pre-wrap}
+
+.options-list{display:flex;flex-direction:column;gap:10px}
+.option-item{padding:14px 18px;border:2px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:all var(--transition);font-size:1rem;line-height:1.6;display:flex;align-items:center;gap:12px}
+.option-item:hover{border-color:var(--primary);background:var(--primary-light)}
+.option-item.selected{border-color:var(--primary);background:var(--primary-light);color:var(--primary);font-weight:600}
+.option-item.correct{border-color:var(--success);background:#f0fdf4}
+.option-item.wrong{border-color:var(--danger);background:#fef2f2}
+.option-item .opt-letter{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;flex-shrink:0;transition:all var(--transition)}
+.option-item.selected .opt-letter{border-color:var(--primary);background:var(--primary);color:#fff}
+.option-item.correct .opt-letter{border-color:var(--success);background:var(--success);color:#fff}
+.option-item.wrong .opt-letter{border-color:var(--danger);background:var(--danger);color:#fff}
+
+/* 反馈区 */
+.feedback-area{margin-top:16px;padding:16px;border-radius:var(--radius-sm);display:none}
+.feedback-area.show{display:block}
+.feedback-area.correct{background:#f0fdf4;border:1px solid #bbf7d0}
+.feedback-area.wrong{background:#fef2f2;border:1px solid #fecaca}
+.feedback-area .fb-label{font-weight:700;font-size:0.9rem;margin-bottom:6px}
+.feedback-area .fb-explanation{font-size:0.9rem;line-height:1.7;color:var(--text)}
+
+/* 信心度按钮 */
+.confidence-bar{display:none;margin-top:16px;padding:16px;background:var(--border-light);border-radius:var(--radius-sm)}
+.confidence-bar.show{display:block}
+.confidence-bar .conf-title{font-size:0.85rem;font-weight:600;color:var(--text-secondary);margin-bottom:10px}
+.conf-buttons{display:flex;gap:10px}
+.conf-btn{flex:1;padding:12px 16px;border-radius:var(--radius-sm);font-size:0.9rem;font-weight:600;cursor:pointer;transition:all var(--transition);text-align:center;border:2px solid transparent;background:var(--surface)}
+.conf-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow-hover)}
+.conf-btn.confident{border-color:var(--success);color:#059669}
+.conf-btn.confident:hover,.conf-btn.confident.selected{background:#f0fdf4;border-color:var(--success);color:var(--success)}
+.conf-btn.neutral{border-color:#94a3b8;color:#475569}
+.conf-btn.neutral:hover,.conf-btn.neutral.selected{background:#f8fafc;border-color:#64748b;color:#334155}
+.conf-btn.guess{border-color:var(--orange);color:#c2410c}
+.conf-btn.guess:hover,.conf-btn.guess.selected{background:#fff7ed;border-color:var(--orange);color:var(--orange)}
+.conf-btn.selected{font-weight:700;box-shadow:0 0 0 2px currentColor inset}
+
+/* 提交按钮 */
+.submit-row{margin-top:16px;display:flex;gap:10px}
+.btn{padding:10px 24px;border-radius:var(--radius-sm);font-size:0.9rem;font-weight:600;cursor:pointer;transition:all var(--transition);border:none}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark);box-shadow:var(--shadow-hover)}
+.btn-primary:disabled{background:var(--border);color:var(--text-secondary);cursor:not-allowed}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text-secondary)}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+
+/* 圆形导航点 */
+.dot-nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:20px 0}
+.q-dot{width:32px;height:32px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;cursor:pointer;transition:all var(--transition);background:var(--surface);color:var(--text-secondary)}
+.q-dot:hover{border-color:var(--primary);color:var(--primary)}
+.q-dot.current{border-color:var(--primary);background:var(--primary);color:#fff;box-shadow:0 0 0 4px var(--primary-light)}
+.q-dot.answered{background:var(--primary);border-color:var(--primary);color:#fff}
+.q-dot.marked{border-color:#f59e0b;background:#fffbeb;color:#d97706}
+
+/* 完成页 */
+.complete-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:40px;text-align:center;box-shadow:var(--shadow-card)}
+.complete-card .cc-score{font-size:3.5rem;font-weight:800;color:var(--primary);line-height:1.1}
+.complete-card .cc-label{font-size:1rem;color:var(--text-secondary);margin:8px 0 24px}
+.complete-card .cc-stats{display:flex;justify-content:center;gap:32px;margin-bottom:24px}
+.complete-card .cc-stat-num{font-size:1.8rem;font-weight:700}
+.complete-card .cc-stat-label{font-size:0.8rem;color:var(--text-secondary)}
+
+/* 主观题 textarea */
+.essay-textarea{width:100%;min-height:220px;border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px;font-family:inherit;font-size:0.95rem;line-height:1.8;resize:vertical;color:var(--text);transition:border-color var(--transition)}
+.essay-textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light)}
+.essay-textarea:read-only{background:var(--border-light);cursor:default}
+.word-counter{font-size:0.8rem;color:var(--text-secondary);margin-top:8px}
+.ref-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--radius-sm);padding:16px;margin-top:12px}
+.ref-box .ref-label{font-weight:700;font-size:0.85rem;color:#059669;margin-bottom:6px}
+.ref-box .ref-text{font-size:0.9rem;line-height:1.7;white-space:pre-wrap}
+.dim-table{width:100%;border-collapse:collapse;margin-top:8px;font-size:0.8rem}
+.dim-table th{text-align:left;padding:6px 10px;background:var(--border-light);font-weight:600;color:var(--text-secondary)}
+.dim-table td{padding:6px 10px;border-bottom:1px solid var(--border-light)}
+
+@media(max-width:640px){
+  .conf-buttons{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo"><span class="icon">K</span>科举</div>
+  <div class="nav-links">
+    <a href="/">首页</a>
+    <a href="/translation">翻译</a>
+    <a href="/writing">写作</a>
+    <a href="/dialogue">对话</a>
+    <a href="/results">成绩</a>
+  </div>
+  <div class="nav-info">
+    <span id="nav-bank">{{ bank }}</span>
+    <div class="timer-box" id="timer-box"><span class="timer-num" id="timer">00:00</span></div>
+  </div>
+</nav>
+
+<div class="container" id="app">
+  <div class="empty-state"><p>加载中...</p></div>
+</div>
+
+<div id="toast" style="display:none;position:fixed;bottom:24px;right:24px;background:var(--text);color:#fff;padding:12px 20px;border-radius:var(--radius-sm);font-size:0.85rem;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,0.15)"></div>
+
+<script>
+const bankName = "{{ bank }}";
+const allQuestions = {{ questions | tojson }};
+const total = allQuestions.length;
+
+// State
+let questions = allQuestions;
+let currentIdx = 0;
+let answers = {};
+let marked = new Set();
+let questionResults = {};  // qid -> { is_correct, correct_answer, explanation, user_answer }
+let pendingConfidence = {}; // qid -> confidence level
+let elapsed = 0;
+let timerInterval = null;
+let attemptId = '';
+
+// Init answers
+questions.forEach(q => { answers[q.id] = ''; questionResults[q.id] = null; });
+
+function formatTime(s){
+  const m=Math.floor(s/60), sec=s%60;
+  return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');
+}
+
+function startTimer(){
+  timerInterval=setInterval(()=>{
+    elapsed++;
+    document.getElementById('timer').textContent=formatTime(elapsed);
+    const box=document.getElementById('timer-box');
+    if(elapsed>600) box.classList.add('warning');
+  },1000);
+}
+
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.style.display='block';
+  setTimeout(()=>t.style.display='none',2000);
+}
+
+function render(){
+  const q=questions[currentIdx];
+  if(!q){ renderComplete(); return; }
+  const qid=q.id;
+  const qtype=q.qtype||'single';
+  const res=questionResults[qid];
+  const isMarked=marked.has(qid);
+  const userAnswer=answers[qid]||'';
+  const isSubmitted=res!==null;
+  const hasConfidence=!!pendingConfidence[qid];
+  const isSubjective=(qtype==='writing'||qtype==='translation');
+
+  // 题干 + 阅读材料
+  let qPassage='';
+  if(q.passage){
+    qPassage=`<div class="q-passage">${q.passage}</div>`;
+  }
+
+  // 选项区域（仅客观题）
+  let optionsHTML='';
+  if(!isSubjective && (q.options||[]).length){
+    optionsHTML='<div class="options-list">'+(q.options||[]).map(opt=>{
+      const letter=opt.substring(0,1);
+      const text=opt.substring(2)||opt;
+      let cls='option-item';
+      if(isSubmitted){
+        const correctAnswer=q.correct_answer||q.answer;
+        if(letter===correctAnswer) cls+=' correct';
+        else if(letter===userAnswer && userAnswer!==correctAnswer) cls+=' wrong';
+      }else if(letter===userAnswer){
+        cls+=' selected';
+      }
+      return `<div class="${cls}" onclick="${isSubmitted?'':'selectOption(\''+qid+'\',\''+letter+'\')'}" data-letter="${letter}">
+        <span class="opt-letter">${letter}</span><span>${text}</span>
+      </div>`;
+    }).join('')+'</div>';
+  }
+
+  // 主观题 textarea
+  let textareaHTML='';
+  if(isSubjective){
+    const wc=userAnswer.replace(/\\s/g,'').length;
+    const engCount=(userAnswer.match(/[a-zA-Z]/g)||[]).length;
+    textareaHTML=`
+      <textarea class="essay-textarea" id="essay-ta" placeholder="${qtype==='writing'?'在此输入你的作文...':'在此输入你的译文...'}" ${isSubmitted?'readonly':''}>${userAnswer}</textarea>
+      <div class="word-counter">总字数: <strong>${wc}</strong> | 英文字母: <strong>${engCount}</strong></div>`;
+  }
+
+  // 反馈区域
+  let feedbackHtml='';
+  if(isSubmitted){
+    if(isSubjective){
+      feedbackHtml=`<div class="feedback-area show" style="background:#fffbeb;border:1px solid #fde68a">
+        <div class="fb-label">主观题 — 请对照参考答案自评</div>
+        ${res.explanation?`<div class="fb-explanation" style="margin-top:8px">${res.explanation}</div>`:''}
+      </div>`;
+    }else{
+      const fbCls=res.is_correct?'correct':'wrong';
+      const fbLabel=res.is_correct?'回答正确！':'回答错误';
+      feedbackHtml=`<div class="feedback-area show ${fbCls}">
+        <div class="fb-label">${fbLabel} 正确答案：${res.correct_answer}</div>
+        ${res.explanation?`<div class="fb-explanation">${res.explanation}</div>`:''}
+      </div>`;
+    }
+  }
+
+  // 信心度
+  let confHtml='';
+  if(isSubmitted && !hasConfidence){
+    confHtml=`<div class="confidence-bar show">
+      <div class="conf-title">你对这道题的把握程度？</div>
+      <div class="conf-buttons">
+        <div class="conf-btn confident" onclick="setConfidence('${qid}','confident')">有把握</div>
+        <div class="conf-btn neutral" onclick="setConfidence('${qid}','neutral')">一般</div>
+        <div class="conf-btn guess" onclick="setConfidence('${qid}','guess')">没把握</div>
+      </div>
+    </div>`;
+  }else if(hasConfidence){
+    const cl=pendingConfidence[qid];
+    const labels={confident:'有把握',neutral:'一般',guess:'没把握'};
+    const clsMap={confident:'confident',neutral:'neutral',guess:'guess'};
+    confHtml=`<div class="confidence-bar show">
+      <div class="conf-title">信心度已记录</div>
+      <div class="conf-buttons">
+        <div class="conf-btn ${clsMap[cl]} selected" style="flex:none;cursor:default">${labels[cl]}</div>
+      </div>
+    </div>`;
+  }
+
+  // 提交按钮
+  let submitHtml='';
+  if(!isSubmitted){
+    const canSubmit=isSubjective?userAnswer.trim().length>0:!!userAnswer;
+    submitHtml=`<div class="submit-row">
+      <button class="btn btn-primary" id="submit-btn" onclick="submitAnswer()" ${!canSubmit?'disabled':''}>提交答案</button>
+      <button class="btn btn-outline" onclick="toggleMark('${qid}')">${isMarked?'★ 已标记':'☆ 标记'}</button>
+    </div>`;
+  }else if(hasConfidence){
+    submitHtml=`<div class="submit-row">
+      <button class="btn btn-primary" onclick="nextQuestion()">${currentIdx<total-1?'下一题':'完成答题'}</button>
+      <button class="btn btn-outline" onclick="toggleMark('${qid}')">${isMarked?'★ 已标记':'☆ 标记'}</button>
+    </div>`;
+  }else{
+    submitHtml=`<div class="submit-row">
+      <button class="btn btn-outline" onclick="toggleMark('${qid}')">${isMarked?'★ 已标记':'☆ 标记'}</button>
+    </div>`;
+  }
+
+  document.getElementById('app').innerHTML=`
+    <div class="question-card">
+      <div class="q-header">
+        <div style="display:flex;align-items:center">
+          <span class="q-num">#${currentIdx+1}</span>
+          <span class="q-type">${q.type||'单选'} ${isSubjective?'(主观题)':''}</span>
+        </div>
+      </div>
+      ${qPassage}
+      <div class="q-text">${q.question}</div>
+      ${optionsHTML}
+      ${textareaHTML}
+      ${feedbackHtml}
+      ${isSubjective&&isSubmitted&&res.reference?`
+        <div class="ref-box">
+          <div class="ref-label">参考${qtype==='writing'?'范文':'译文'}</div>
+          <div class="ref-text">${res.reference}</div>
+        </div>`:''}
+      ${isSubjective&&isSubmitted&&res.scoring_dimensions?`
+        <details style="margin-top:12px;font-size:0.85rem">
+          <summary style="font-weight:600;cursor:pointer">评分维度参考</summary>
+          <table class="dim-table">
+            <tr><th>维度</th><th>权重</th><th>说明</th></tr>
+            ${res.scoring_dimensions.map(d=>`<tr><td>${d.name}</td><td>${d.weight}</td><td>${d.description}</td></tr>`).join('')}
+          </table>
+        </details>`:''}
+      ${confHtml}
+      ${submitHtml}
+    </div>
+    <div class="dot-nav" id="sidebar">${renderDots()}</div>
+  `;
+
+  // 绑定 textarea 输入事件
+  if(isSubjective && !isSubmitted){
+    const ta=document.getElementById('essay-ta');
+    if(ta){
+      ta.addEventListener('input',()=>{
+        answers[qid]=ta.value;
+        const btn=document.getElementById('submit-btn');
+        if(btn) btn.disabled=!ta.value.trim();
+      });
+    }
+  }
+}
+
+function renderDots(){
+  return questions.map((q,i)=>{
+    const qid=q.id;
+    let cls='q-dot';
+    if(i===currentIdx) cls+=' current';
+    else if(questionResults[qid]!==null) cls+=' answered';
+    if(marked.has(qid) && i!==currentIdx) cls+=' marked';
+    return `<div class="${cls}" onclick="goToQuestion(${i})">${i+1}</div>`;
+  }).join('');
+}
+
+function selectOption(qid,letter){
+  answers[qid]=letter;
+  const btn=document.getElementById('submit-btn');
+  if(btn) btn.disabled=false;
+  render();
+}
+
+function toggleMark(qid){
+  if(marked.has(qid)) marked.delete(qid);
+  else marked.add(qid);
+  render();
+}
+
+function goToQuestion(idx){
+  // 确保当前页面的答案保存
+  const qid=questions[currentIdx].id;
+  answers[qid]=answers[qid]||'';
+  currentIdx=idx;
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function submitAnswer(){
+  const q=questions[currentIdx];
+  const qid=q.id;
+  const qtype=q.qtype||'single';
+  const userAnswer=answers[qid];
+  const isSubjective=(qtype==='writing'||qtype==='translation');
+
+  if(!userAnswer) return;
+
+  let endpoint='/api/quiz/check';
+  let body={question_id:qid,answer:userAnswer};
+
+  if(qtype==='translation'){
+    endpoint='/api/quiz/check-translation';
+  }else if(qtype==='writing'){
+    endpoint='/api/quiz/check-writing';
+  }else if(qtype==='dialogue_completion'){
+    body.qtype='dialogue_completion';
+  }
+
+  fetch(endpoint,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(body)
+  })
+  .then(r=>r.json())
+  .then(data=>{
+    if(isSubjective){
+      questionResults[qid]={
+        is_correct:null,
+        correct_answer:'主观题',
+        explanation:data.explanation||'',
+        user_answer:userAnswer,
+        knowledge_point:data.knowledge_point||'',
+        reference:data.reference||'',
+        scoring_dimensions:data.scoring_dimensions||[]
+      };
+    }else{
+      questionResults[qid]={
+        is_correct:data.is_correct,
+        correct_answer:data.correct_answer,
+        explanation:data.explanation,
+        user_answer:userAnswer,
+        knowledge_point:data.knowledge_point||''
+      };
+    }
+    pendingConfidence[qid]=null;
+    render();
+  });
+}
+
+function setConfidence(qid,level){
+  pendingConfidence[qid]=level;
+  // 自动保存这条记录
+  saveAttempt(qid,level);
+}
+
+function saveAttempt(qid,confidence){
+  const q=questions.find(q=>q.id===qid);
+  if(!q) return;
+
+  const res=questionResults[qid];
+  const qType=q.qtype||'single';
+  const isCorrect = (qType==='writing'||qType==='translation') ? null : (res?res.is_correct:null);
+
+  const answerData={
+    question_id:qid,
+    question:q.question,
+    user_answer:answers[qid]||'',
+    correct_answer:res?res.correct_answer:'',
+    is_correct:isCorrect,
+    explanation:res?res.explanation:'',
+    confidence:confidence,
+    knowledge_point:q.knowledge_point||''
+  };
+
+  // 收集所有已完成的答题记录
+  const completedAnswers=[];
+  questions.forEach(qq=>{
+    const id=qq.id;
+    if(questionResults[id]!==null && pendingConfidence[id]){
+      const r=questionResults[id];
+      const qt=qq.qtype||'single';
+      completedAnswers.push({
+        question_id:id,
+        question:qq.question,
+        user_answer:answers[id]||'',
+        correct_answer:r?r.correct_answer:'',
+        is_correct:(qt==='writing'||qt==='translation')?null:(r?r.is_correct:null),
+        explanation:r?r.explanation:'',
+        confidence:pendingConfidence[id],
+        knowledge_point:qq.knowledge_point||''
+      });
+    }
+  });
+
+  // 只传当前题（实时保存）
+  const allComplete=questions.every(qq=>questionResults[qq.id]!==null && pendingConfidence[qq.id]);
+  const correctCount=completedAnswers.filter(a=>a.is_correct===true).length;
+
+  fetch('/api/quiz/save',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      attempt_id:attemptId||undefined,
+      bank:bankName,
+      total_questions:allComplete?total:completedAnswers.length,
+      correct_count:allComplete?correctCount:completedAnswers.filter(a=>a.is_correct).length,
+      score:allComplete&&total?Math.round(correctCount/total*100):0,
+      answers:completedAnswers
+    })
+  })
+  .then(r=>r.json())
+  .then(data=>{
+    if(data.success && data.attempt_id) attemptId=data.attempt_id;
+    if(allComplete){
+      clearInterval(timerInterval);
+      renderComplete();
+    }else{
+      render();
+    }
+  });
+}
+
+function nextQuestion(){
+  if(currentIdx<total-1){
+    currentIdx++;
+    render();
+    window.scrollTo({top:0,behavior:'smooth'});
+  }else{
+    // 完成
+    const allComplete=questions.every(qq=>questionResults[qq.id]!==null && pendingConfidence[qq.id]);
+    if(allComplete){
+      clearInterval(timerInterval);
+      renderComplete();
+    }else{
+      showToast('请先完成所有题目并选择信心度');
+    }
+  }
+}
+
+function renderComplete(){
+  const totalQ=questions.length;
+  let correctCount=0, wrongCount=0, subjectiveCount=0, guessCorrect=0, guessTotal=0;
+  questions.forEach(q=>{
+    const res=questionResults[q.id];
+    const conf=pendingConfidence[q.id];
+    if(res){
+      if(res.is_correct===true) correctCount++;
+      else if(res.is_correct===false) wrongCount++;
+      else if(res.is_correct===null) subjectiveCount++;
+    }
+    if(conf==='guess'){
+      guessTotal++;
+      if(res&&res.is_correct===true) guessCorrect++;
+    }
+  });
+  const objTotal=totalQ-subjectiveCount;
+  const score=objTotal?Math.round(correctCount/objTotal*100):0;
+
+  document.getElementById('app').innerHTML=`
+    <div class="complete-card">
+      <div class="cc-score">${score}分</div>
+      <div class="cc-label">${bankName} — 答题完成</div>
+      <div class="cc-stats">
+        <div><div class="cc-stat-num" style="color:var(--success)">${correctCount}</div><div class="cc-stat-label">正确</div></div>
+        <div><div class="cc-stat-num" style="color:var(--danger)">${wrongCount}</div><div class="cc-stat-label">错误</div></div>
+        ${subjectiveCount>0?`<div><div class="cc-stat-num" style="color:var(--orange)">${subjectiveCount}</div><div class="cc-stat-label">主观题</div></div>`:''}
+        <div><div class="cc-stat-num">${totalQ}</div><div class="cc-stat-label">总题数</div></div>
+        ${guessTotal>0?`<div><div class="cc-stat-num" style="color:var(--orange)">${guessCorrect}/${guessTotal}</div><div class="cc-stat-label">蒙对</div></div>`:''}
+      </div>
+      <div style="display:flex;gap:12px;justify-content:center">
+        <a href="/results" class="btn btn-primary" style="text-decoration:none">查看成绩</a>
+        <a href="/exam/${bankName}" class="btn btn-outline" style="text-decoration:none">重新答题</a>
+        <a href="/" class="btn btn-outline" style="text-decoration:none">返回首页</a>
+      </div>
+    </div>
+  `;
+
+  // 最终保存
+  const allAnswers=questions.map(q=>{
+    const res=questionResults[q.id];
+    const qt=q.qtype||'single';
+    return {
+      question_id:q.id,
+      question:q.question,
+      user_answer:answers[q.id]||'',
+      correct_answer:res?res.correct_answer:'',
+      is_correct:((qt==='writing'||qt==='translation')?null:(res?res.is_correct:null)),
+      explanation:res?res.explanation:'',
+      confidence:pendingConfidence[q.id]||'',
+      knowledge_point:q.knowledge_point||''
+    };
+  });
+  fetch('/api/quiz/save',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      attempt_id:attemptId,
+      bank:bankName,
+      total_questions:totalQ,
+      correct_count:correctCount,
+      score:score,
+      answers:allAnswers
+    })
+  });
+}
+
+// 初始化
+if(!total){
+  document.getElementById('app').innerHTML='<div class="empty-state"><p>该题库暂无题目，请导入题目后重试。</p></div>';
+}else{
+  startTimer();
+  render();
+}
+</script>
+</body>
+</html>

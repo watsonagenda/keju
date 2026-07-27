@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bank_20250613_0001",
+    "type": "dialogue_completion",
+    "bank": "某高校学位英语",
+    "source": "2021年10月学位英语真题",
+    "knowledge_point": "日常对话-家庭对话",
+    "passage": "Dialogue One\nFATHER: What are you going to do this evening, Jill?\nJILL: I'm going to meet some friends, Dad.\nFATHER: You mustn't come home late. __BLANK__\nJILL: I can't get home so early, Dad!\nJILL: Can I have the key to the front door please?\nFATHER: No, you can't.\nMOTHER: Jill's eighteen years old, Tom. She's not a baby. Give her the key. She always comes home early.\nFATHER: Oh, all right!\nFATHER: Here you are. But you mustn't come home after a quarter past eleven. Do you hear?\nJILL: Yes. Dad.\nJILL: Thanks, Mum.\nMOTHER: That's all right. Goodbye. Enjoy yourself!\nJILL: We always enjoy ourselves, Mum. Bye-bye.",
+    "options": [
+      "A. That's all right.",
+      "B. Here you are.",
+      "C. You must be home at half past ten.",
+      "D. Can I have the key to the front door please?"
+    ],
+    "question": "Choose the best answer for __BLANK__ in Dialogue One.",
+    "answer": "C"
+  },
+  {
+    "id": "bank_20250613_0002",
+    "type": "dialogue_completion",
+    "bank": "某高校学位英语",
+    "source": "2021年10月学位英语真题",
+    "knowledge_point": "日常对话-文化颜色",
+    "passage": "Dialogue Two\nA: Hi, could you tell me why there are so many red clothes in the shop? I don't like them.\nB: Well, in China the colour red is often associated with happy things like joys and celebrations.\nA: Do you mean people like to be in red on happy occasions?\nB: Exactly so. For example, some people here wear red wedding dresses. __BLANK__\nA: It's the opposite. In the States, red mostly represents bad things, such as danger or violence.\nB: Oh, really? So the same colour may mean quite different things in different countries.\nA: You're quite right. I have never expected it to be so different.\nB: So we should be careful in choosing colours.\nA: I agree. Could you tell me more about it?\nB: Once I was in South Africa. When I saw many people wearing red clothes, I thought there must be a wedding.\nA: What really happened then?\nB: To my surprise, they were holding a funeral ceremony!",
+    "options": [
+      "A. What really happened then?",
+      "B. What about this colour in your country?",
+      "C. So the same colour may mean quite different things in different countries.",
+      "D. Because the same colour may mean quite different things in different countries."
+    ],
+    "question": "Choose the best answer for __BLANK__ in Dialogue Two.",
+    "answer": "B"
+  },
+  {
+    "id": "bank_20250613_0003",
+    "type": "dialogue_completion",
+    "bank": "某高校学位英语",
+    "source": "2021年10月学位英语真题",
+    "knowledge_point": "日常对话-误解与解释",
+    "passage": "Dialogue Three\nA: Why did you run out of the room and slam the door like that?\nB: I'm sorry, but I was so angry then!\nA: I can understand, __BLANK__\nB: Well, there's a long story to tell.\nA: Do you mean I made a mistake?\nB: To be frank, you did, I think.\nA: OK. I admit, and can you explain what you did with the cash I left?\nB: The dog was sick and I didn't want to call you on your vacation, so I used the money you left and some of my own to take him to the vet.\nA: I see. And can you also explain why the house was a mess?\nB: I stayed and waited there all day. That's why I didn't have time to clean the house.\nA: Now, everything is clear. It's my fault.\nB: I'm glad you can say that. Thank you.",
+    "options": [
+      "A. That's why I didn't have time to clean the house.",
+      "B. but what really happened?",
+      "C. and can you explain what you did with the cash I left?",
+      "D. but can you explain what you did with the cash I left?"
+    ],
+    "question": "Choose the best answer for __BLANK__ in Dialogue Three.",
+    "answer": "B"
+  }
+]
